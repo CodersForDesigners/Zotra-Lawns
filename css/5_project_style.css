@@ -28,12 +28,16 @@
  *	=========
  *
  *	#FFFFFF : light
- *	#F0F7F7 : off-light
- *	#95A2A6 : neutral
- *	#D5E0E3 : off-neutral
- *	#282F33 : dark
- *	#626D73 : off-dark
- *	#1D2225 : black
+ *	#EDEDED : off-light
+ *	#83837E : neutral
+ *	#D9D8D6 : off-neutral
+ *	#3D3935 : dark
+ *	#000000 : off-dark
+ *	#96694C : copper
+ *	#B0876F : off-copper
+ *	#000000 : moss
+ *	#000000 : off-moss
+ *
  *
  */
 
@@ -42,12 +46,15 @@
 
 :root {
 	--light : #FFFFFF;
-	--off-light : #F0F7F7;
-	--neutral : #95A2A6;
-	--off-neutral : #D5E0E3;
-	--dark : #282F33;
-	--off-dark : #626D73;
-	--black : #1D2225;
+	--off-light : #EDEDED;
+	--neutral : #83837E;
+	--off-neutral : #D9D8D6;
+	--dark : #3D3935;
+	--off-dark : #000000;
+	--copper : #96694C;
+	--off-copper : #B0876F;
+	--moss : #000000;
+	--off-moss : #000000;
 }
 
 
@@ -56,7 +63,7 @@
 body, .body {
 	position: relative;
 	color: var(--off-dark);
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 400;
 	font-size: 1.4rem;
 	line-height: 1.375;
@@ -89,24 +96,24 @@ hr {
 
 h1, h2, h3, h4,
 .h1, .h2, .h3, .h4 {
-	font-family: 'Concert One', 'Arial Black', Arial, sans-serif;
+	font-family: 'Montserrat', 'Arial Black', Arial, sans-serif;
 	font-weight: 700;
 	line-height: 1.25;
 	text-transform: uppercase;
 }
 
-h1, .h1 { font-size: 3.8rem; }
-h2, .h2 { font-size: 2.8rem; }
-h3, .h3 { font-size: 2.1rem; }
+h1, .h1 { font-size: 3.0rem; }
+h2, .h2 { font-size: 2.5rem; }
+h3, .h3 { font-size: 2.0rem; }
 h4, .h4 { font-size: 1.6rem; }
 p, .p 	{ font-size: 1.2rem; }
 small, .small { font-size: 0.8rem; }
 label, .label { font-size: 1.0rem; text-transform: uppercase; }
 
 @media( min-width: 640px )  {
-	h1, .h1 { font-size: 4.7rem; }
-	h2, .h2 { font-size: 3.6rem; }
-	h3, .h3 { font-size: 2.7rem; }
+	h1, .h1 { font-size: 4.0rem; }
+	h2, .h2 { font-size: 3.3rem; }
+	h3, .h3 { font-size: 2.3rem; }
 	h4, .h4 { font-size: 2.0rem; }
 	p, .p 	{ font-size: 1.4rem; }
 	small, .small { font-size: 1.0rem; }
@@ -114,21 +121,21 @@ label, .label { font-size: 1.0rem; text-transform: uppercase; }
 }
 
 @media( min-width: 1040px ) {
-	h1, .h1 { font-size: 7.6rem; }
-	h2, .h2 { font-size: 5.1rem; }
-	h3, .h3 { font-size: 3.2rem; }
-	h4, .h4 { font-size: 2.3rem; }
-	p, .p 	{ font-size: 1.5rem; }
+	h1, .h1 { font-size: 6.1rem; }
+	h2, .h2 { font-size: 3.9rem; }
+	h3, .h3 { font-size: 2.5rem; }
+	h4, .h4 { font-size: 2.0rem; }
+	p, .p 	{ font-size: 1.6rem; }
 	small, .small { font-size: 1.0rem; }
 	label, .label { font-size: 1.2rem; }
 }
 
 @media( min-width: 1380px ) {
-	h1, .h1 { font-size: 9.1rem; }
-	h2, .h2 { font-size: 6.1rem; }
-	h3, .h3 { font-size: 4.0rem; }
-	h4, .h4 { font-size: 2.7rem; }
-	p, .p 	{ font-size: 1.8rem; }
+	h1, .h1 { font-size: 6.7rem; }
+	h2, .h2 { font-size: 5.0rem; }
+	h3, .h3 { font-size: 2.8rem; }
+	h4, .h4 { font-size: 2.1rem; }
+	p, .p 	{ font-size: 1.6rem; }
 	small, .small { font-size: 1.2rem; }
 	label, .label { font-size: 1.4rem; }
 }
@@ -141,39 +148,53 @@ label, .label { font-size: 1.0rem; text-transform: uppercase; }
  *	Buttons
  *
  */
-
+button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
 .button {
 	padding: 0 15px;
-	height: 36px;
+	height: 42px;
+	min-width: 150px;
 	font-size: 1rem;
-	line-height: 36px;
-	color: var(--off-light);
-	background-color: var(--dark);
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
-	border: none;
-	border-radius: 4px;
-	filter: brightness(1);
-	-webkit-transition: filter 0.2s;
-	-moz-transition: filter 0.2s;
-	transition: filter 0.2s;
+	line-height: 40px;
+	color: var(--copper);
+	background-color: var(--off-light);
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.25), inset 0 0 0 0 var(--copper), inset 0 0 0 0 var(--copper);
+	border: 1px solid var(--off-neutral);
+	border-radius: 26px;
+	-webkit-transition: box-shadow 0.2s ease-out;
+	-moz-transition: box-shadow 0.2s ease-out;
+	transition: box-shadow 0.2s ease-out;
 }
 
+@media( min-width: 640px ) {
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		height: 52px;
+		line-height: 50px;
+	}
+}
+
+button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-	filter: brightness(1.2);
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25), inset 0 0 0 4px var(--copper), inset 0 0 0 0 var(--copper);
 }
 
+button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus,
 .button:focus {
     outline: 0;
-    box-shadow: 0px 2px 6px rgba(20,20,10,0.5);
+    color: var(--light);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25), inset 0 0 0 0 var(--copper), inset 0 0 100px 26px var(--copper);
 }
 
 .button img {
@@ -184,9 +205,32 @@ input[type="button"]:focus,
 	margin-left: 3px;
 }
 
-.button-large {
-	height: 48px;
-	line-height: 48px;
+.button.button-copper, 
+button.button-copper, 
+input[type="submit"].button-copper, 
+input[type="reset"].button-copper, 
+input[type="button"].button-copper {
+    color: var(--light);
+    background-color: var(--copper);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.35), inset 0 0 0 0 rgba(256, 256, 256, 1), inset 0 0 0 0 rgba(256, 256, 256, 1);
+}
+
+.button.button-copper:hover, 
+button.button-copper:hover, 
+input[type="submit"].button-copper:hover, 
+input[type="reset"].button-copper:hover, 
+input[type="button"].button-copper:hover {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.35), inset 0 0 0 4px rgba(256, 256, 256, 1), inset 0 0 0 0 rgba(256, 256, 256, 1);
+}
+
+.button.button-copper:focus, 
+button.button-copper:focus, 
+input[type="submit"].button-copper:focus, 
+input[type="reset"].button-copper:focus, 
+input[type="button"].button-copper:focus {
+    outline: 0;
+    color: var(--copper);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.35), inset 0 0 0 0 rgba(256, 256, 256, 1), inset 0 0 100px 26px rgba(256, 256, 256, 1);
 }
 
 
@@ -208,13 +252,16 @@ input[type="password"],
 input[type="date"],
 textarea,
 select {
-	height: 36px;
-	padding: 11px 15px; /* The 6px vertically centers text on FF, ignored by Webkit */
+	height: 42px;
+	padding: 10px 15px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	color: var(--dark);
 	background-color: var(--off-light);
-	border: 0;
-	border-radius: 1px;
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 0 0 0 var(--copper);
+	border: 1px solid var(--off-neutral);
+	border-radius: 26px;
+	-webkit-transition: box-shadow 0.2s ease-out;
+	-moz-transition: box-shadow 0.2s ease-out;
+	transition: box-shadow 0.2s ease-out;
 }
 
 textarea {
@@ -230,13 +277,11 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-	outline: 0;
-	box-shadow: 0px 2px 6px rgba(20,20,10,0.5);
+	outline: none;
+	box-shadow: inset 0 0 0 4px var(--copper);
 }
 
-@media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1380px ) {
+@media( min-width: 640px ) {
 	input[type="email"],
 	input[type="number"],
 	input[type="search"],
@@ -247,8 +292,8 @@ select:focus {
 	input[type="date"],
 	textarea,
 	select {
-		height: 36px;
-		padding: 6px 12px; /* The 6px vertically centers text on FF, ignored by Webkit */
+		height: 52px;
+		padding: 10px 20px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	}
 }
 
@@ -279,9 +324,18 @@ select:focus {
 .fill-off-dark {
 	color: var(--off-light);
 	background-color: var(--off-dark); }
-.fill-black {
-	color: var(--off-light);
-	background-color: var(--black); }
+.fill-copper {
+	color: var(--light);
+	background-color: var(--copper); }
+.fill-off-copper {
+	color: var(--light);
+	background-color: var(--off-copper); }
+.fill-moss {
+	color: var(--light);
+	background-color: var(--moss); }
+.fill-off-moss {
+	color: var(--dark);
+	background-color: var(--off-moss); }
 
 
 
@@ -304,8 +358,14 @@ select:focus {
 	color: var(--dark); }
 .text-off-dark {
 	color: var(--off-dark); }
-.text-black {
-	color: var(--black); }
+.text-copper {
+	color: var(--copper); }
+.text-off-copper {
+	color: var(--off-copper); }
+.text-moss {
+	color: var(--moss); }
+.text-off-moss {
+	color: var(--off-moss); }
 
 
 

@@ -178,15 +178,17 @@
 	- -->
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto:400,400i,700" rel="stylesheet">
-	<!-- Icons -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+
 	<!-- Stylesheet -->
 	<?php require __DIR__ . '/../style.php'; ?>
+	
 	<!-- jQuery 3 -->
 	<script type="text/javascript" src="plugins/jquery/jquery-3.0.0.min.js<?php echo $ver ?>"></script>
 	<!-- Slick Carousel -->
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css<?php echo $ver ?>"/>
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css<?php echo $ver ?>"/>
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <?php } ?>

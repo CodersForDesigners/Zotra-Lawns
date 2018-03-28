@@ -34,6 +34,17 @@
 					<button type="submit" name="form_contact_submit">
 						send
 					</button>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<button class="button-copper" type="submit" name="form_contact_submit">
+						send
+					</button>
 
 				</form>
 
