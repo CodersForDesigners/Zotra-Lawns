@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="60px" viewBox="0 0 18 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Panels/Basement/Car</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="1.5" cy="1.5" r="1.5"></circle>
+        <filter x="-83.3%" y="-83.3%" width="333.3%" height="333.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.239215686   0 0 0 0 0.223529412   0 0 0 0 0.207843137  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="1.5" cy="1.5" r="1.5"></circle>
+        <filter x="-83.3%" y="-83.3%" width="333.3%" height="333.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.239215686   0 0 0 0 0.223529412   0 0 0 0 0.207843137  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="1.5" cy="1.5" r="1.5"></circle>
+        <filter x="-83.3%" y="-83.3%" width="333.3%" height="333.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.239215686   0 0 0 0 0.223529412   0 0 0 0 0.207843137  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="1.5" cy="1.5" r="1.5"></circle>
+        <filter x="-83.3%" y="-83.3%" width="333.3%" height="333.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.239215686   0 0 0 0 0.223529412   0 0 0 0 0.207843137  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Panels/Basement/Car" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AnimatedElements/Car" transform="translate(-1.000000, 20.000000)">
+            <rect id="Rectangle" fill="#9B9E98" fill-rule="evenodd" x="3" y="0" width="14" height="31" rx="5"></rect>
+            <rect id="Rectangle" fill="#5A5D59" fill-rule="evenodd" x="3" y="8" width="14" height="19" rx="5"></rect>
+            <rect id="Rectangle" fill="#83837E" fill-rule="evenodd" x="3" y="12" width="14" height="12" rx="3"></rect>
+            <path d="M6,29 C6,29.5521635 5.55235004,30 4.99987979,30 C4.44764996,30 4,29.5521635 4,29 C4,28.4478365 4.44764996,28 4.99987979,28 C5.55235004,28 6,28.4478365 6,29 Z" id="Stroke-7" fill="#B35C46" fill-rule="evenodd"></path>
+            <path d="M16,29 C16,29.5521635 15.55235,30 14.9998798,30 C14.44765,30 14,29.5521635 14,29 C14,28.4478365 14.44765,28 14.9998798,28 C15.55235,28 16,28.4478365 16,29 Z" id="Stroke-9" fill="#B35C46" fill-rule="evenodd"></path>
+            <path d="M3.5,10.5 L0.5,12.5" id="Path-79-Copy" stroke="#9B9E98" stroke-width="1"></path>
+            <path d="M16.5,10.5 L19.5,12.5" id="Path-79" stroke="#9B9E98" stroke-width="1"></path>
+        </g>
+        <g id="AnimatedElements/PeopleinDark" transform="translate(4.000000, 34.000000)">
+            <g id="Oval-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+        <g id="AnimatedElements/PeopleinDark" transform="translate(4.000000, 39.000000)">
+            <g id="Oval-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+        <g id="AnimatedElements/PeopleinDark" transform="translate(7.000000, 39.000000)">
+            <g id="Oval-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+        </g>
+        <g id="AnimatedElements/PeopleinDark" transform="translate(10.000000, 34.000000)">
+            <g id="Oval-Copy">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>

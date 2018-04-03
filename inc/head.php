@@ -178,7 +178,7 @@
 	- -->
 
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600" rel="stylesheet">
 
 	<!-- Stylesheet -->
 	<?php require __DIR__ . '/../style.php'; ?>

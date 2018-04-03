@@ -12,16 +12,31 @@
 <link rel="stylesheet" type="text/css" href="css/modules/video-embed.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/modal-box.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/lazaro-signature.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/modules/masterplan.css<?php echo $ver ?>">
 
 <!-- Pages -->
 <link rel="stylesheet" type="text/css" href="css/pages/page.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/navigation-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/modal/modal-menu.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/landing-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/clients-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/benefits-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/action-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/pricing-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/workday-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/rera-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/qwikspec-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/modal/modal-menu.css<?php echo $ver ?>">
+
+
+<link rel="stylesheet" type="text/css" href="css/pages/section/welcome-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/villa-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/villa-isometric-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/aerial-3d-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/podium-masterplan-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/podium-experience-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/basement-masterplan-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/basement-experience-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/location-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/aerial-panorama-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/floorplans-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/residents-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/clubhouse-3d-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/clubhouse-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/infrastructure-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/architect-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/safety-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/specifications-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/footer-section.css<?php echo $ver ?>">
+

@@ -1,0 +1,22 @@
+/*
+ *	Basement Experience Section
+ */
+
+.basement-experience-section {
+	position: relative;
+	z-index: 1;
+}
+
+.basement-experience-section .basement-experience-content {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {}

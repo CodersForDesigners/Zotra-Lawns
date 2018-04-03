@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="31px" viewBox="0 0 20 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Panels/Basement/CarParked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Panels/Basement/Car" transform="translate(1.000000, -20.000000)">
+            <g id="AnimatedElements/Car" transform="translate(-1.000000, 20.000000)">
+                <rect id="Rectangle" fill="#9B9E98" fill-rule="evenodd" x="3" y="0" width="14" height="31" rx="5"></rect>
+                <rect id="Rectangle" fill="#5A5D59" fill-rule="evenodd" x="3" y="8" width="14" height="19" rx="5"></rect>
+                <rect id="Rectangle" fill="#83837E" fill-rule="evenodd" x="3" y="12" width="14" height="12" rx="3"></rect>
+                <path d="M6,29 C6,29.5521635 5.55235004,30 4.99987979,30 C4.44764996,30 4,29.5521635 4,29 C4,28.4478365 4.44764996,28 4.99987979,28 C5.55235004,28 6,28.4478365 6,29 Z" id="Stroke-7" fill="#B35C46" fill-rule="evenodd"></path>
+                <path d="M16,29 C16,29.5521635 15.55235,30 14.9998798,30 C14.44765,30 14,29.5521635 14,29 C14,28.4478365 14.44765,28 14.9998798,28 C15.55235,28 16,28.4478365 16,29 Z" id="Stroke-9" fill="#B35C46" fill-rule="evenodd"></path>
+                <path d="M3.5,10.5 L0.5,12.5" id="Path-79-Copy" stroke="#9B9E98" stroke-width="1"></path>
+                <path d="M16.5,10.5 L19.5,12.5" id="Path-79" stroke="#9B9E98" stroke-width="1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

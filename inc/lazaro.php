@@ -36,6 +36,8 @@
 	height: auto;
 	min-height: 100vh;
 
+	padding: 80px 0;
+
 	position: fixed;
 	top: 0;
 	left: 0;

@@ -1,0 +1,33 @@
+/*
+ *	Villa Section
+ */
+
+.villa-section {
+	position: relative;
+	z-index: 1;
+}
+
+
+.villa-section .villa {
+	overflow: hidden; 
+	border-top-left-radius: 26px; 
+	border-top-right-radius: 26px;
+}
+
+.villa-section .villa-content {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+
+	border-top-left-radius: 26px;
+	border-top-right-radius: 26px;
+}
+
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {}

@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180327';
+	$ver = '?v=20180329';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -69,238 +69,313 @@
 
 
 	<!-- Welcome Section -->
-	<section class="welcome-section">
-		<div class="container">
-			<div>[ 3D Lawns + Villa Facade ]</div>
-			<div>Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, starting at just 4.5 crores.</div>
+	<section class="welcome-section fill-moss">
+		<div class="welcome-content block-space-top-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="logo columns small-10 small-offset-1 medium-9 large-3 xlarge-2">Z Lawns</div>
+					<div class="description text-off-light h4 columns small-10 small-offset-1 medium-9 large-7 large-offset-0 xlarge-5">Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, <strong class="text-light">starting at just 4.5 crores.</strong></div>
+				</div>
+			</div>
 		</div>
-	</section><!-- END: Welcome Section -->
+		<div><img class="block" src="img/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
+	</section><!-- END : Welcome Section -->
 	
 
 
 	<!-- Villa Section -->
-	<section class="villa-section">
-		<div class="container">
-			<div>The Villa</div>
-			<div>Dual Level Approach</div>
-			<div>Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
-			<div>[ 3D Cross Section ]</div>
-			<div>
+	<section class="villa-section block-space-top fill-dark">
+		<div class="container villa" style="">
+			<div class="row">
+				<div class="villa-content block-space-top">
+					<div class="label strong columns small-10 small-offset-1">The Villa</div>
+					<div class="h1 strong columns small-10 small-offset-1 medium-6">Dual Level Approach</div><br>
+					<div class="p columns small-10 small-offset-1 medium-6 large-5 xlarge-4">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
+				</div>
+			</div>
+			<div><img class="block" src="img/cross-section-3d.jpg<?php echo $ver ?>"></div>
+			<!-- <div>
 				[ Blips ] : 
 				- Lift
 				- Private garden
 				- Double height cut out
 				- Basement
 				- Large expanse of living and dining area
-			</div>
+			</div> -->
+		</div>
+	</section><!-- END : Villa Section -->
 
-			<div>
-				[ 3D Isometric ]
-				Top Floor - THE MASTER SUITE- < Highlights >  - large master bedroom with a study area, large dressing and bathroom. A private terrace straight out of the room.
-			</div>
-			<div>
-				[ 3D Isometric ]
-				First Floor - < Highlights >  2 large bedrooms
-			</div>
-			<div>
-				[ 3D Isometric ]
-				Ground Floor - < Highlights > - large and spacious living and dining rooms, one bedroom, large kitchen which does justice to the villa (targeting the ladies) along with separate utility, a pooja
-			</div>
-			<div>
-				[ 3D Isometric ]
-				Basement Floor - < Highlights > one service room, which can be used for various services such as store room etc. 3 car parks by default for each villa – not separately charged for.
+
+	
+	<!-- Villa Isometric Section -->
+	<section class="villa-isometric-section fill-light">
+		<div class="floor block-space-top-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="isometric columns small-12 large-7"></div>
+					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+						<div class="h2 strong">Top Floor</div>
+						<div class="p">THE MASTER SUITE- < Highlights >  - large master bedroom with a study area, large dressing and bathroom. A private terrace straight out of the room.</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section><!-- END: Villa Section -->
+		<div class="floor block-space-top-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="isometric columns small-12 large-7"></div>
+					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+						<div class="h2 strong">First Floor</div>
+						<div class="p">< Highlights >  2 large bedrooms</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="floor block-space-top-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="isometric columns small-12 large-7"></div>
+					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+						<div class="h2 strong">Ground Floor</div>
+						<div class="p">< Highlights > - large and spacious living and dining rooms, one bedroom, large kitchen which does justice to the villa (targeting the ladies) along with separate utility, a pooja</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="floor block-space-top-bottom text-off-neutral">
+			<div class="container">
+				<div class="row">
+					<div class="isometric columns small-12 large-7"></div>
+					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+						<div class="h2 strong">Basement Floor</div>
+						<div class="p">< Highlights > one service room, which can be used for various services such as store room etc. 3 car parks by default for each villa – not separately charged for.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- END : Villa Isometric Section -->
 	
 
 
 	<!-- Aerial 3D Section -->
-	<section class="aerial-3d-section">
-		<div class="container">
-			[ Aerial View 3D ]
-		</div>
-	</section><!-- END: Aerial 3D Section -->
+	<section class="aerial-3d-section fill-moss">
+		<img class="block" src="img/aerial-view-3d.jpg<?php echo $ver ?>">
+	</section><!-- END : Aerial 3D Section -->
 
 
 
 	<!-- Podium Masterplan Section -->
-	<section class="podium-masterplan-section">
+	<section class="podium-masterplan-section block-space-top-bottom fill-off-light">
 		<div class="container">
-			<div>Upper-Level</div>
-			<div>Pedestrian Experience</div>
-			<div>The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
-
-			<div>[ 2D Podium Masterplan ]</div>
-			<div>
-				Highlights:
-				1 - Pedestrian walkways that emulate the experience of a park, not a road network.
-				2 - A Landscaped Central Promenade.
-				3 - A treeline that runs around the periphery of the premises.
-				4 - All walkways end in a garden, the visual experience is not interrupted by the abrupt end of a road or a bare compound wall.
+			<div class="row">
+				<div class="label strong columns small-10 small-offset-1">Upper-Level</div>
+				<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</div>
+				<div class="p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
 			</div>
 		</div>
-	</section><!-- END: Podium Masterplan Section -->
+		<div class="masterplan-container">
+			<div class="masterplan">
+				<div class="layer"><img class="block" src="img/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/podium-masterplan/3_PodiumLines.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/podium-masterplan/4_PodiumTrees.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
+			</div>
+		</div>
+		<!-- <div>
+			Highlights:
+			1 - Pedestrian walkways that emulate the experience of a park, not a road network.
+			2 - A Landscaped Central Promenade.
+			3 - A treeline that runs around the periphery of the premises.
+			4 - All walkways end in a garden, the visual experience is not interrupted by the abrupt end of a road or a bare compound wall.
+		</div> -->
+	</section><!-- END : Podium Masterplan Section -->
 
 
 
 	<!-- Podium Experience Section -->
-	<section class="podium-experience-section">
-		<div class="container">
-			<div>Upper-Level</div>
-			<div>Villa Experience</div>
-
-			<div>[ 3D Pedestrian Walkways ]</div>
-			<div>
-				Highlights:
-				1 - Contemporary Architecture - The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.  
-				2 - Zero Redundant Barriers - The front yards of all the villas blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.
-				3 - Privacy - To aid in privacy, Villas that face each other have been staggered.
-				4 - Efficient Planning - Common areas have been optimized to reduce the loading on the Super Built-up Area. In fact, the clubhouse only occupies 5% of your Super Built-up Area.
+	<section class="podium-experience-section fill-moss">
+		<div class="podium-experience-content block-space-top-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="label strong columns small-10 small-offset-1">Upper-Level</div>
+					<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br> Experience</div>
+				</div>
 			</div>
 		</div>
-	</section><!-- END: Podium Experience Section -->
+		<div><img class="block" src="img/pedestrian-walkways-3d.jpg<?php echo $ver ?>"></div>
+		<!-- <div>
+			Highlights:
+			1 - Contemporary Architecture - The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.  
+			2 - Zero Redundant Barriers - The front yards of all the villas blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.
+			3 - Privacy - To aid in privacy, Villas that face each other have been staggered.
+			4 - Efficient Planning - Common areas have been optimized to reduce the loading on the Super Built-up Area. In fact, the clubhouse only occupies 5% of your Super Built-up Area.
+		</div> -->
+	</section><!-- END : Podium Experience Section -->
 
 
 
 	<!-- Basement Masterplan Section -->
-	<section class="podium-masterplan-section">
+	<section class="podium-masterplan-section block-space-top-bottom fill-dark">
 		<div class="container">
-			<div>Lower-Level</div>
-			<div>Basement Experience</div>
-			<div>The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
-
-			<div>[ 2D Basement Masterplan ]</div>
-			<div>
-				Highlights:
-				1 - Apartment-style basement car park with driveways leading to personal car parks.
-				2 - There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.
-				3 - Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.
-				4 - Small landscaped area in the basement.
-				5 - Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.
+			<div class="row">
+				<div class="label strong columns small-10 small-offset-1">Lower-Level</div>
+				<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</div>
+				<div class="p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
 			</div>
 		</div>
-	</section><!-- END: Basement Masterplan Section -->
+		<div class="masterplan-container">
+			<div class="masterplan">
+				<div class="layer"><img class="block" src="img/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="img/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
+			</div>
+		</div>
+		<!-- <div>
+			Highlights:
+			1 - Apartment-style basement car park with driveways leading to personal car parks.
+			2 - There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.
+			3 - Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.
+			4 - Small landscaped area in the basement.
+			5 - Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.
+		</div> -->
+	</section><!-- END : Basement Masterplan Section -->
 
 
 
 	<!-- Basement Experience Section -->
-	<section class="basement-experience-section">
-		<div class="container">
-			<div>Lower-Level</div>
-			<div>Villa Experience</div>
-
-			<div>[ 3D Basement Level ] 3d Picture to be given</div>
-			<div>Highlights:
-				1 - Private Access - Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.
-				2 - Future proof - Electric-car charging points controlled from within the villa are provided.
-				3 - Water outlets - Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.
+	<section class="basement-experience-section fill-moss">
+		<div class="basement-experience-content block-space-top-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="label strong columns small-10 small-offset-1">Lower-Level</div>
+					<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa Experience</div>
+				</div>
 			</div>
 		</div>
-	</section><!-- END: Basement Experience Section -->
+		<div><img class="block" src="img/basement-level-3d.jpg<?php echo $ver ?>"></div>
+		<!-- <div>Highlights:
+			1 - Private Access - Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.
+			2 - Future proof - Electric-car charging points controlled from within the villa are provided.
+			3 - Water outlets - Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.
+		</div> -->
+	</section><!-- END : Basement Experience Section -->
 
 
 
 	<!-- Location Section -->
-	<section class="location-section">
+	<section class="location-section block-space-top-bottom fill-light">
 		<div class="container">
-			<div>Location</div>
-			<div>Villas in Rajarajeshwari Nagar</div>
-			<div>Finding a villa community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 12000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
+			<div class="row">
+				<div class="beacon-container hide-for-mobile columns small-12 medium-6 large-5"><div class="beacon"></div></div>
+				<div class="location-content columns small-12 medium-6 large-offset-1">
+					<div class="title label strong text-off-copper">Location</div>
+					<div class="heading h1 strong text-copper">Villas in Rajarajeshwari Nagar</div>
+					<div class="description p">Finding a villa community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 12000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
+				</div>
+			</div>
 
-			<div>Appreciation</div>
-			<div>Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a villa community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
+			<div class="row">
+				<div class="maps columns small-12 large-5">
+					<a class="button button-copper" href="https://maps.google.com/" target="_blank">Open in Google Maps</a>
+				</div>	
+				<div class="appreciation columns small-12 large-6 large-offset-1">
+					<div class="title label strong text-off-copper">Appreciation</div>
+					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a villa community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
+				</div>
+			</div>
 
-			<div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div>
+			<!-- <div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div> -->
+			<div class="row">
+				<div class="location-list columns small-12">
+					Malls - 
+					Upcoming Salapuria Mall – 3 kms
+					Gopalan Arcade Mall – 2.7 kms
 
-			<div>
-				Malls - 
-				Upcoming Salapuria Mall – 3 kms
-				Gopalan Arcade Mall – 2.7 kms
+					Hospitals -
+					BGS Global Hospital – 2.5 kms
+					SSNMC Super Speciality Hospital – 3 kms
 
-				Hospitals -
-				BGS Global Hospital – 2.5 kms
-				SSNMC Super Speciality Hospital – 3 kms
+					Schools -
+					National Public School – 2 kms
+					Gnanakshi Vidyaniketan School – 0.5 kms
+					Bangalore University – 3 kms
+					Maple Bear Canadian Pre school – 2 kms
 
-				Schools -
-				National Public School – 2 kms
-				Gnanakshi Vidyaniketan School – 0.5 kms
-				Bangalore University – 3 kms
-				Maple Bear Canadian Pre school – 2 kms
-
-				Global Village Tech Park – 2.5 kms
-				Metro Station – 3 kms
+					Global Village Tech Park – 2.5 kms
+					Metro Station – 3 kms
+				</div>
 			</div>
 		</div>
-	</section><!-- END: Location Section -->
+
+		</div>
+	</section><!-- END : Location Section -->
 
 
 	
 	<!-- Aerial Panorama Section -->
-	<section class="aerial-panorama-section">
-		<div class="container">
-			[ Aerial Panorama ]
-		</div>
-	</section><!-- END: Aerial Panorama Section -->
+	<section class="aerial-panorama-section fill-moss">
+		<div><img class="block" src="img/placeholder-panorama.png<?php echo $ver ?>"></div>
+	</section><!-- END : Aerial Panorama Section -->
 
 
 
 	<!-- Floorplans Section -->
-	<section class="floorplans-section">
+	<section class="floorplans-section block-space-top-bottom fill-dark">
 		<div class="container">
 			<div>Sovereign - Villas upto 3992sft with a Backyard Lawn - Starting at 4.3Cr</div>
 			<div>Supreme - Villas upto 4349sft with a Courtyard Lawn - Starting at 4.1Cr</div>
 			<div>Premier - Villas upto 5695sft with a Premium Lawn - Starting at 4.5Cr</div>
 		</div>
-	</section><!-- END: Floorplans Section -->
+	</section><!-- END : Floorplans Section -->
 	
 
 
 	<!-- Residents Section -->
-	<section class="residents-section">
+	<section class="residents-section block-space-top-bottom fill-light">
 		<div class="container">
-			<div>Resident Profile</div>
-			<div>Manoj</div>
-			<div>businessman in RR Nagar premium apartment - backend clothing manufacturer</div>
-			<div>[ testimonial ]</div>
+			<div class="label strong">Resident Profile</div>
+			<div class="h1 strong">Manoj</div>
+			<div class="label">businessman in RR Nagar premium apartment - backend clothing manufacturer</div>
+			<div class="p">[ testimonial ]</div>
 		</div>
-	</section><!-- END: Residents Section -->
+	</section><!-- END : Residents Section -->
 
 
 
 	<!-- Clubhouse 3D Section -->
-	<section class="clubhouse-3d-section">
-		<div class="container">
-			[ 3D of the Clubhouse Area ] – to be changed
-		</div>
-	</section><!-- END: Clubhouse 3D Section -->
+	<section class="clubhouse-3d-section fill-moss">
+		<img class="block" src="img/clubhouse-area-3d.jpg<?php echo $ver ?>">
+	</section><!-- END : Clubhouse 3D Section -->
 
 
 
 	<!-- Clubhouse Section -->
-	<section class="clubhouse-section">
+	<section class="clubhouse-section block-space-top-bottom fill-dark">
 		<div class="container">
-			<div>Clubhouse</div>
-			<div>Located at the far end of the premises, the clubhouse is spread across three floors. Comprising over 5500 sft of indoor facilities it looks onto a beautifully landscaped communal space filled with outdoor amenities.</div>
+			<div class="label strong">Amenities</div>
+			<div class="h1 strong">Clubhouse</div>
+			<div class="p">Located at the far end of the premises, the clubhouse is spread across three floors. Comprising over 5500 sft of indoor facilities it looks onto a beautifully landscaped communal space filled with outdoor amenities.</div>
 
-			<div>The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average villa. This translates to a greater component of usable carpet area in your villa when compared to most other projects.</div>
-
-			<div>[ 2D Section of the Clubhouse ]</div>
-			<div>
-				1 - Ground Floor - Clubhouse has a covered pool looking out into the lawn.
-				2 - First Floor - Indoor games and squash court
-				3 - Second Floor - Gymnasium
-				4 - Outdoor - Basketball court, Children’s play area, outdoor gym.
-			</div>
+			<div class="p">The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average villa. This translates to a greater component of usable carpet area in your villa when compared to most other projects.</div>
 		</div>
-	</section><!-- END: Clubhouse Section -->
+		<div>[ 2D Section of the Clubhouse ]</div>
+		<!-- <div>
+			1 - Ground Floor - Clubhouse has a covered pool looking out into the lawn.
+			2 - First Floor - Indoor games and squash court
+			3 - Second Floor - Gymnasium
+			4 - Outdoor - Basketball court, Children’s play area, outdoor gym.
+		</div> -->
+	</section><!-- END : Clubhouse Section -->
 
 
 
 	<!-- Infrastructure Section -->
-	<section class="infrastructure-section">
+	<section class="infrastructure-section block-space-top-bottom fill-light">
 		<div class="container">
-			<div>Infrastructure
+			<div class="h1 strong">Infrastructure</div>
 			
 			<div>Backup Generator</div>
 			<div>Complete power back up including lift</div>
@@ -311,40 +386,39 @@
 			<div>Water System</div>
 
 			<div>Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water with efficient fail-safes put in place to account for a minimal disruption in service.</div>
-
-			< Get water calculations >
-			<div>[ 2D Water System Diagram ] – to be taken from water consultant</div>
-
-			<div>
-				1 - Each villa has 3 water tanks on the roof. The first for bore-well water, the second for Cauvery water and the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.
-				2 - The tanks come with a tank reserve of 1 days worth of gravity-flow water supply in case the hydro-pneumatic pumps fail.
-				3 - The property has excellent groundwater tapped by 5 borewells fitted with Hydro-Pneumatic systems that pump water to the bore-well tanks.
-				4 - 3 inlets have been provided at the entrance gate for water tankers to interface with.
-			</div>
 		</div>
-	</section><!-- END: Infrastructure Section -->
+		< Get water calculations >
+		<div>[ 2D Water System Diagram ] – to be taken from water consultant</div>
+
+		<!-- <div>
+			1 - Each villa has 3 water tanks on the roof. The first for bore-well water, the second for Cauvery water and the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.
+			2 - The tanks come with a tank reserve of 1 days worth of gravity-flow water supply in case the hydro-pneumatic pumps fail.
+			3 - The property has excellent groundwater tapped by 5 borewells fitted with Hydro-Pneumatic systems that pump water to the bore-well tanks.
+			4 - 3 inlets have been provided at the entrance gate for water tankers to interface with.
+		</div> -->
+	</section><!-- END : Infrastructure Section -->
 	
 
 
 	<!-- Architect Section -->
-	<section class="architect-section">
+	<section class="architect-section block-space-top-bottom fill-off-light">
 		<div class="container">
-			<div>Principal Designer</div>
-			<div>Hadi Tehrani</div>
+			<div class="label strong">Principal Designer</div>
+			<div class="h1 strong">Hadi Tehrani</div>
 
-			<div>Hadi Tehrani is an award-winning Iranian-German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community. This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.</div>
+			<div class="p">Hadi Tehrani is an award-winning Iranian-German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community. This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.</div>
 
 			<div>Link to architect website – www.haditeherani.com</div>
 		</div>
-	</section><!-- END: Architect Section -->
+	</section><!-- END : Architect Section -->
 	
 
 
 	<!-- Safety Section -->
-	<section class="safety-section">
+	<section class="safety-section block-space-top-bottom fill-light">
 		<div class="container">
-			<div>Safety & Security</div>
-			<div>The main benefit of residing in a community of this kind is the peace that comes with knowing that safety is has been built-in to the project.</div>
+			<div class="h1 strong">Safety &amp; Security</div>
+			<div class="p">The main benefit of residing in a community of this kind is the peace that comes with knowing that safety is has been built-in to the project.</div>
 
 			<div>
 				We have tied up with MyGate –< to be finalised >to provide an app based Visitor, Staff and Domestic Help Management service that controls and monitors access to the community.
@@ -354,15 +428,17 @@
 				CCTV camera coverage all round as well as across the common areas of the community.
 			</div>
 		</div>
-	</section><!-- END: Safety Section -->
+	</section><!-- END : Safety Section --><hr>
 	
 
 
 	<!-- Specifications Section -->
-	<section class="specifications-section">
+	<section class="specifications-section block-space-top-bottom fill-dark">
 		<div class="container">
+			<div class="h1 strong">Specifications</div>
+			<div class="p">We are constantly finding ways to improve Concerto at the DASTA Design Cell, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</div>
 		</div>
-	</section><!-- END: Specifications Section -->
+	</section><!-- END : Specifications Section --><hr>
 	
 
 
@@ -370,7 +446,7 @@
 	<section class="footer-section">
 		<div class="container">
 		</div>
-	</section><!-- END: Footer Section -->
+	</section><!-- END : Footer Section -->
 
 
 	<!-- Page Content -->
