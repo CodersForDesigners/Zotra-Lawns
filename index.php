@@ -52,7 +52,7 @@
 			<div class="header row">
 				<div class="columns small-3">
 					<a class="logo" href="/">
-						<img src="/img/logo.svg<?php echo $ver ?>">
+						<img src="/media/logo.svg<?php echo $ver ?>">
 					</a>
 				</div>
 				<div class="text-right columns small-9">
@@ -78,7 +78,7 @@
 				</div>
 			</div>
 		</div>
-		<div><img class="block" src="img/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
+		<div><img class="block" src="media/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
 	</section><!-- END : Welcome Section -->
 	
 
@@ -93,7 +93,7 @@
 					<div class="p columns small-10 small-offset-1 medium-6 large-5 xlarge-4">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
 				</div>
 			</div>
-			<div><img class="block" src="img/cross-section-3d.jpg<?php echo $ver ?>"></div>
+			<div><img class="block" src="media/cross-section-3d.jpg<?php echo $ver ?>"></div>
 			<!-- <div>
 				[ Blips ] : 
 				- Lift
@@ -159,7 +159,7 @@
 
 	<!-- Aerial 3D Section -->
 	<section class="aerial-3d-section fill-moss">
-		<img class="block" src="img/aerial-view-3d.jpg<?php echo $ver ?>">
+		<img class="block" src="media/aerial-view-3d.jpg<?php echo $ver ?>">
 	</section><!-- END : Aerial 3D Section -->
 
 
@@ -175,12 +175,12 @@
 		</div>
 		<div class="masterplan-container">
 			<div class="masterplan">
-				<div class="layer"><img class="block" src="img/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/podium-masterplan/3_PodiumLines.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/podium-masterplan/4_PodiumTrees.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/podium-masterplan/3_PodiumLines.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/podium-masterplan/4_PodiumTrees.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
 			</div>
 		</div>
 		<!-- <div>
@@ -204,7 +204,7 @@
 				</div>
 			</div>
 		</div>
-		<div><img class="block" src="img/pedestrian-walkways-3d.jpg<?php echo $ver ?>"></div>
+		<div><img class="block" src="media/pedestrian-walkways-3d.jpg<?php echo $ver ?>"></div>
 		<!-- <div>
 			Highlights:
 			1 - Contemporary Architecture - The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.  
@@ -227,10 +227,10 @@
 		</div>
 		<div class="masterplan-container">
 			<div class="masterplan">
-				<div class="layer"><img class="block" src="img/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="img/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 			</div>
 		</div>
 		<!-- <div>
@@ -255,7 +255,7 @@
 				</div>
 			</div>
 		</div>
-		<div><img class="block" src="img/basement-level-3d.jpg<?php echo $ver ?>"></div>
+		<div><img class="block" src="media/basement-level-3d.jpg<?php echo $ver ?>"></div>
 		<!-- <div>Highlights:
 			1 - Private Access - Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.
 			2 - Future proof - Electric-car charging points controlled from within the villa are provided.
@@ -317,7 +317,7 @@
 	
 	<!-- Aerial Panorama Section -->
 	<section class="aerial-panorama-section fill-moss">
-		<div><img class="block" src="img/placeholder-panorama.png<?php echo $ver ?>"></div>
+		<div><img class="block" src="media/placeholder-panorama.png<?php echo $ver ?>"></div>
 	</section><!-- END : Aerial Panorama Section -->
 
 
@@ -347,7 +347,7 @@
 
 	<!-- Clubhouse 3D Section -->
 	<section class="clubhouse-3d-section fill-moss">
-		<img class="block" src="img/clubhouse-area-3d.jpg<?php echo $ver ?>">
+		<img class="block" src="media/clubhouse-area-3d.jpg<?php echo $ver ?>">
 	</section><!-- END : Clubhouse 3D Section -->
 
 

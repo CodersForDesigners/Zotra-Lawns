@@ -24,10 +24,10 @@
 	background-repeat: no-repeat;
 }
 
-.villa-isometric-section .floor:nth-child(1) .isometric { background-image: url('/img/isometric/mobile/top.png'); }
-.villa-isometric-section .floor:nth-child(2) .isometric { background-image: url('/img/isometric/mobile/first.png'); }
-.villa-isometric-section .floor:nth-child(3) .isometric { background-image: url('/img/isometric/mobile/ground.png'); }
-.villa-isometric-section .floor:nth-child(4) .isometric { background-image: url('/img/isometric/mobile/basement.png'); }
+.villa-isometric-section .floor:nth-child(1) .isometric { background-image: url('/media/isometric/mobile/top.png'); }
+.villa-isometric-section .floor:nth-child(2) .isometric { background-image: url('/media/isometric/mobile/first.png'); }
+.villa-isometric-section .floor:nth-child(3) .isometric { background-image: url('/media/isometric/mobile/ground.png'); }
+.villa-isometric-section .floor:nth-child(4) .isometric { background-image: url('/media/isometric/mobile/basement.png'); }
 
 
 @media( min-width: 640px )  {
@@ -54,18 +54,18 @@
 	}
 
 	.villa-isometric-section .floor:nth-child(1) {
-		background-image: url('/img/isometric/desktop/top.png');
+		background-image: url('/media/isometric/desktop/top.png');
 	}
 	.villa-isometric-section .floor:nth-child(2) {
-		background-image: url('/img/isometric/desktop/first.png');
+		background-image: url('/media/isometric/desktop/first.png');
 		box-shadow: inset 0 4px 12px 0 rgba(0, 0, 0, 0.4);
 	}
 	.villa-isometric-section .floor:nth-child(3) {
-		background-image: url('/img/isometric/desktop/ground.png');
+		background-image: url('/media/isometric/desktop/ground.png');
 		box-shadow: inset 0 4px 12px 0 rgba(0, 0, 0, 0.4);
 	}
 	.villa-isometric-section .floor:nth-child(4) {
-		background-image: url('/img/isometric/desktop/basement.png');
+		background-image: url('/media/isometric/desktop/basement.png');
 		box-shadow: inset 0 4px 12px 0 rgba(0, 0, 0, 0.4);
 	}
 
