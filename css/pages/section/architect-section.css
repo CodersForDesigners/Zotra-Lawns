@@ -1,0 +1,71 @@
+/*
+ *	 Architect Website
+ */
+
+.architect-section {}
+
+.architect-section .photograph {
+	position: relative;
+	z-index: 1;
+	margin-top: 20px;
+	height: 250px; 
+	text-align: center;
+	border-radius: 10px;
+	background: url('/media/architect-photograph.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid var(--off-neutral);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.architect-section .architect-content {
+	position: relative;
+	z-index: 2;
+	margin-top: 20px;
+}
+
+.architect-section .architect-content .heading {
+	margin-top: 10px;
+}
+
+.architect-section .architect-content .description {
+	margin-top: 30px;
+}
+
+.architect-section .architect-content a {
+	text-decoration: none;
+}
+
+
+ 
+@media( min-width: 640px )  {
+
+	.architect-section .photograph {
+		margin-top: 0;
+		height: 400px;
+	}
+
+	.architect-section .architect-content {
+		padding-left: 4.16666%;
+		margin-top: 0;
+	}
+
+	.architect-section .architect-content .description {
+		margin-top: 20px;
+	}
+
+}
+
+@media( min-width: 1040px ) {
+	.architect-section .architect-content {
+		padding-left: 0;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.architect-section .photograph {
+		height: 440px;
+	}
+}
+

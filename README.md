@@ -40,6 +40,7 @@
 	-- Aerial Panorama
 
 ### Mario	
+- [ ] Optimize all Image Assets
 - [ ] All Icons 
 - [ ] Master-plans
 - [ ] Master-plans Blips
@@ -49,6 +50,30 @@
 - [ ] Color Pallet
 - [ ] Gradients
 - [ ] Navigation
+
+- [ ] Header Section
+- [-] Welcome Section
+- [-] Villa Section
+- [-] Villa Isometric Section
+- [-] Podium Masterplan Section
+- [-] Basement Masterplan Section
+- [-] Clubhouse Section
+- [ ] Podium Experience Section
+- [ ] Basement Experience Section
+- [ ] Location Tabs
+- [ ] Aerial Panorama Section
+- [ ] Residents Section
+- [ ] Infrastructure Section
+- [ ] Footer Section
+
+- [x] Aerial 3D Section
+- [x] Clubhouse 3D Section
+- [x] Location Section
+- [x] Floorplans Section
+- [x] Architect Section
+- [x] Safety Section
+- [x] Specifications Section
+- [x] Lazaro Signature
 
 ### Big
 - [ ] Parallax Masterplan

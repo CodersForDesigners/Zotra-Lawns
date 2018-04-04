@@ -1,0 +1,96 @@
+/*
+ *	Safety Section
+ */
+
+
+.safety-section {}
+.safety-section .safety-content {}
+
+.safety-section .safety-content .description {
+	margin-top: 20px;
+}
+
+
+.safety-section .safety-points {}
+
+.safety-section .safety-points .point {
+	margin-top: 40px;
+}
+
+.safety-section .safety-points .point img {
+	display: inline-block;
+	vertical-align: top;
+	width: 75px;
+}
+
+.safety-section .safety-points .point span {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+	margin-top: 6px;
+	margin-left: 20px;
+}
+
+
+ 
+@media( min-width: 640px )  {
+	.safety-section .safety-points .point {
+		text-align: center;
+	}
+
+	.safety-section .safety-points .point img {
+		width: 120px;
+	}
+	.safety-section .safety-points .point span {
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 0;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.safety-section {
+		position: relative;
+	}
+
+	.safety-section .safety-content {
+		position: absolute;
+		z-index: 2;
+		top: 180px;
+		bottom: auto;
+		left: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	.safety-section.scrolling .safety-content {
+		position: fixed;
+	}
+
+	.safety-section.scrolled .safety-content {
+		position: absolute;
+		top: auto;
+		bottom: 180px;
+	}
+
+	.safety-section .safety-points {
+		position: relative;
+		z-index: 1;
+	}
+
+	.safety-section .safety-points .point span {
+		margin-top: 30px;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.safety-section .safety-content {
+		top: 240px;
+	}
+
+	.safety-section.scrolled .safety-content {
+		position: absolute;
+		top: auto;
+		bottom: 240px;
+	}
+}

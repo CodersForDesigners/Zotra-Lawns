@@ -1,0 +1,157 @@
+/*
+ *	Floorplans Section
+ */
+
+.floorplans-section {
+	background: url('/media/floorplans-bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 4px 12px 0 rgba(0, 0, 0, 0.4), inset 0 -4px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.floorplans-section .floorplan-card {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.2), 0 0px 30px 1px rgba(0, 0, 0, 0.4);
+}
+
+.floorplans-section .floorplan-card .logo img {
+	height: 14px;
+	width: auto;
+}
+
+.floorplans-section .floorplan-card .image {
+	margin-top: 10px;
+}
+
+.floorplans-section .floorplan-card .pattern {
+	display: none;
+	margin-top: 10px;
+}
+
+.floorplans-section .floorplan-card .size {
+	margin-top: 15px;
+	font-size: 2.0rem;
+}
+
+.floorplans-section .floorplan-card .feature {
+	margin-top: 5px;
+	font-size: 1.2rem;
+}
+
+.floorplans-section .floorplan-card .price {
+	margin-top: 15px;
+	font-size: 1.6rem;
+}
+
+.floorplans-section .floorplan-card .button {
+	margin-top:  15px;
+}
+
+ 
+@media( min-width: 640px )  {
+	.floorplans-section .floorplan-card {
+		position: relative;
+		height: 240px;
+		padding-left: 260px;
+		text-align: left;
+	}
+
+	.floorplans-section .floorplan-card .logo img {
+		margin-top: 30px;
+	}
+
+	.floorplans-section .floorplan-card .image {
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		width: 200px;
+	}
+
+	.floorplans-section .floorplan-card .size {
+		margin-top: 5px;
+	}
+
+	.floorplans-section .floorplan-card .feature {
+		margin-top: 0px;
+	}
+
+	.floorplans-section .floorplan-card .button {
+		width: 240px;
+		margin-left: -20px;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.floorplans-section .floorplan-card {
+		height: auto;
+		margin-left: 4.16666%;
+		padding-left: 0;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.floorplans-section .floorplan-card:first-child {
+		margin-left: 8.33333%;
+	}
+
+	.floorplans-section .floorplan-card .logo img {
+		margin-top: 0;
+	}
+
+	.floorplans-section .floorplan-card .image {
+		position: relative;
+		top: auto;
+		left: auto;
+		width: auto;
+	}
+
+	.floorplans-section .floorplan-card .pattern {
+		display: block;
+	}
+
+	.floorplans-section .floorplan-card .size {
+		margin-top: 15px;
+	}
+
+	.floorplans-section .floorplan-card .feature {
+		margin-top: 5px;
+	}
+
+	.floorplans-section .floorplan-card .button {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.floorplans-section .floorplan-card {
+		margin-top: 80px;
+		padding: 30px 20px;
+	}
+
+	.floorplans-section .floorplan-card .logo img {
+		height: 18px;
+	}
+
+	.floorplans-section .floorplan-card .pattern {
+		margin-top: 15px;
+	}
+
+	.floorplans-section .floorplan-card .size {
+		font-size: 2.4rem;
+	}
+
+	.floorplans-section .floorplan-card .feature {
+		font-size: 1.4rem;
+	}
+
+	.floorplans-section .floorplan-card .price {
+		font-size: 1.8rem;
+	}
+}

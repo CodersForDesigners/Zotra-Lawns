@@ -44,13 +44,16 @@
 
 	.villa-isometric-section .floor {
 		text-align: left;
-		background-attachment: fixed;
 		background-size: 100%;
 		background-position: left center;
 		height: 100vh;
 		background-repeat: no-repeat;
 		display: flex;
 		align-items: center;
+	}
+
+	.villa-isometric-section.scrolling .floor {
+		background-attachment: fixed;
 	}
 
 	.villa-isometric-section .floor:nth-child(1) {

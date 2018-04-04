@@ -1,0 +1,119 @@
+/*
+ *	Masterplan
+ */
+
+.blip-system {
+	font-size: 0;
+	line-height: 0;
+	position: relative;
+}
+
+.blip-system .blip-bg {
+	position: relative;
+	z-index: 1;
+}
+
+.blip-system .blip-container {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,255,255,0.5);
+}
+
+.blip-system .blip-container .blip {
+	position: absolute;
+	z-index: 1;
+	width: 1px;
+	height: 1px;
+}
+
+.blip-system .blip-container .blip .blip-toggle {
+	position: relative;
+	z-index: 2;
+	width: 52px;
+	height: 52px;
+	border-radius: 26px;
+	background-color: var(--light);
+	cursor: pointer;
+}
+
+.blip-system .blip-container .blip .blip-toggle .icon {
+	position: relative;
+	width: 52px;
+	height: 52px;
+	transition: all .3s ease-out;
+}
+
+.blip-system .blip-container .blip .blip-toggle .icon:after,
+.blip-system .blip-container .blip .blip-toggle .icon:before {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	background-color: var(--off-copper);
+	transition: all .3s ease-out;
+}
+
+.blip-system .blip-container .blip .blip-toggle .icon:after {
+	width: 4px;
+	height: 30px;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.blip-system .blip-container .blip .blip-toggle .icon:before {
+	width: 30px;
+	height: 4px;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.blip-system .blip-container .blip .blip-card {
+	width: 400px;
+	height: auto;
+	padding: 50px;
+	position: absolute;
+	z-index: 1; 
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+	transition: all .3s ease-out;
+	transform-origin: 26px 26px;
+	transform: scale(0);
+}
+
+
+/* -- Blip Open --  */
+/*.blip-system .blip-container .blip.open .blip-toggle {
+	border-radius: 10px;
+}*/
+
+.blip-system .blip-container .blip.open .blip-toggle .icon {
+	transform: rotate(45deg);
+}
+.blip-system .blip-container .blip:hover .blip-toggle .icon:after,
+.blip-system .blip-container .blip.open .blip-toggle .icon:after {
+	height: 42px;
+}
+
+.blip-system .blip-container .blip:hover .blip-toggle .icon:before,
+.blip-system .blip-container .blip.open .blip-toggle .icon:before {
+	width: 42px;
+}
+
+.blip-system .blip-container .blip.open .blip-card {
+	transform: scale(1);
+}
+
+
+@media( min-width: 640px )  {
+}
+
+@media( min-width: 1040px ) {
+}
+
+@media( min-width: 1380px ) {
+}
+

@@ -1,0 +1,46 @@
+/*
+ *	Clubhouse Section
+ */
+
+.clubhouse-section .clubhouse-content .heading {
+	margin-top: 10px;
+}
+
+.clubhouse-section .clubhouse-content .description {
+	margin-top: 20px;
+}
+
+.clubhouse-section .uds {
+	margin-top: 40px;
+	padding: 10px 8.33333% 20px 8.33333%;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	border-top: 2px solid var(--neutral);
+	border-bottom: 2px solid var(--neutral);
+}
+
+.clubhouse-section .uds .title {
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	background-color: var(--dark);
+	padding: 0 10px;
+	
+	transform: translateY(-22px);
+}
+
+
+
+
+
+@media( min-width: 1040px ) {
+	.clubhouse-section .uds {
+		padding: 20px 4.1666% 40px 4.1666%;
+	}
+
+	.clubhouse-section .uds .title {
+		transform: translateY(-32px);
+	}
+}
+

@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180329';
+	$ver = '?v=20180404';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -52,7 +52,7 @@
 			<div class="header row">
 				<div class="columns small-3">
 					<a class="logo" href="/">
-						<img src="/media/logo.svg<?php echo $ver ?>">
+						<img src="media/logo.svg<?php echo $ver ?>">
 					</a>
 				</div>
 				<div class="text-right columns small-9">
@@ -93,7 +93,7 @@
 					<div class="p columns small-10 small-offset-1 medium-6 large-5 xlarge-4">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
 				</div>
 			</div>
-			<div><img class="block" src="media/cross-section-3d.jpg<?php echo $ver ?>"></div>
+			<div><img class="block" src="media/cross-section-3d.png<?php echo $ver ?>"></div>
 			<!-- <div>
 				[ Blips ] : 
 				- Lift
@@ -255,12 +255,23 @@
 				</div>
 			</div>
 		</div>
-		<div><img class="block" src="media/basement-level-3d.jpg<?php echo $ver ?>"></div>
-		<!-- <div>Highlights:
-			1 - Private Access - Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.
-			2 - Future proof - Electric-car charging points controlled from within the villa are provided.
-			3 - Water outlets - Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.
-		</div> -->
+		<div class="blip-system">
+			<img class="blip-bg" class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
+			<div class="blip-container">
+				<div class="blip" style="top: 46%; left: 37%;">
+					<div class="blip-toggle"><div class="icon"></div></div>
+					<div class="blip-card p fill-light">1 - Private Access - Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
+				</div>
+				<div class="blip" style="top: 70%; left: 30%;">
+					<div class="blip-toggle"><div class="icon"></div></div>
+					<div class="blip-card p">2 - Future proof - Electric-car charging points controlled from within the villa are provided.</div>
+				</div>
+				<div class="blip" style="top: 70%; left: 30%;">
+					<div class="blip-toggle"><div class="icon"></div></div>
+					<div class="blip-card p">3 - Water outlets - Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
+				</div>
+			</div>
+		</div>
 	</section><!-- END : Basement Experience Section -->
 
 
@@ -269,8 +280,8 @@
 	<section class="location-section block-space-top-bottom fill-light">
 		<div class="container">
 			<div class="row">
-				<div class="beacon-container hide-for-mobile columns small-12 medium-6 large-5"><div class="beacon"></div></div>
-				<div class="location-content columns small-12 medium-6 large-offset-1">
+				<div class="beacon-container hide-for-mobile columns small-12 medium-5"><div class="beacon"></div></div>
+				<div class="location-content columns small-10 small-offset-1 medium-6 medium-offset-0 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Location</div>
 					<div class="heading h1 strong text-copper">Villas in Rajarajeshwari Nagar</div>
 					<div class="description p">Finding a villa community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 12000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
@@ -278,10 +289,10 @@
 			</div>
 
 			<div class="row">
-				<div class="maps columns small-12 large-5">
+				<div class="maps columns small-12 large-4 large-offset-1">
 					<a class="button button-copper" href="https://maps.google.com/" target="_blank">Open in Google Maps</a>
 				</div>	
-				<div class="appreciation columns small-12 large-6 large-offset-1">
+				<div class="appreciation columns small-12 large-6 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Appreciation</div>
 					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a villa community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
 				</div>
@@ -325,9 +336,36 @@
 	<!-- Floorplans Section -->
 	<section class="floorplans-section block-space-top-bottom fill-dark">
 		<div class="container">
-			<div>Sovereign - Villas upto 3992sft with a Backyard Lawn - Starting at 4.3Cr</div>
-			<div>Supreme - Villas upto 4349sft with a Courtyard Lawn - Starting at 4.1Cr</div>
-			<div>Premier - Villas upto 5695sft with a Premium Lawn - Starting at 4.5Cr</div>
+			<div class="heading h1 strong block text-center">Floor Plans</div>
+			<div class="row">
+				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
+					<div class="logo"><img class="inline" src="media/floorplan-card/sovereign-logo.svg<?php echo $ver ?>"></div>
+					<div class="image"><img class="block" src="media/floorplan-card/sovereign-img.png<?php echo $ver ?>"></div>
+					<div class="pattern"><img class="block" src="media/floorplan-card/sovereign-pattern.svg<?php echo $ver ?>"></div>
+					<div class="size">villas upto 3992 sft</div>
+					<div class="feature em text-neutral">with a Backyard Lawn</div>
+					<div class="price text-copper">Starting at ₹4.3 Cr</div>
+					<button class="button button-copper block">Download Now $</button>
+				</div>
+				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
+					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
+					<div class="image"><img class="block" src="media/floorplan-card/supreme-img.png<?php echo $ver ?>"></div>
+					<div class="pattern"><img class="block" src="media/floorplan-card/supreme-pattern.svg<?php echo $ver ?>"></div>
+					<div class="size">villas upto 4349 sft</div>
+					<div class="feature em text-neutral">with a Courtyard Lawn</div>
+					<div class="price text-copper">Starting at ₹4.1 Cr</div>
+					<button class="button button-copper block">Download Now $</button>
+				</div>
+				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
+					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
+					<div class="image"><img class="block" src="media/floorplan-card/premier-img.png<?php echo $ver ?>"></div>
+					<div class="pattern"><img class="block" src="media/floorplan-card/premier-pattern.svg<?php echo $ver ?>"></div>
+					<div class="size">villas upto 5695 sft</div>
+					<div class="feature em text-neutral">with a Premium Lawn</div>
+					<div class="price text-copper">Starting at ₹4.5 Cr</div>
+					<button class="button button-copper block">Download Now $</button>
+				</div>
+			</div>
 		</div>
 	</section><!-- END : Floorplans Section -->
 	
@@ -355,13 +393,27 @@
 	<!-- Clubhouse Section -->
 	<section class="clubhouse-section block-space-top-bottom fill-dark">
 		<div class="container">
-			<div class="label strong">Amenities</div>
-			<div class="h1 strong">Clubhouse</div>
-			<div class="p">Located at the far end of the premises, the clubhouse is spread across three floors. Comprising over 5500 sft of indoor facilities it looks onto a beautifully landscaped communal space filled with outdoor amenities.</div>
+			<div class="row">
+				<div class="clubhouse-content columns small-10 small-offset-1 large-6">
+					<div class="title label strong text-neutral">Amenities</div>
+					<div class="heading h1 strong">Clubhouse</div>
+					<div class="description p text-off-neutral">Located at the far end of the premises, the clubhouse is spread across three floors. Comprising over 5500 sft of indoor facilities it looks onto a beautifully landscaped communal space filled with outdoor amenities.</div>
+				</div>
 
-			<div class="p">The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average villa. This translates to a greater component of usable carpet area in your villa when compared to most other projects.</div>
+				<div class="uds columns small-10 small-offset-1 large-6">
+					<div class="title label strong text-neutral">Optimised UDS</div>
+					<div class="description p">The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average villa. This translates to a greater component of usable carpet area in your villa when compared to most other projects.</div>
+				</div>
+			</div>
 		</div>
-		<div>[ 2D Section of the Clubhouse ]</div>
+
+		<div class="masterplan-container">
+			<div class="masterplan">
+				<div class="layer fill-dark"><img style="mix-blend-mode: multiply;" class="block" src="media/clubhouse-masterplan/1_ClubhouseTrees.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/clubhouse-masterplan/2_ClubhouseFills.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/clubhouse-masterplan/3_ClubhouseLines.svg<?php echo $ver ?>"></div>
+			</div>
+		</div>
 		<!-- <div>
 			1 - Ground Floor - Clubhouse has a covered pool looking out into the lawn.
 			2 - First Floor - Indoor games and squash court
@@ -403,12 +455,18 @@
 	<!-- Architect Section -->
 	<section class="architect-section block-space-top-bottom fill-off-light">
 		<div class="container">
-			<div class="label strong">Principal Designer</div>
-			<div class="h1 strong">Hadi Tehrani</div>
-
-			<div class="p">Hadi Tehrani is an award-winning Iranian-German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community. This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.</div>
-
-			<div>Link to architect website – www.haditeherani.com</div>
+			<div class="row">
+				<div class="photograph columns small-12 medium-5">
+				</div>
+				<div class="architect-content columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-1">
+					<div class="title label strong text-off-copper">Principal Designer</div>
+					<div class="heading h1 strong text-neutral">Hadi Tehrani</div>
+					<div class="description p">Hadi Tehrani is an award-winning Iranian-German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
+					This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.<br><br>
+					<a class="p em text-off-copper" href="www.haditeherani.com" target="_blank">Architect Website</a>
+				</div>
+				</div>
+			</div>
 		</div>
 	</section><!-- END : Architect Section -->
 	
@@ -416,29 +474,85 @@
 
 	<!-- Safety Section -->
 	<section class="safety-section block-space-top-bottom fill-light">
-		<div class="container">
-			<div class="h1 strong">Safety &amp; Security</div>
-			<div class="p">The main benefit of residing in a community of this kind is the peace that comes with knowing that safety is has been built-in to the project.</div>
-
-			<div>
-				We have tied up with MyGate –< to be finalised >to provide an app based Visitor, Staff and Domestic Help Management service that controls and monitors access to the community.
-				Fire sprinklers in the basement. 
-				Fire suppression water outlets all across the upper level.
-				High compound walls and electrical fencing.
-				CCTV camera coverage all round as well as across the common areas of the community.
+		<div class="safety-content row">
+			<div class="container">
+				<div class="columns small-10 small-offset-1 large-4">
+					<div class="heading h1 strong text-copper">Safety &amp; Security</div>
+					<div class="description p">The main benefit of residing in a community of this kind is the peace that comes with knowing that safety is has been built-in to the project.</div>
+				</div>
 			</div>
 		</div>
-	</section><!-- END : Safety Section --><hr>
+		<div class="safety-points row">
+			<div class="container">
+				<div class="point columns small-10 small-offset-1 medium-4 large-2 large-offset-6">
+					<img src="media/safety-icons/fire-sprinkler.svg<?php echo $ver ?>">
+					<span class="p em text-copper">Fire sprinklers in the basement.</span>
+				</div>
+				<div class="point columns small-10 small-offset-1 medium-4 medium-offset-2 large-2 large-offset-1">
+					<img src="media/safety-icons/extinguisher.svg<?php echo $ver ?>">
+					<span class="p em text-copper">Fire suppression water outlets all across the upper level.</span>
+				</div>
+				<div class="point columns small-10 small-offset-1 medium-4 large-2 large-offset-6">
+					<img src="media/safety-icons/fence.svg<?php echo $ver ?>">
+					<span class="p em text-copper">High compound walls and electrical fencing.</span>
+				</div>
+				<div class="point columns small-10 small-offset-1 medium-4 medium-offset-2 large-2 large-offset-1">
+					<img src="media/safety-icons/cctv.svg<?php echo $ver ?>">
+					<span class="p em text-copper">CCTV camera coverage all round as well as across the common areas of the community.</span>
+				</div>
+			</div>
+		</div>
+	</section><!-- END : Safety Section -->
 	
 
 
 	<!-- Specifications Section -->
 	<section class="specifications-section block-space-top-bottom fill-dark">
-		<div class="container">
-			<div class="h1 strong">Specifications</div>
-			<div class="p">We are constantly finding ways to improve Concerto at the DASTA Design Cell, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</div>
+		<div class="specifications-content row">
+			<div class="container">
+				<div class="columns small-10 small-offset-1 large-4">
+					<div class="title label strong text-off-copper">Specifications</div>
+					<div class="heading h1 strong">Fixture &amp; Materials</div>
+					<div class="description p">We are constantly finding ways to improve Concerto at the DASTA Design Cell, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</div>
+				</div>
+			</div>
 		</div>
-	</section><!-- END : Specifications Section --><hr>
+		<div class="specifications-points row">
+			<div class="container">
+				<div class="columns small-10 small-offset-1 large-6 large-offset-6">
+					<div class="heading h4 text-uppercase">Structure</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">
+						<span class="block text-neutral">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area.</span>
+						<small class="upgrade small block text-uppercase">Upgraded</small>
+						<span class="block">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</span>
+					</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="heading h4 text-uppercase">Walls</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">
+						<span class="block text-neutral">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area.</span>
+						<small class="upgrade small block text-uppercase">Upgraded</small>
+						<span class="block">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</span>
+					</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">
+						<span class="block text-neutral">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area.</span>
+						<small class="upgrade small block text-uppercase">Upgraded</small>
+						<span class="block">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</span>
+					</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="heading h4 text-uppercase">Bathrooms </div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- END : Specifications Section -->
 	
 
 

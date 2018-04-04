@@ -1,0 +1,104 @@
+/*
+ *	Specifications Section
+ */
+
+
+.specifications-section {}
+.specifications-section .specifications-content {}
+
+.specifications-section .specifications-content .heading { margin-top: 10px; }
+
+.specifications-section .specifications-content .description { margin-top: 20px; }
+
+
+.specifications-section .specifications-points {}
+
+.specifications-section .specifications-points .heading {
+	margin-top: 40px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid var(--light);
+}
+
+.specifications-section .specifications-points .point { 
+	position: relative;
+	margin-top: 20px; 
+}
+
+.specifications-section .specifications-points .point .upgrade { 
+	position: relative;
+	margin: 10px 0; 
+}
+.specifications-section .specifications-points .point .upgrade:before {
+	content: '\25B2';
+	display: block;
+	position: absolute;
+	left: -16px;
+	top: 6px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 16px;
+	color: var(--light);
+	text-align: center;
+	background-color: var(--off-copper);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+ 
+@media( min-width: 640px )  {
+	.specifications-section .specifications-points .point .upgrade:before {
+		left: -20px;
+		top: 8px;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		border-radius: 20px;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.specifications-section {
+		position: relative;
+	}
+
+	.specifications-section .specifications-content {
+		position: absolute;
+		z-index: 2;
+		top: 180px;
+		bottom: auto;
+		left: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	.specifications-section.scrolling .specifications-content {
+		position: fixed;
+	}
+
+	.specifications-section.scrolled .specifications-content {
+		position: absolute;
+		top: auto;
+		bottom: 180px;
+	}
+
+	.specifications-section .specifications-points {
+		position: relative;
+		z-index: 1;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.specifications-section .specifications-content {
+		top: 240px;
+	}
+
+	.specifications-section.scrolled .specifications-content {
+		position: absolute;
+		top: auto;
+		bottom: 240px;
+	}
+
+	.specifications-section .specifications-points .point .upgrade:before {
+		top: 10px;
+	}
+}

@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="css/modules/modal-box.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/lazaro-signature.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/masterplan.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/modules/blip.css<?php echo $ver ?>">
 
 <!-- Pages -->
 <link rel="stylesheet" type="text/css" href="css/pages/page.css<?php echo $ver ?>">
