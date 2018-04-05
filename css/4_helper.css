@@ -33,6 +33,10 @@
 	text-transform: lowercase;
 }
 
+.text-nocase {
+	text-transform: none !important;
+}
+
 
 /*
  * Spacing

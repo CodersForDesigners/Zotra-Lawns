@@ -43,6 +43,7 @@
 - [ ] Optimize all Image Assets
 - [ ] All Icons 
 - [ ] Master-plans
+- [ ] Master-plans Dragable
 - [ ] Master-plans Blips
 - [ ] Master-plans Cards
 - [ ] 3D Image Blips
@@ -58,12 +59,12 @@
 - [-] Podium Masterplan Section
 - [-] Basement Masterplan Section
 - [-] Clubhouse Section
+- [-] Infrastructure Section
 - [ ] Podium Experience Section
 - [ ] Basement Experience Section
 - [ ] Location Tabs
 - [ ] Aerial Panorama Section
 - [ ] Residents Section
-- [ ] Infrastructure Section
 - [ ] Footer Section
 
 - [x] Aerial 3D Section

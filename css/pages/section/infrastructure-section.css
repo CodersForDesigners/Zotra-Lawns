@@ -1,0 +1,45 @@
+/*
+ *	Infrastructure Section
+ */
+
+.infrastructure-section .water-content .heading {
+	margin-top: 10px;
+}
+
+.infrastructure-section .water-content .description {
+	margin-top: 20px;
+}
+
+.infrastructure-section .water-details {
+	margin-top: 30px;
+}
+
+.infrastructure-section .water-details .point {
+	line-height: 1.75;
+	margin-top: 15px;
+}
+
+.infrastructure-section .water-details .point img {
+	width: 16px;
+	margin-top: -2px;
+}
+
+@media( min-width: 640px )  {
+	.infrastructure-section .water-details .columns:nth-child(1) { padding-right: 15px; }
+	.infrastructure-section .water-details .columns:nth-child(2) { padding-left: 15px; }
+}
+	
+@media( min-width: 1040px ) {}
+@media( min-width: 1380px ) {
+	.infrastructure-section .water-details .point {
+		line-height: 2;
+		margin-top: 15px;
+	}
+
+	.infrastructure-section .water-details .point img {
+		width: 20px;
+	}
+
+	.infrastructure-section .water-details .columns:nth-child(1) { padding-right: 25px; }
+	.infrastructure-section .water-details .columns:nth-child(2) { padding-left: 25px; }
+}

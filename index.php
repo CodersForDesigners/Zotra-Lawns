@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180404';
+	$ver = '?v=20180405';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -412,6 +412,7 @@
 				<div class="layer fill-dark"><img style="mix-blend-mode: multiply;" class="block" src="media/clubhouse-masterplan/1_ClubhouseTrees.png<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/clubhouse-masterplan/2_ClubhouseFills.png<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/clubhouse-masterplan/3_ClubhouseLines.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/clubhouse-masterplan/4_ClubhouseIcons.svg<?php echo $ver ?>"></div>
 			</div>
 		</div>
 		<!-- <div>
@@ -425,22 +426,47 @@
 
 
 	<!-- Infrastructure Section -->
-	<section class="infrastructure-section block-space-top-bottom fill-light">
+	<section class="infrastructure-section block-space-top fill-light">
 		<div class="container">
-			<div class="h1 strong">Infrastructure</div>
-			
-			<div>Backup Generator</div>
-			<div>Complete power back up including lift</div>
-
-			<div>STP</div>
-			<div>< Get Details ></div>
-			
-			<div>Water System</div>
-
-			<div>Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water with efficient fail-safes put in place to account for a minimal disruption in service.</div>
+			<div class="water-content row">
+				<div class="columns small-10 small-offset-1 large-6">
+					<div class="title label strong text-copper">Infrastructure</div>
+					<div class="heading h1 strong">Water System</div>
+					<div div class="description p">Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water with efficient fail-safes put in place to account for a minimal disruption in service.</div>
+				</div>
+			</div>
+			<div class="water-details row">
+				<div class="columns small-10 small-offset-1 medium-5 large-3">
+					<div class="label em text-neutral text-nocase">
+						<div class="point"><img class="inline-middle" src="media/glyphs/glyph-i.svg<?php echo $ver ?>"> : 3 inlets have been provided at the entrance gate for water tankers to interface with.</div>
+						<div class="point">The property has excellent groundwater tapped by 5 Borewells fitted with Hydro-Pneumatic systems that pump water to the Borewell tanks.</div>
+					</div>
+				</div>
+				<div class="columns small-10 small-offset-1 medium-5 medium-offset-0 large-3">
+					<div class="label em text-neutral text-nocase">
+						<div class="point">
+							Each villa has 3 water tanks on the roof.<br>
+							<img class="inline-middle" src="media/glyphs/glyph-a.svg<?php echo $ver ?>"> : The first for Borewell water.<br>
+							<img class="inline-middle" src="media/glyphs/glyph-b.svg<?php echo $ver ?>"> : the second for Cauvery water.<br>
+							<img class="inline-middle" src="media/glyphs/glyph-c.svg<?php echo $ver ?>"> :  the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.</div>
+						<div class="point">The tanks come with a tank reserve of 1 days worth of gravity-flow water supply in case the hydro-pneumatic pumps fail.</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		< Get water calculations >
-		<div>[ 2D Water System Diagram ] – to be taken from water consultant</div>
+		
+		<div class="masterplan-container">
+			<div class="masterplan">
+				<div class="layer"><img class="block" src="media/water-masterplan/StaticRaster.png<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/water-masterplan/StaticVector.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/water-masterplan/AnimatedWaterLevels.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/water-masterplan/AnimatedLines.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/water-masterplan/StaticText.svg<?php echo $ver ?>"></div>
+				<div class="layer"><img class="block" src="media/water-masterplan/DynamicText.svg<?php echo $ver ?>"></div>
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/3.svg<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/4.svg<?php echo $ver ?>"></div> -->
+			</div>
+		</div>
 
 		<!-- <div>
 			1 - Each villa has 3 water tanks on the roof. The first for bore-well water, the second for Cauvery water and the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.
@@ -562,11 +588,6 @@
 		</div>
 	</section><!-- END : Footer Section -->
 
-
-	<!-- Page Content -->
-	<div id="page-content">
-		<?php require $viewPath; ?>
-	</div> <!-- END : Page Content -->
 
 
 	<!-- Lazaro Signature -->
