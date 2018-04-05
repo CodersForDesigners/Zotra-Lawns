@@ -60,6 +60,7 @@
 - [-] Basement Masterplan Section
 - [-] Clubhouse Section
 - [-] Infrastructure Section
+- [ ] Villa Highlight Blips
 - [ ] Podium Experience Section
 - [ ] Basement Experience Section
 - [ ] Location Tabs

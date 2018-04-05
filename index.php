@@ -174,14 +174,6 @@
 			</div>
 		</div>
 
-		<!-- <div>
-			Highlights:
-			1 - Pedestrian walkways that emulate the experience of a park, not a road network.
-			2 - A Landscaped Central Promenade.
-			3 - A treeline that runs around the periphery of the premises.
-			4 - All walkways end in a garden, the visual experience is not interrupted by the abrupt end of a road or a bare compound wall.
-		</div> -->
-
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
@@ -194,10 +186,10 @@
 						<div class="layer"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">1</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">2</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">3</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">4</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 57.5%;left: 58.2%;">1</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 57.5%;left: 16.5%;">2</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 19%;left: 31.5%;">3</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 28%;left: 73.1%;">4</div>
 						</div>
 					</div>
 				</div>
@@ -207,22 +199,26 @@
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 						<div class="slick-blip fill-light">
 							<div class="point">
-								<div class="title h4 text-copper">Private Access</div>
-								<div class="p description">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">Pedestrian walkways that emulate the experience of a park, not a road network.</div>
 							</div>
 							<div class="point">
-								<div class="title h4 text-copper">Future proof</div>
-								<div class="p description">Electric-car charging points controlled from within the villa are provided.</div>
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">A Landscaped Central Promenade.</div>
 							</div>
 							<div class="point">
-								<div class="title h4 text-copper">Water outlets</div>
-								<div class="p description">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">A tree-line that runs around the periphery of the premises.</div>
+							</div>
+							<div class="point">
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">All walkways end in a garden, the visual experience is not interrupted by the abrupt end of a road or a bare compound wall.</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- END : Lower Level Masterplan Blips -->
 
 	</section><!-- END : Podium Masterplan Section -->
 
@@ -239,46 +235,42 @@
 			</div>
 		</div>
 
-		<!-- <div>
-			Highlights:
-			1 - Contemporary Architecture - The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.  
-			2 - Zero Redundant Barriers - The front yards of all the villas blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.
-			3 - Privacy - To aid in privacy, Villas that face each other have been staggered.
-			4 - Efficient Planning - Common areas have been optimized to reduce the loading on the Super Built-up Area. In fact, the clubhouse only occupies 5% of your Super Built-up Area.
-		</div> -->
-
 		<!-- Upper Level Villa Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle" tabindex="-1" style="top: 30%; left: 70%;">1</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">2</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">3</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">4</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 59.5%;left: 49.5%;">1</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 80%;left: 20%;">2</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 50%;left: 64.7%;">3</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 75%;left: 80%;">4</div>
 				</div>
-			</div>				
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 						<div class="slick-blip fill-light">
 							<div class="point">
-								<div class="title h4 text-copper">Private Access</div>
-								<div class="p description">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
+								<div class="title h4 text-copper">Contemporary Architecture</div>
+								<div class="p description">The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.</div>
 							</div>
 							<div class="point">
-								<div class="title h4 text-copper">Future proof</div>
-								<div class="p description">Electric-car charging points controlled from within the villa are provided.</div>
+								<div class="title h4 text-copper">Zero Redundant Barriers</div>
+								<div class="p description">The front yards of all the villas blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.</div>
 							</div>
 							<div class="point">
-								<div class="title h4 text-copper">Water outlets</div>
-								<div class="p description">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
+								<div class="title h4 text-copper">Privacy</div>
+								<div class="p description">To aid in privacy, Villas that face each other have been staggered.</div>
+							</div>
+							<div class="point">
+								<div class="title h4 text-copper">Efficient Planning</div>
+								<div class="p description">Common areas have been optimized to reduce the loading on the Super Built-up Area. In fact, the clubhouse only occupies 5% of your Super Built-up Area.</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- END: Upper Level Villa Blips -->
 
 	</section><!-- END : Podium Experience Section -->
 
@@ -293,15 +285,6 @@
 				<div class="p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
 			</div>
 		</div>
-		
-		<!-- <div>
-			Highlights:
-			1 - Apartment-style basement car park with driveways leading to personal car parks.
-			2 - There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.
-			3 - Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.
-			4 - Small landscaped area in the basement.
-			5 - Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.
-		</div> -->
 
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">	
@@ -313,10 +296,11 @@
 						<div class="layer"><img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">1</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">2</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">3</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">4</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 36%;left: 82.5%;">1</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 38%;left: 19.5%;">2</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 30%;left: 37.2%;">3</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 67%;left: 21%;">4</div>
+							<div class="blip-toggle" tabindex="-1" style="top: 38%;left: 59%;">5</div>
 						</div>
 					</div>
 				</div>
@@ -326,22 +310,30 @@
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 						<div class="slick-blip fill-light">
 							<div class="point">
-								<div class="title h4 text-copper">Private Access</div>
-								<div class="p description">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">Apartment-style basement car park with driveways leading to personal car parks.</div>
 							</div>
 							<div class="point">
-								<div class="title h4 text-copper">Future proof</div>
-								<div class="p description">Electric-car charging points controlled from within the villa are provided.</div>
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.</div>
 							</div>
 							<div class="point">
-								<div class="title h4 text-copper">Water outlets</div>
-								<div class="p description">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.</div>
+							</div>
+							<div class="point">
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">Small landscaped area in the basement.</div>
+							</div>
+							<div class="point">
+								<div class="title h4 text-copper">INSERT ICON</div>
+								<div class="p description">Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- END : Lower Level Masterplan Blips -->
 
 	</section><!-- END : Basement Masterplan Section -->
 
@@ -363,10 +355,9 @@
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">1</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">2</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">3</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 0; left: 0;">4</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 60%;left: 31%;">1</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 52%;left: 62%;">2</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 52%;left: 81.5%;">3</div>
 				</div>
 			</div>				
 			<div class="container">
@@ -389,7 +380,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- END : sLower Level Villa Blips -->
 
 	</section><!-- END : Basement Experience Section -->
 
