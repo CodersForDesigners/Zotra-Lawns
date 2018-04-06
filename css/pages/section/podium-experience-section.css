@@ -4,12 +4,12 @@
 
 .podium-experience-section {
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 
 .podium-experience-section .podium-experience-content {
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	top: 0;
 	left: 0;
 	width: 100%;

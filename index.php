@@ -43,38 +43,20 @@
 
 <!--  ★  MARKUP GOES HERE  ★  -->
 
+
+
+
 <div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
-
-
-	<!-- Header Section -->
-	<section class="header-section">
-		<div class="container">
-			<div class="header row">
-				<div class="columns small-3">
-					<a class="logo" href="/">
-						<img src="media/logo.svg<?php echo $ver ?>">
-					</a>
-				</div>
-				<div class="text-right columns small-9">
-					<div class="navigation inline">
-						<a class="button js_nav_button <?php echo ( $viewName == "pageone" ? "active" : "" ) ?>" data-page-id="pageone" href="/pageone">page-1</a>
-						<a class="button js_nav_button <?php echo ( $viewName == "pagetwo" ? "active" : "" ) ?>" data-page-id="pagetwo" href="/pagetwo">page-2</a>
-						<a class="button js_nav_button <?php echo ( $viewName == "contact" ? "active" : "" ) ?>" data-page-id="contact" href="/contact">contact</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> <!-- END : Header Section -->
 
 
 
 	<!-- Welcome Section -->
-	<section class="welcome-section fill-moss">
+	<section class="welcome-section fill-black">
 		<div class="welcome-content block-space-top-bottom">
 			<div class="container">
 				<div class="row">
 					<div class="logo columns small-10 small-offset-1 medium-9 large-3 xlarge-2">Z Lawns</div>
-					<div class="description text-off-light h4 columns small-10 small-offset-1 medium-9 large-7 large-offset-0 xlarge-5">Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, <strong class="text-light">starting at just 4.5 crores.</strong></div>
+					<div class="description p columns text-off-neutral small-10 small-offset-1 medium-9 large-7 large-offset-0 xlarge-5">Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, <span class="strong em text-light">starting at just 4.5 crores.</span></div>
 				</div>
 			</div>
 		</div>
@@ -84,7 +66,7 @@
 
 
 	<!-- Villa Section -->
-	<section class="villa-section block-space-top fill-dark">
+	<section class="villa-section block-space-top fill-black">
 		<div class="container villa" style="">
 			<div class="row">
 				<div class="villa-content block-space-top">
@@ -158,17 +140,17 @@
 
 
 	<!-- Aerial 3D Section -->
-	<section class="aerial-3d-section fill-moss">
+	<section class="aerial-3d-section fill-off-neutral">
 		<img class="block" src="media/aerial-view-3d.jpg<?php echo $ver ?>">
 	</section><!-- END : Aerial 3D Section -->
 
 
 
 	<!-- Podium Masterplan Section -->
-	<section class="podium-masterplan-section block-space-top-bottom fill-off-light">
+	<section class="podium-masterplan-section block-space-top-bottom fill-off-light gradient-light-off-moss texture">
 		<div class="container">
 			<div class="row">
-				<div class="label strong columns small-10 small-offset-1">Upper-Level</div>
+				<div class="label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
 				<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</div>
 				<div class="p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
 			</div>
@@ -225,7 +207,7 @@
 
 
 	<!-- Podium Experience Section -->
-	<section class="podium-experience-section fill-moss">
+	<section class="podium-experience-section fill-moss gradient-off-moss-moss texture">
 		<div class="podium-experience-content no-pointer block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -277,10 +259,10 @@
 
 
 	<!-- Basement Masterplan Section -->
-	<section class="podium-masterplan-section block-space-top-bottom fill-dark">
+	<section class="podium-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture">
 		<div class="container">
 			<div class="row">
-				<div class="label strong columns small-10 small-offset-1">Lower-Level</div>
+				<div class="label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
 				<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</div>
 				<div class="p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
 			</div>
@@ -340,7 +322,7 @@
 
 
 	<!-- Basement Experience Section -->
-	<section class="basement-experience-section fill-moss">
+	<section class="basement-experience-section fill-off-dark texture">
 		<div class="basement-experience-content no-pointer block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -363,18 +345,21 @@
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
-						<div class="slick-blip fill-light">
-							<div class="point">
-								<div class="title h4 text-copper">Private Access</div>
-								<div class="p description">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
+						<div class="slick-blip fill-dark">
+							<div class="point row">
+								<div class="title h3 text-copper columns small-12">Private Access</div>
+								<div class="icon columns small-4 large-5"><img class="block" src="media/blip-icons/PrivateAccess.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-6">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">Future proof</div>
-								<div class="p description">Electric-car charging points controlled from within the villa are provided.</div>
+							<div class="point row">
+								<div class="title h3 text-copper columns small-12">Future proof</div>
+								<div class="icon columns small-4 large-5"><img class="block" src="media/blip-icons/CarElec.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-6">Electric-car charging points controlled from within the villa are provided.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">Water outlets</div>
-								<div class="p description">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
+							<div class="point row">
+								<div class="title h3 text-copper columns small-12">Water outlets</div>
+								<div class="icon columns small-4 large-5"><img class="block" src="media/blip-icons/CarWash.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-6">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
 							</div>
 						</div>
 					</div>
@@ -455,7 +440,7 @@
 					<div class="size">villas upto 3992 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.3 Cr</div>
-					<button class="button button-copper block">Download Now $</button>
+					<button class="button button-copper block" style="background-color: #83837D;">Download Now $</button>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
@@ -464,7 +449,7 @@
 					<div class="size">villas upto 4349 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.1 Cr</div>
-					<button class="button button-copper block">Download Now $</button>
+					<button class="button button-copper block" style="background-color: #AAA386;">Download Now $</button>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
@@ -473,7 +458,7 @@
 					<div class="size">villas upto 5695 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
 					<div class="price text-copper">Starting at ₹4.5 Cr</div>
-					<button class="button button-copper block">Download Now $</button>
+					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now $</button>
 				</div>
 			</div>
 		</div>
@@ -501,7 +486,7 @@
 
 
 	<!-- Clubhouse Section -->
-	<section class="clubhouse-section block-space-top-bottom fill-dark">
+	<section class="clubhouse-section block-space-top-bottom fill-dark texture">
 		<div class="container">
 			<div class="row">
 				<div class="clubhouse-content columns small-10 small-offset-1 large-6">
@@ -519,7 +504,7 @@
 
 		<div class="masterplan-container">
 			<div class="masterplan">
-				<div class="layer fill-dark"><img style="mix-blend-mode: multiply;" class="block" src="media/clubhouse-masterplan/1_ClubhouseTrees.png<?php echo $ver ?>"></div>
+				<div class="layer fill-dark texture"><img style="mix-blend-mode: multiply;" class="block" src="media/clubhouse-masterplan/1_ClubhouseTrees.png<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/clubhouse-masterplan/2_ClubhouseFills.png<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/clubhouse-masterplan/3_ClubhouseLines.svg<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/clubhouse-masterplan/4_ClubhouseIcons.svg<?php echo $ver ?>"></div>
@@ -589,7 +574,7 @@
 
 
 	<!-- Architect Section -->
-	<section class="architect-section block-space-top-bottom fill-off-light">
+	<section class="architect-section block-space-top-bottom fill-off-light texture">
 		<div class="container">
 			<div class="row">
 				<div class="photograph columns small-12 medium-5">
@@ -599,7 +584,7 @@
 					<div class="heading h1 strong text-neutral">Hadi Tehrani</div>
 					<div class="description p">Hadi Tehrani is an award-winning Iranian-German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
 					This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.<br><br>
-					<a class="p em text-off-copper" href="www.haditeherani.com" target="_blank">Architect Website</a>
+					<a class="p strong em text-off-copper" href="www.haditeherani.com" target="_blank">Architect Website &#10230;</a>
 				</div>
 				</div>
 			</div>
@@ -711,6 +696,53 @@
 
 
 
+<!-- Menu Section -->
+<section class="menu" tabindex="-1">
+	<div class="menu-container container">
+		<div class="menu-toggle inline">
+			<span class="menu-label h4 text-uppercase">&nbsp;</span>
+			<span class="menu-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</div>
+	</div>
+</section>
+<!-- END : Menu Section -->
+
+<!-- Nav Section -->
+<section class="nav-section">
+	<div class="nav">
+		<div class="nav-container container text-right">
+			<div class="inline nav-list fill-copper text-left">
+				<div class="title h1 strong text-off-copper">Menu</div>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Welcome</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">The Villa</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Key features</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">Project Masterplan</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Upper-Level Features</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Lower-Level Features</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">Location</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Aerial View</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">Download Floorplan</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">Amenities</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">The Architect</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">Infrastructure</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Water System</a><br>
+				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Safety &amp; Security</a><br>
+				<a tab-index="-1" href="#" class="link inline h3">Specifications</a><br>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END : Nav Section -->
+
+
+
+
+
+
 
 
 
@@ -760,14 +792,14 @@
 
 
 		<!-- Modal Close Button -->
-		<div class="modal-close js_modal_close">&times;</div>
+		<!-- <div class="modal-close js_modal_close">&times;</div> -->
 	</div>
 
 </div><!-- END : Modal Wrapper -->
 
 <!--  ☠  MARKUP ENDS HERE  ☠  -->
 
-<?php lazaro_disclaimer(); ?>
+<?php /*lazaro_disclaimer();*/ ?>
 
 
 
@@ -783,7 +815,7 @@
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
 <script type="text/javascript" src="/js/modules/form.js"></script>
-<script type="text/javascript" src="/js/modules/disclaimer.js"></script>
+<!-- <script type="text/javascript" src="/js/modules/disclaimer.js"></script> -->
 
 <!-- Slick Carousel JS -->
 <script type="text/javascript" src="plugins/slick/slick.min.js"></script>

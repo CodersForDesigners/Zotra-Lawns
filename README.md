@@ -46,6 +46,7 @@
 - [ ] Master-plans Dragable
 - [ ] Master-plans Blips
 - [ ] Master-plans Cards
+- [ ] Master-plans Parallax
 - [ ] 3D Image Blips
 - [ ] 3D Image Blip Cards
 - [ ] Color Pallet

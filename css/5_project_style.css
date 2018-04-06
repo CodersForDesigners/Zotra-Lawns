@@ -32,11 +32,12 @@
  *	#83837E : neutral
  *	#D9D8D6 : off-neutral
  *	#3D3935 : dark
- *	#000000 : off-dark
+ *	#847c74 : off-dark
  *	#96694C : copper
  *	#B0876F : off-copper
- *	#000000 : moss
- *	#000000 : off-moss
+ *	#333829 : moss
+ *	#676f58 : off-moss
+ *	#070b0a : black
  *
  *
  */
@@ -50,11 +51,12 @@
 	--neutral : #83837E;
 	--off-neutral : #D9D8D6;
 	--dark : #3D3935;
-	--off-dark : #000000;
+	--off-dark : #847c74;
 	--copper : #96694C;
 	--off-copper : #B0876F;
-	--moss : #000000;
-	--off-moss : #000000;
+	--moss : #333829;
+	--off-moss : #676f58;
+	--black : #070b0a;
 }
 
 
@@ -62,7 +64,7 @@
 
 body, .body {
 	position: relative;
-	color: var(--off-dark);
+	color: var(--dark);
 	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 400;
 	font-size: 1.4rem;
@@ -85,6 +87,11 @@ hr {
 	border-color: var(--dark);
 }
 
+
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: inherit; }
 
 
 
@@ -307,10 +314,10 @@ select:focus {
  */
 
 .fill-light {
-	color: var(--off-dark);
+	color: var(--dark);
 	background-color: var(--light); }
 .fill-off-light {
-	color: var(--off-dark);
+	color: var(--dark);
 	background-color: var(--off-light); }
 .fill-neutral {
 	color: var(--dark);
@@ -319,10 +326,10 @@ select:focus {
 	color: var(--dark);
 	background-color: var(--off-neutral); }
 .fill-dark {
-	color: var(--off-light);
+	color: var(--light);
 	background-color: var(--dark); }
 .fill-off-dark {
-	color: var(--off-light);
+	color: var(--light);
 	background-color: var(--off-dark); }
 .fill-copper {
 	color: var(--light);
@@ -334,8 +341,11 @@ select:focus {
 	color: var(--light);
 	background-color: var(--moss); }
 .fill-off-moss {
-	color: var(--dark);
+	color: var(--light);
 	background-color: var(--off-moss); }
+.fill-black {
+	color: var(--light);
+	background-color: var(--black); }
 
 
 
@@ -366,6 +376,8 @@ select:focus {
 	color: var(--moss); }
 .text-off-moss {
 	color: var(--off-moss); }
+.text-black {
+	color: var(--black); }
 
 
 
@@ -401,6 +413,65 @@ select:focus {
 	.block-space-bottom { padding: 0 0 240px 0; }
 }
 
+
+
+
+
+
+/*
+ *
+ *	Gradients
+ *
+ */
+
+.gradient-moss-off-dark {
+	background-image: -webkit-linear-gradient(top, var(--moss) 0%,var(--off-dark) 100%);
+	background-image: -moz-linear-gradient(top, var(--moss) 0%, var(--off-dark) 100%);
+	background-image: linear-gradient(to bottom, var(--moss) 0%,var(--off-dark) 100%);
+}
+
+.gradient-light-off-moss {
+	background-image: -webkit-linear-gradient(top, var(--light) 0%,var(--off-moss) 100%);
+	background-image: -moz-linear-gradient(top, var(--light) 0%, var(--off-moss) 100%);
+	background-image: linear-gradient(to bottom, var(--light) 0%,var(--off-moss) 100%);
+}
+
+.gradient-off-moss-moss {
+	background-image: -webkit-linear-gradient(top, var(--off-moss) 0%,var(--moss) 100%);
+	background-image: -moz-linear-gradient(top, var(--off-moss) 0%, var(--moss) 100%);
+	background-image: linear-gradient(to bottom, var(--off-moss) 0%,var(--moss) 100%);
+}
+
+
+
+
+
+
+/*
+ *
+ *	texture
+ *
+ */
+
+.texture {
+	position: relative;
+}
+
+.texture:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('/media/texture-paper.png');
+	background-repeat: repeat;
+	mix-blend-mode: multiply;
+}
+
+.texture > * {
+	z-index: 2;
+}
 
 
 

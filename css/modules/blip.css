@@ -117,6 +117,10 @@
 	padding: 26px;
 }
 
+.blip-system .slick-blip .point .icon {
+	margin-top: 20px;
+}
+
 .blip-system .slick-blip .point .description {
 	margin-top: 20px;
 }
@@ -251,8 +255,24 @@
 }
 
 @media( min-width: 1040px ) {
+
+	.blip-system .slick-blip .point .icon {
+		margin-top: 30px;
+	}
+
+	.blip-system .slick-blip .point .description {
+		margin-top: 30px;
+	}
 }
 
 @media( min-width: 1380px ) {
+
+	.blip-system .slick-blip .point .icon {
+		margin-top: 40px;
+	}
+
+	.blip-system .slick-blip .point .description {
+		margin-top: 40px;
+	}
 }
 
