@@ -2,21 +2,66 @@
  *	Welcome Section
  */
 
-.welcome-section {
+.welcome-section .welcome-bg {
 	position: relative;
 	z-index: 1;
 }
 
 .welcome-section .welcome-content {
-	position: absolute;
+	position: relative;
 	z-index: 2;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: auto;
+	margin-top: -30px;
+}
+
+.welcome-section .welcome-content .logo {}
+
+.welcome-section .welcome-content .description {
+	margin-top: 30px;
+	line-height: 1.5;
 }
 
 
-@media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1380px ) {}
+@media( min-width: 640px )  {
+
+	.welcome-section .welcome-content {
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		margin-top: 0;
+	}
+
+	.welcome-section .welcome-content .logo {
+		margin-top: 10px;
+	}
+
+	.welcome-section .welcome-content .description {
+		margin-top: 20px;
+	}
+}
+
+@media( min-width: 800px )  {
+	.welcome-section .welcome-content .description {
+		margin-top: 40px;
+		line-height: 1.75;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.welcome-section .welcome-content .logo {
+		margin-top: 0px;
+	}
+
+	.welcome-section .welcome-content .description {
+		margin-top: 0px;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.welcome-section .welcome-content .description {
+		line-height: 2;
+	}
+}
