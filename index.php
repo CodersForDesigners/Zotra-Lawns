@@ -62,7 +62,7 @@
 		</div>
 		<div><img class="block" src="media/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
 	</section><!-- END : Welcome Section -->
-	
+
 
 
 	<!-- Villa Section -->
@@ -77,7 +77,7 @@
 			</div>
 			<div><img class="block" src="media/cross-section-3d.png<?php echo $ver ?>"></div>
 			<!-- <div>
-				[ Blips ] : 
+				[ Blips ] :
 				- Lift
 				- Private garden
 				- Double height cut out
@@ -88,7 +88,7 @@
 	</section><!-- END : Villa Section -->
 
 
-	
+
 	<!-- Villa Isometric Section -->
 	<section id="villa-key-features" class="villa-isometric-section fill-light js_section">
 		<div class="floor block-space-top-bottom">
@@ -136,7 +136,7 @@
 			</div>
 		</div>
 	</section><!-- END : Villa Isometric Section -->
-	
+
 
 
 	<!-- Aerial 3D Section -->
@@ -175,7 +175,7 @@
 						</div>
 					</div>
 				</div>
-			</div>				
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
@@ -273,7 +273,7 @@
 		</div>
 
 		<!-- Lower Level Masterplan Blips -->
-		<div class="blip-system">	
+		<div class="blip-system">
 			<div class="blip-image">
 				<div class="masterplan-container">
 					<div class="masterplan">
@@ -290,7 +290,7 @@
 						</div>
 					</div>
 				</div>
-			</div>				
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
@@ -340,7 +340,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Lower Level Villa Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
@@ -350,7 +350,7 @@
 					<div class="blip-toggle" tabindex="-1" style="top: 68%;left: 30%;">2</div>
 					<div class="blip-toggle" tabindex="-1" style="top: 57%;left: 82%;">3</div>
 				</div>
-			</div>				
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
@@ -395,7 +395,7 @@
 			<div class="row">
 				<div class="maps columns small-12 large-4 large-offset-1">
 					<a class="button button-copper" href="https://maps.google.com/" target="_blank">Open in Google Maps</a>
-				</div>	
+				</div>
 				<div class="appreciation columns small-12 large-6 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Appreciation</div>
 					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a villa community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
@@ -405,7 +405,7 @@
 			<!-- <div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div> -->
 			<div class="row">
 				<div class="location-list columns small-12">
-					Malls - 
+					Malls -
 					Upcoming Salapuria Mall – 3 kms
 					Gopalan Arcade Mall – 2.7 kms
 
@@ -429,7 +429,7 @@
 	</section><!-- END : Location Section -->
 
 
-	
+
 	<!-- Aerial Panorama Section -->
 	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section">
 		<div><img class="block" src="media/placeholder-panorama.png<?php echo $ver ?>"></div>
@@ -472,7 +472,7 @@
 			</div>
 		</div>
 	</section><!-- END : Floorplans Section -->
-	
+
 
 
 	<!-- Residents Section -->
@@ -558,7 +558,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="masterplan-container">
 			<div class="masterplan">
 				<div class="layer"><img class="block" src="media/water-masterplan/StaticRaster.png<?php echo $ver ?>"></div>
@@ -579,7 +579,7 @@
 			4 - 3 inlets have been provided at the entrance gate for water tankers to interface with.
 		</div> -->
 	</section><!-- END : Infrastructure Section -->
-	
+
 
 
 	<!-- Architect Section -->
@@ -599,7 +599,7 @@
 			</div>
 		</div>
 	</section><!-- END : Architect Section -->
-	
+
 
 
 	<!-- Safety Section -->
@@ -633,7 +633,7 @@
 			</div>
 		</div>
 	</section><!-- END : Safety Section -->
-	
+
 
 
 	<!-- Specifications Section -->
@@ -683,7 +683,7 @@
 			</div>
 		</div>
 	</section><!-- END : Specifications Section -->
-	
+
 
 
 	<!-- Footer Section -->
@@ -706,7 +706,7 @@
 
 
 <!-- Menu Section -->
-<section class="menu" tabindex="-1">
+<section class="menu js_menu_opener js_modal_closer" tabindex="-1">
 	<div class="menu-container container">
 		<div class="menu-toggle inline">
 			<span class="menu-label h4 text-uppercase">&nbsp;</span>
@@ -721,7 +721,7 @@
 <!-- END : Menu Section -->
 
 <!-- Nav Section -->
-<section class="nav-section">
+<section class="nav-section js_nav_section">
 	<div class="nav">
 		<div class="nav-container container text-right">
 			<div class="inline nav-list fill-copper text-left">
@@ -820,6 +820,7 @@
 
 <!-- JS Modules -->
 <script type="text/javascript" src="/js/modules/pageless.js"></script>
+<script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
