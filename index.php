@@ -172,10 +172,10 @@
 						<div class="layer"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
-							<div class="blip-toggle" tabindex="-1" style="top: 57.5%;left: 58.2%;">1</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 57.5%;left: 16.5%;">2</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 19%;left: 31.5%;">3</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 28%;left: 73.1%;">4</div>
+							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57.5%;left: 16.5%;">2</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 19%;left: 31.5%;">3</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 57.5%;left: 58.2%;">1</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 28%;left: 73.1%;">4</div>
 						</div>
 					</div>
 				</div>
@@ -183,7 +183,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
-						<div class="slick-blip fill-light">
+						<div class="slick-blip fill-light js_slick_blip">
 							<div class="point row">
 								<div class="title h4 text-copper">Park Experience</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/Promenade.svg<?php echo $ver ?>"></div>
@@ -230,16 +230,16 @@
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle" tabindex="-1" style="top: 59.5%;left: 49.5%;">1</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 80%;left: 20%;">2</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 50%;left: 64.7%;">3</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 75%;left: 80%;">4</div>
+					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 80%;left: 20%;">2</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 59.5%;left: 49.5%;">1</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 50%;left: 64.7%;">3</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 75%;left: 80%;">4</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
-						<div class="slick-blip fill-light">
+						<div class="slick-blip fill-light js_slick_blip">
 							<div class="point">
 								<div class="title h4 text-copper">Contemporary Architecture</div>
 								<div class="p description">The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.</div>
@@ -286,11 +286,11 @@
 						<div class="layer"><img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
-							<div class="blip-toggle" tabindex="-1" style="top: 36%;left: 82.5%;">1</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 38%;left: 19.5%;">2</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 30%;left: 37.2%;">3</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 67%;left: 21%;">4</div>
-							<div class="blip-toggle" tabindex="-1" style="top: 38%;left: 59%;">5</div>
+							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 38%;left: 19.5%;">2</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 67%;left: 21%;">4</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 30%;left: 37.2%;">3</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 38%;left: 59%;">5</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 36%;left: 82.5%;">1</div>
 						</div>
 					</div>
 				</div>
@@ -298,7 +298,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
-						<div class="slick-blip fill-dark">
+						<div class="slick-blip fill-dark js_slick_blip">
 							<div class="point row">
 								<div class="title h4 text-copper">Car Park</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/Parking.svg<?php echo $ver ?>"></div>
@@ -350,15 +350,15 @@
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle" tabindex="-1" style="top: 57%;left: 45.75%;">1</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 68%;left: 30%;">2</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 57%;left: 82%;">3</div>
+					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 68%;left: 30%;">2</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 57%;left: 45.75%;">1</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 57%;left: 82%;">3</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
-						<div class="slick-blip fill-dark">
+						<div class="slick-blip fill-dark js_slick_blip">
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Private Access</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/PrivateAccess.svg<?php echo $ver ?>"></div>
@@ -825,6 +825,7 @@
 <script type="text/javascript" src="/js/modules/pageless.js"></script>
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
+<script type="text/javascript" src="/js/modules/blips-and-cards.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
@@ -838,15 +839,6 @@
 
 // JAVASCRIPT GOES HERE
 $(document).ready(function(){
-
-	$('.slick-blip').slick({
-		dots: true,
-		arrows: true,
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		adaptiveHeight: true
-	});
 
 });
 
