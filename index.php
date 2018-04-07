@@ -51,7 +51,7 @@
 
 
 	<!-- Welcome Section -->
-	<section class="welcome-section fill-black">
+	<section id="welcome" class="welcome-section fill-black js_section">
 		<div class="welcome-content block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -66,7 +66,7 @@
 
 
 	<!-- Villa Section -->
-	<section class="villa-section block-space-top fill-black">
+	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
 		<div class="container villa" style="">
 			<div class="row">
 				<div class="villa-content block-space-top">
@@ -90,7 +90,7 @@
 
 	
 	<!-- Villa Isometric Section -->
-	<section class="villa-isometric-section fill-light">
+	<section id="villa-key-features" class="villa-isometric-section fill-light js_section">
 		<div class="floor block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -140,14 +140,14 @@
 
 
 	<!-- Aerial 3D Section -->
-	<section class="aerial-3d-section fill-off-neutral">
+	<section id="aerial-3d" class="aerial-3d-section fill-off-neutral js_section">
 		<img class="block" src="media/aerial-view-3d.jpg<?php echo $ver ?>">
 	</section><!-- END : Aerial 3D Section -->
 
 
 
 	<!-- Podium Masterplan Section -->
-	<section class="podium-masterplan-section block-space-top-bottom fill-off-light gradient-light-off-moss texture">
+	<section id="podium-masterplan" class="podium-masterplan-section block-space-top-bottom fill-off-light gradient-light-off-moss texture js_section">
 		<div class="container">
 			<div class="row">
 				<div class="label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
@@ -207,7 +207,7 @@
 
 
 	<!-- Podium Experience Section -->
-	<section class="podium-experience-section fill-moss gradient-off-moss-moss texture">
+	<section id="podium-experience" class="podium-experience-section fill-moss gradient-off-moss-moss texture js_section">
 		<div class="podium-experience-content no-pointer block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -259,7 +259,7 @@
 
 
 	<!-- Basement Masterplan Section -->
-	<section class="podium-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture">
+	<section id="basement-masterplan" class="podium-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture js_section">
 		<div class="container">
 			<div class="row">
 				<div class="label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
@@ -322,7 +322,7 @@
 
 
 	<!-- Basement Experience Section -->
-	<section class="basement-experience-section fill-off-dark texture">
+	<section id="basement-experience" class="basement-experience-section fill-off-dark texture js_section">
 		<div class="basement-experience-content no-pointer block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -372,7 +372,7 @@
 
 
 	<!-- Location Section -->
-	<section class="location-section block-space-top-bottom fill-light">
+	<section id="location" class="location-section block-space-top-bottom fill-light js_section">
 		<div class="container">
 			<div class="row">
 				<div class="beacon-container hide-for-mobile columns small-12 medium-5"><div class="beacon"></div></div>
@@ -422,14 +422,14 @@
 
 	
 	<!-- Aerial Panorama Section -->
-	<section class="aerial-panorama-section fill-moss">
+	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section">
 		<div><img class="block" src="media/placeholder-panorama.png<?php echo $ver ?>"></div>
 	</section><!-- END : Aerial Panorama Section -->
 
 
 
 	<!-- Floorplans Section -->
-	<section class="floorplans-section block-space-top-bottom fill-dark">
+	<section id="floorplans" class="floorplans-section block-space-top-bottom fill-dark js_section">
 		<div class="container">
 			<div class="heading h1 strong block text-center">Floor Plans</div>
 			<div class="row">
@@ -467,7 +467,7 @@
 
 
 	<!-- Residents Section -->
-	<section class="residents-section block-space-top-bottom fill-light">
+	<section id="residents" class="residents-section block-space-top-bottom fill-light js_section">
 		<div class="container">
 			<div class="label strong">Resident Profile</div>
 			<div class="h1 strong">Manoj</div>
@@ -479,14 +479,14 @@
 
 
 	<!-- Clubhouse 3D Section -->
-	<section class="clubhouse-3d-section fill-moss">
+	<section id="clubhouse-3d" class="clubhouse-3d-section fill-moss js_section">
 		<img class="block" src="media/clubhouse-area-3d.jpg<?php echo $ver ?>">
 	</section><!-- END : Clubhouse 3D Section -->
 
 
 
 	<!-- Clubhouse Section -->
-	<section class="clubhouse-section block-space-top-bottom fill-dark texture">
+	<section id="clubhouse" class="clubhouse-section block-space-top-bottom fill-dark texture js_section">
 		<div class="container">
 			<div class="row">
 				<div class="clubhouse-content columns small-10 small-offset-1 large-6">
@@ -521,7 +521,7 @@
 
 
 	<!-- Infrastructure Section -->
-	<section class="infrastructure-section block-space-top fill-light">
+	<section id="infrastructure" class="infrastructure-section block-space-top fill-light">
 		<div class="container">
 			<div class="water-content row">
 				<div class="columns small-10 small-offset-1 large-6">
@@ -574,7 +574,7 @@
 
 
 	<!-- Architect Section -->
-	<section class="architect-section block-space-top-bottom fill-off-light texture">
+	<section id="architect" class="architect-section block-space-top-bottom fill-off-light texture js_section">
 		<div class="container">
 			<div class="row">
 				<div class="photograph columns small-12 medium-5">
@@ -594,7 +594,7 @@
 
 
 	<!-- Safety Section -->
-	<section class="safety-section block-space-top-bottom fill-light">
+	<section id="safety" class="safety-section block-space-top-bottom fill-light js_section">
 		<div class="safety-content row">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
@@ -628,7 +628,7 @@
 
 
 	<!-- Specifications Section -->
-	<section class="specifications-section block-space-top-bottom fill-dark">
+	<section id="specifications" class="specifications-section block-space-top-bottom fill-dark js_section">
 		<div class="specifications-content row">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
@@ -717,21 +717,21 @@
 		<div class="nav-container container text-right">
 			<div class="inline nav-list fill-copper text-left">
 				<div class="title h1 strong text-off-copper">Menu</div>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Welcome</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">The Villa</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Key features</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">Project Masterplan</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Upper-Level Features</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Lower-Level Features</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">Location</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Aerial View</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">Download Floorplan</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">Amenities</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">The Architect</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">Infrastructure</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Water System</a><br>
-				<a tab-index="-1" href="#" class="link inline label text-off-neutral">Safety &amp; Security</a><br>
-				<a tab-index="-1" href="#" class="link inline h3">Specifications</a><br>
+				<a tab-index="-1" href="#welcome" class="link inline label text-off-neutral">Welcome</a><br>
+				<a tab-index="-1" href="#the-villa" class="link inline h3">The Villa</a><br>
+				<a tab-index="-1" href="#villa-key-features" class="link inline label text-off-neutral">Key features</a><br>
+				<a tab-index="-1" href="#podium-masterplan" class="link inline h3">Project Masterplan</a><br>
+				<a tab-index="-1" href="#podium-experience" class="link inline label text-off-neutral">Upper-Level Features</a><br>
+				<a tab-index="-1" href="#basement-experience" class="link inline label text-off-neutral">Lower-Level Features</a><br>
+				<a tab-index="-1" href="#location" class="link inline h3">Location</a><br>
+				<a tab-index="-1" href="#aerial-3dl" class="link inline label text-off-neutral">Aerial View</a><br>
+				<a tab-index="-1" href="#floorplans" class="link inline h3">Download Floorplan</a><br>
+				<a tab-index="-1" href="#clubhouse" class="link inline h3">clubhouse</a><br>
+				<a tab-index="-1" href="#architect" class="link inline label text-off-neutral">The Architect</a><br>
+				<a tab-index="-1" href="#infrastructure" class="link inline h3">Infrastructure</a><br>
+				<a tab-index="-1" href="#infrastructure" class="link inline label text-off-neutral">Water System</a><br>
+				<a tab-index="-1" href="#safety" class="link inline label text-off-neutral">Safety &amp; Security</a><br>
+				<a tab-index="-1" href="#specifications" class="link inline h3">Specifications</a><br>
 			</div>
 		</div>
 	</div>
