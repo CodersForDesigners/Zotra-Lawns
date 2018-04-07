@@ -117,6 +117,8 @@
 	padding: 26px;
 }
 
+.blip-system .slick-blip .point:focus { outline: none; }
+
 .blip-system .slick-blip .point .icon {
 	margin-top: 20px;
 }

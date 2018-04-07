@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180405';
+	$ver = '?v=20180405122';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -178,23 +178,27 @@
 			</div>				
 			<div class="container">
 				<div class="row">
-					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
+					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
 						<div class="slick-blip fill-light">
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">Pedestrian walkways that emulate the experience of a park, not a road network.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Park Experience</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/Promenade.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">Pedestrian walkways that emulate the experience of a park, not a road network.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">A Landscaped Central Promenade.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Nature</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/PodiumPromenade.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">A Landscaped Central Promenade.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">A tree-line that runs around the periphery of the premises.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Privacy</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/Periphery.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">A tree-line that runs around the periphery of the premises.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">All walkways end in a garden, the visual experience is not interrupted by the abrupt end of a road or a bare compound wall.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Visual Experience</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/EndinGarden.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">All walkways end in a garden, the visual experience is not interrupted by the abrupt end of a road or a bare compound wall.</div>
 							</div>
 						</div>
 					</div>
@@ -289,27 +293,32 @@
 			</div>				
 			<div class="container">
 				<div class="row">
-					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
-						<div class="slick-blip fill-light">
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">Apartment-style basement car park with driveways leading to personal car parks.</div>
+					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
+						<div class="slick-blip fill-dark">
+							<div class="point row">
+								<div class="title h4 text-copper">Car Park</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/Parking.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">Apartment-style basement car park with driveways leading to personal car parks.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">No Exposed Pipes</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/WaterHidden.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Basement Lighting</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/LightHidden.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">Small landscaped area in the basement.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Landscape</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/SmallLandscape.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">Small landscaped area in the basement.</div>
 							</div>
-							<div class="point">
-								<div class="title h4 text-copper">INSERT ICON</div>
-								<div class="p description">Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.</div>
+							<div class="point row">
+								<div class="title h4 text-copper">Natural Light &amp; Ventilation</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/CutoutLight.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.</div>
 							</div>
 						</div>
 					</div>
@@ -337,9 +346,9 @@
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle" tabindex="-1" style="top: 60%;left: 31%;">1</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 52%;left: 62%;">2</div>
-					<div class="blip-toggle" tabindex="-1" style="top: 52%;left: 81.5%;">3</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 57%;left: 45.75%;">1</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 68%;left: 30%;">2</div>
+					<div class="blip-toggle" tabindex="-1" style="top: 57%;left: 82%;">3</div>
 				</div>
 			</div>				
 			<div class="container">
@@ -348,17 +357,17 @@
 						<div class="slick-blip fill-dark">
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Private Access</div>
-								<div class="icon columns small-4 large-5"><img class="block" src="media/blip-icons/PrivateAccess.svg<?php echo $ver ?>"></div>
+								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/PrivateAccess.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-6">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
 							</div>
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Future proof</div>
-								<div class="icon columns small-4 large-5"><img class="block" src="media/blip-icons/CarElec.svg<?php echo $ver ?>"></div>
+								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/CarElec.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-6">Electric-car charging points controlled from within the villa are provided.</div>
 							</div>
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Water outlets</div>
-								<div class="icon columns small-4 large-5"><img class="block" src="media/blip-icons/CarWash.svg<?php echo $ver ?>"></div>
+								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/CarWash.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-6">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
 							</div>
 						</div>
