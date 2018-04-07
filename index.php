@@ -52,30 +52,33 @@
 
 	<!-- Welcome Section -->
 	<section id="welcome" class="welcome-section fill-black js_section">
+		<div class="welcome-bg"><img class="block" src="media/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
 		<div class="welcome-content block-space-top-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="logo columns small-10 small-offset-1 medium-9 large-3 xlarge-2">Z Lawns</div>
-					<div class="description p columns text-off-neutral small-10 small-offset-1 medium-9 large-7 large-offset-0 xlarge-5">Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, <span class="strong em text-light">starting at just 4.5 crores.</span></div>
+					<div class="logo columns small-5 small-offset-1 medium-3 large-2 xlarge-2">
+						<img class="block" src="media/logo-lawns.svg<?php echo $ver ?>">
+					</div>
+					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 xlarge-5">Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, <span class="strong em text-light">starting at just 4.5 crores.</span></div>
 				</div>
 			</div>
 		</div>
-		<div><img class="block" src="media/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
 	</section><!-- END : Welcome Section -->
 
 
 
 	<!-- Villa Section -->
-	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
-		<div class="container villa" style="">
-			<div class="row">
-				<div class="villa-content block-space-top">
-					<div class="label strong columns small-10 small-offset-1">The Villa</div>
-					<div class="h1 strong columns small-10 small-offset-1 medium-6">Dual Level Approach</div><br>
-					<div class="p columns small-10 small-offset-1 medium-6 large-5 xlarge-4">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
-				</div>
+	<section id="the-villa" class="villa-section block-space-top-bottom fill-black js_section">
+		<div class="container">
+			<div class="row villa-content block-space-top">
+				<div class="title label strong text-black columns small-10 small-offset-1">The Villa</div>
+				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">Dual Level Approach</div>
+				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
 			</div>
-			<div><img class="block" src="media/cross-section-3d.png<?php echo $ver ?>"></div>
+			<div div class="fill-light texture">
+				<img class="block hide-for-mobile" src="media/cross-section-3d.png<?php echo $ver ?>">
+				<img class="block show-for-mobile" src="media/cross-section-3d-mobile.png<?php echo $ver ?>">
+			</div>
 			<!-- <div>
 				[ Blips ] :
 				- Lift
@@ -85,12 +88,13 @@
 				- Large expanse of living and dining area
 			</div> -->
 		</div>
+		<div class="bg-fix fill-light texture"></div>
 	</section><!-- END : Villa Section -->
 
 
 
 	<!-- Villa Isometric Section -->
-	<section id="villa-key-features" class="villa-isometric-section fill-light js_section js_section_villa_features">
+	<section id="villa-key-features" class="villa-isometric-section fill-light texture js_section js_section_villa_features">
 		<div class="floor block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -215,7 +219,7 @@
 		<div class="podium-experience-content no-pointer block-space-top-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="label strong columns small-10 small-offset-1">Upper-Level</div>
+					<div class="label strong text-off-copper columns small-10 small-offset-1">Upper-Level</div>
 					<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br> Experience</div>
 				</div>
 			</div>
@@ -335,7 +339,7 @@
 		<div class="basement-experience-content no-pointer block-space-top-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="label strong columns small-10 small-offset-1">Lower-Level</div>
+					<div class="label strong text-off-copper columns small-10 small-offset-1">Lower-Level</div>
 					<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br>  Experience</div>
 				</div>
 			</div>
@@ -374,7 +378,7 @@
 					</div>
 				</div>
 			</div>
-		</div><!-- END : sLower Level Villa Blips -->
+		</div><!-- END : Lower Level Villa Blips -->
 
 	</section><!-- END : Basement Experience Section -->
 
@@ -423,7 +427,6 @@
 					Metro Station – 3 kms
 				</div>
 			</div>
-		</div>
 
 		</div>
 	</section><!-- END : Location Section -->
@@ -530,7 +533,7 @@
 
 
 	<!-- Infrastructure Section -->
-	<section id="infrastructure" class="infrastructure-section block-space-top fill-light">
+	<section id="infrastructure" class="infrastructure-section block-space-top fill-light js_section">
 		<div class="container">
 			<div class="water-content row">
 				<div class="columns small-10 small-offset-1 large-6">
@@ -733,9 +736,9 @@
 				<a tab-index="-1" href="#podium-experience" class="link inline label text-off-neutral">Upper-Level Features</a><br>
 				<a tab-index="-1" href="#basement-experience" class="link inline label text-off-neutral">Lower-Level Features</a><br>
 				<a tab-index="-1" href="#location" class="link inline h3">Location</a><br>
-				<a tab-index="-1" href="#aerial-3dl" class="link inline label text-off-neutral">Aerial View</a><br>
+				<a tab-index="-1" href="#aerial-panorama" class="link inline label text-off-neutral">Aerial View</a><br>
 				<a tab-index="-1" href="#floorplans" class="link inline h3">Download Floorplan</a><br>
-				<a tab-index="-1" href="#clubhouse" class="link inline h3">clubhouse</a><br>
+				<a tab-index="-1" href="#clubhouse" class="link inline h3">Clubhouse</a><br>
 				<a tab-index="-1" href="#architect" class="link inline label text-off-neutral">The Architect</a><br>
 				<a tab-index="-1" href="#infrastructure" class="link inline h3">Infrastructure</a><br>
 				<a tab-index="-1" href="#infrastructure" class="link inline label text-off-neutral">Water System</a><br>

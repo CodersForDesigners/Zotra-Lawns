@@ -54,7 +54,6 @@
 - [ ] Navigation
 
 - [ ] Header Section
-- [-] Welcome Section
 - [-] Villa Section
 - [-] Villa Isometric Section
 - [-] Podium Masterplan Section
@@ -69,6 +68,7 @@
 - [ ] Residents Section
 - [ ] Footer Section
 
+- [x] Welcome Section
 - [x] Aerial 3D Section
 - [x] Clubhouse 3D Section
 - [x] Location Section
