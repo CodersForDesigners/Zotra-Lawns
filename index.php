@@ -151,7 +151,7 @@
 
 
 	<!-- Podium Masterplan Section -->
-	<section id="podium-masterplan" class="podium-masterplan-section block-space-top-bottom fill-off-light gradient-light-off-moss texture js_section">
+	<section id="podium-masterplan" class="podium-masterplan-section block-space-top-bottom fill-off-light gradient-light-off-moss texture js_section js_podium_masterplan">
 		<div class="container">
 			<div class="row">
 				<div class="label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
@@ -163,13 +163,13 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container">
+				<div class="masterplan-container js_masterplan_container">
 					<div class="masterplan">
-						<div class="layer"><img class="block" src="media/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
+						<div class="layer backdrop"><img class="block" src="media/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/3_PodiumLines.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/4_PodiumTrees.png<?php echo $ver ?>"></div>
-						<div class="layer"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
+						<div class="layer roof-shadows"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57.5%;left: 16.5%;">2</div>
@@ -267,7 +267,7 @@
 
 
 	<!-- Basement Masterplan Section -->
-	<section id="basement-masterplan" class="podium-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture js_section">
+	<section id="basement-masterplan" class="podium-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture js_section js_basement_masterplan">
 		<div class="container">
 			<div class="row">
 				<div class="label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
@@ -279,12 +279,12 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container">
+				<div class="masterplan-container js_masterplan_container">
 					<div class="masterplan">
-						<div class="layer"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
+						<div class="layer grid"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
-						<div class="layer"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
+						<div class="layer lights"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 38%;left: 19.5%;">2</div>
 							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 67%;left: 21%;">4</div>
@@ -826,6 +826,8 @@
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
 <script type="text/javascript" src="/js/modules/blips-and-cards.js"></script>
+<script type="text/javascript" src="/js/modules/masterplan-parallax.js"></script>
+<script type="text/javascript" src="plugins/hammer/hammer-v2.0.8.min.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
