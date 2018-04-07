@@ -90,7 +90,7 @@
 
 
 	<!-- Villa Isometric Section -->
-	<section id="villa-key-features" class="villa-isometric-section fill-light js_section">
+	<section id="villa-key-features" class="villa-isometric-section fill-light js_section js_section_villa_features">
 		<div class="floor block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -603,8 +603,8 @@
 
 
 	<!-- Safety Section -->
-	<section id="safety" class="safety-section block-space-top-bottom fill-light js_section">
-		<div class="safety-content row">
+	<section id="safety" class="safety-section block-space-top-bottom fill-light js_section js_section_safety">
+		<div class="safety-content row js_safety_content">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
 					<div class="heading h1 strong text-copper">Safety &amp; Security</div>
@@ -612,7 +612,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="safety-points row">
+		<div class="safety-points row js_safety_points">
 			<div class="container">
 				<div class="point columns small-10 small-offset-1 medium-4 large-2 large-offset-6">
 					<img src="media/safety-icons/fire-sprinkler.svg<?php echo $ver ?>">
@@ -637,8 +637,8 @@
 
 
 	<!-- Specifications Section -->
-	<section id="specifications" class="specifications-section block-space-top-bottom fill-dark js_section">
-		<div class="specifications-content row">
+	<section id="specifications" class="specifications-section block-space-top-bottom fill-dark js_section js_section_specifications">
+		<div class="specifications-content row js_specifications_content">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
 					<div class="title label strong text-off-copper">Specifications</div>
@@ -647,7 +647,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="specifications-points row">
+		<div class="specifications-points row js_specifications_points">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-6 large-offset-6">
 					<div class="heading h4 text-uppercase">Structure</div>
@@ -821,6 +821,7 @@
 <!-- JS Modules -->
 <script type="text/javascript" src="/js/modules/pageless.js"></script>
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
+<script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
