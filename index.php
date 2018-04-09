@@ -172,9 +172,9 @@
 						<div class="layer roof-shadows"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
-							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57.5%;left: 16.5%;">2</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 19%;left: 31.5%;">3</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 57.5%;left: 58.2%;">1</div>
+							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57.5%;left: 58.2%;">1</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 57.5%;left: 16.5%;">2</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 19%;left: 31.5%;">3</div>
 							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 28%;left: 73.1%;">4</div>
 						</div>
 					</div>
@@ -230,8 +230,8 @@
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 80%;left: 20%;">2</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 59.5%;left: 49.5%;">1</div>
+					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 59.5%;left: 49.5%;">1</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 80%;left: 20%;">2</div>
 					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 50%;left: 64.7%;">3</div>
 					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 75%;left: 80%;">4</div>
 				</div>
@@ -286,11 +286,11 @@
 						<div class="layer"><img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
 						<div class="layer lights"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
-							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 38%;left: 19.5%;">2</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 67%;left: 21%;">4</div>
+							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 36%;left: 82.5%;">1</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 38%;left: 19.5%;">2</div>
 							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 30%;left: 37.2%;">3</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 38%;left: 59%;">5</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 36%;left: 82.5%;">1</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 67%;left: 21%;">4</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 38%;left: 59%;">5</div>
 						</div>
 					</div>
 				</div>
@@ -350,8 +350,8 @@
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas">
-					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 68%;left: 30%;">2</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 57%;left: 45.75%;">1</div>
+					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57%;left: 45.75%;">1</div>
+					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 68%;left: 30%;">2</div>
 					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 57%;left: 82%;">3</div>
 				</div>
 			</div>
@@ -825,7 +825,6 @@
 <script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
 <script type="text/javascript" src="/js/modules/blips-and-cards.js"></script>
 <script type="text/javascript" src="/js/modules/masterplan-parallax.js"></script>
-<script type="text/javascript" src="plugins/hammer/hammer-v2.0.8.min.js"></script>
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
