@@ -1,0 +1,17 @@
+/*
+ *	Podium Masterplan Section
+ */
+
+
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.podium-masterplan-section .blip-system .slick-blip.slick-slider {
+		margin-top: -240px;
+	}
+}
+@media( min-width: 1380px ) {
+	.podium-masterplan-section .blip-system .slick-blip.slick-slider {
+		margin-top: -300px;
+	}
+}

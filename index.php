@@ -407,7 +407,7 @@
 			</div>
 
 			<!-- <div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div> -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="location-list columns small-12">
 					Malls -
 					Upcoming Salapuria Mall – 3 kms
@@ -426,7 +426,7 @@
 					Global Village Tech Park – 2.5 kms
 					Metro Station – 3 kms
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 	</section><!-- END : Location Section -->
@@ -479,14 +479,14 @@
 
 
 	<!-- Residents Section -->
-	<section id="residents" class="residents-section block-space-top-bottom fill-light js_section">
+	<!-- <section id="residents" class="residents-section block-space-top-bottom fill-light js_section">
 		<div class="container">
 			<div class="label strong">Resident Profile</div>
 			<div class="h1 strong">Manoj</div>
 			<div class="label">businessman in RR Nagar premium apartment - backend clothing manufacturer</div>
 			<div class="p">[ testimonial ]</div>
 		</div>
-	</section><!-- END : Residents Section -->
+	</section> --><!-- END : Residents Section -->
 
 
 
@@ -570,8 +570,6 @@
 				<div class="layer"><img class="block" src="media/water-masterplan/AnimatedLines.svg<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/water-masterplan/StaticText.svg<?php echo $ver ?>"></div>
 				<div class="layer"><img class="block" src="media/water-masterplan/DynamicText.svg<?php echo $ver ?>"></div>
-				<!-- <div class="layer"><img class="block" src="media/water-masterplan/3.svg<?php echo $ver ?>"></div> -->
-				<!-- <div class="layer"><img class="block" src="media/water-masterplan/4.svg<?php echo $ver ?>"></div> -->
 			</div>
 		</div>
 
