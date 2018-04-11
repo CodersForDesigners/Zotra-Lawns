@@ -47,8 +47,8 @@
 
 /* Render Performance Hack */
 .masterplan-container {
-	perspective: 900px;
-	transform-style: preserve-3d;
+	/*perspective: 900px;*/
+	/*transform-style: preserve-3d;*/
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	will-change: transform;
@@ -94,17 +94,21 @@
  *
  */
 .masterplan .backdrop {
-	transform: scale( 1.09 ) translateZ( -5rem ) translate( var(--forest-offset-x), var(--forest-offset-y) );
+	transition: transform .4s ease-in;
+	transform: /*scale( 1.09 )*/ translateZ( -5rem ) translate( var(--forest-offset-x), var(--forest-offset-y) );
 }
 .masterplan .roof-shadows {
+	transition: transform .4s ease-in;
 	filter: blur( 0.5px );
 	transform: translateZ( -5rem ) translate( var(--roof-shadow-offset-x), var(--roof-shadow-offset-y) );
 }
 
 .masterplan .grid {
-	transform: scale( 1.09 ) translateZ( -5rem ) translate( var(--grid-offset-x), var(--grid-offset-y) );
+	transition: transform .4s ease-in;
+	transform: /*scale( 1.09 )*/ translateZ( -5rem ) translate( var(--grid-offset-x), var(--grid-offset-y) );
 }
 .masterplan .lights {
+	transition: transform .4s ease-in;
 	/*filter: blur( 0.5px );*/
 	transform: translateZ( -5rem ) translate( var(--lights-offset-x), var(--lights-offset-y) );
 }
