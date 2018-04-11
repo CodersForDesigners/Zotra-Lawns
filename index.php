@@ -134,7 +134,7 @@
 				- Basement
 				- Large expanse of living and dining area
 			</div> -->
-			
+
 
 
 		</div>
@@ -1010,6 +1010,9 @@
 <!-- Slick Carousel JS -->
 <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
 <script type="text/javascript" src="plugins/bodymovin/bodymovin.js"></script>
+<script type="text/javascript" src="plugins/dot/dot-v1.1.2.min.js"></script>
+<script type="text/javascript" src="plugins/uEvent/uEvent-v1.0.0.min.js"></script>
+<script type="text/javascript" src="plugins/D/D-v0.7.5.min.js"></script>
 <script type="text/javascript" src="plugins/three/three-v0.91.0.min.js"></script>
 <script type="text/javascript" src="plugins/photo-sphere-viewer/photo-sphere-viewer-v3.3.2.min.js"></script>
 
