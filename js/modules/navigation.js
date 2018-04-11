@@ -66,7 +66,7 @@ var manageHistoryAndNavigationOnScroll = function () {
 					history.pushState( {
 						section: currentSection,
 						scrollPosition: sectionScrollTop
-					}, "", currentSection );
+					}, "", currentSection + "/" );
 				}
 			}
 		}
