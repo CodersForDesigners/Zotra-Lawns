@@ -912,6 +912,25 @@
 
 
 <!-- JS Modules -->
+<script type="text/javascript">
+
+	/*
+	 *
+	 * Auto-scroll to the section specified in the url
+	 *
+	 */
+	( function () {
+
+		if ( location.pathname == "/" ) return;
+
+		var section = location.pathname.slice( 1, -1 )
+		setTimeout( function () {
+			window.scrollTo( { top: document.getElementById( section ).offsetTop, behavior: "smooth" } );
+		}, 250 );
+
+	} )()
+
+</script>
 <script type="text/javascript" src="/js/modules/pageless.js"></script>
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
