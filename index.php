@@ -75,12 +75,12 @@
 				</div>
 				<div class="zotra-content p text-neutral columns small-10 small-offset-1 large-5">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. 
+					tempor incididunt ut labore et dolore magna aliqua.
 <br>
 <br>
 					Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
+					consequat.
 
 	<br>
 	<br>				Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -535,8 +535,8 @@
 
 
 	<!-- Aerial Panorama Section -->
-	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section">
-		<div><img class="block" src="media/placeholder-panorama.png<?php echo $ver ?>"></div>
+	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section js_aerial_panorama_section">
+		<div class="panorama-wrappper panorama-instruction js_panorama_wrapper"></div>
 	</section><!-- END : Aerial Panorama Section -->
 
 
@@ -979,6 +979,9 @@
 <!-- Slick Carousel JS -->
 <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
 <script type="text/javascript" src="plugins/bodymovin/bodymovin.js"></script>
+<script type="text/javascript" src="plugins/three/three-v0.91.0.min.js"></script>
+<script type="text/javascript" src="plugins/photo-sphere-viewer/photo-sphere-viewer-v3.3.2.min.js"></script>
+
 
 <script type="text/javascript">
 
@@ -1008,6 +1011,29 @@ $(document).ready(function(){
 		  autoplay: true,
 		  path: 'water.json'
 		})
+
+
+	/*
+	 * Set up the panorama
+	 */
+	new PhotoSphereViewer( {
+		panorama: {
+			left: "media/panorama/face0.jpg",
+			front: "media/panorama/face1.jpg",
+			right: "media/panorama/face2.jpg",
+			back: "media/panorama/face3.jpg",
+			top: "media/panorama/face4.jpg",
+			bottom: "media/panorama/face5.jpg"
+		},
+		container: $( ".js_aerial_panorama_section .js_panorama_wrapper" )[ 0 ],
+		time_anim: 3000,
+		allow_scroll_to_zoom: false,
+		navbar: false,
+		navbar_style: {
+			backgroundColor: 'rgba(58, 67, 77, 0.7)'
+		},
+		mousewheel: false
+	} );
 
 });
 
