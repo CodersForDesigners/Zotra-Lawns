@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180405122';
+	$ver = '?v=20180405134';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -59,7 +59,7 @@
 					<div class="logo columns small-5 small-offset-1 medium-3 large-2 xlarge-2">
 						<img class="block" src="media/logo-lawns.svg<?php echo $ver ?>">
 					</div>
-					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 xlarge-5">Lawns is the only 4 bedroom villa development in RR Nagar. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it, <span class="strong em text-light">starting at just 4.5 crores.</span></div>
+					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 xlarge-5">Lawns is the <span class="strong em text-light">first 4 bedroom villa development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it.</div>
 				</div>
 			</div>
 		</div>
@@ -68,14 +68,14 @@
 
 
 	<!-- Villa Section -->
-	<section id="the-villa" class="villa-section block-space-top-bottom fill-black js_section">
+	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
 		<div class="container">
 			<div class="row villa-content block-space-top">
 				<div class="title label strong text-black columns small-10 small-offset-1">The Villa</div>
 				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">Dual Level Approach</div>
 				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
 			</div>
-			<div div class="fill-light texture">
+			<div div class="villa-image block-space-bottom">
 				<img class="block hide-for-mobile" src="media/cross-section-3d.png<?php echo $ver ?>">
 				<img class="block show-for-mobile" src="media/cross-section-3d-mobile.png<?php echo $ver ?>">
 			</div>
@@ -88,51 +88,51 @@
 				- Large expanse of living and dining area
 			</div> -->
 		</div>
-		<div class="bg-fix fill-light texture"></div>
+		<div class="bg-fix"></div>
 	</section><!-- END : Villa Section -->
 
 
 
 	<!-- Villa Isometric Section -->
-	<section id="villa-key-features" class="villa-isometric-section fill-light texture js_section js_section_villa_features">
-		<div class="floor block-space-top-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="isometric columns small-12 large-7"></div>
-					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+	<section id="villa-key-features" class="villa-isometric-section fill-light js_section js_section_villa_features">
+		<div class="floor">
+			<div class="isometric"></div>
+			<div class="floor-content row block-space-bottom">
+				<div class="container">
+					<div class="columns small-10 medium-8 large-4 large-offset-8">
 						<div class="h2 strong">Top Floor</div>
 						<div class="p">THE MASTER SUITE- < Highlights >  - large master bedroom with a study area, large dressing and bathroom. A private terrace straight out of the room.</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="floor block-space-top-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="isometric columns small-12 large-7"></div>
-					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+		<div class="floor">
+			<div class="isometric"></div>
+			<div class="floor-content row block-space-bottom">
+				<div class="container">
+					<div class="columns small-10 medium-8 large-4 large-offset-8">
 						<div class="h2 strong">First Floor</div>
 						<div class="p">< Highlights >  2 large bedrooms</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="floor block-space-top-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="isometric columns small-12 large-7"></div>
-					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+		<div class="floor">
+			<div class="isometric"></div>
+			<div class="floor-content row block-space-bottom">
+				<div class="container">
+					<div class="columns small-10 medium-8 large-4 large-offset-8">
 						<div class="h2 strong">Ground Floor</div>
 						<div class="p">< Highlights > - large and spacious living and dining rooms, one bedroom, large kitchen which does justice to the villa (targeting the ladies) along with separate utility, a pooja</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="floor block-space-top-bottom text-off-neutral">
-			<div class="container">
-				<div class="row">
-					<div class="isometric columns small-12 large-7"></div>
-					<div class="floor-content columns small-10 medium-8 large-4 large-offset-1">
+		<div class="floor text-off-neutral">
+			<div class="isometric"></div>
+			<div class="floor-content row block-space-bottom">
+				<div class="container">
+					<div class="columns small-10 medium-8 large-4 large-offset-8">
 						<div class="h2 strong">Basement Floor</div>
 						<div class="p">< Highlights > one service room, which can be used for various services such as store room etc. 3 car parks by default for each villa – not separately charged for.</div>
 					</div>
@@ -283,7 +283,7 @@
 					<div class="masterplan">
 						<div class="layer grid"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
-						<div class="layer"><img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"></div>
+						<div class="layer"><div id="basement"> </div><!-- <img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"> --></div>
 						<div class="layer lights"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 36%;left: 82.5%;">1</div>
@@ -407,8 +407,8 @@
 			</div>
 
 			<!-- <div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div> -->
-			<!-- <div class="row">
-				<div class="location-list columns small-12">
+			<div class="row">
+				<div class="location-list columns small-10 small-offset-1">
 					Malls -
 					Upcoming Salapuria Mall – 3 kms
 					Gopalan Arcade Mall – 2.7 kms
@@ -423,10 +423,11 @@
 					Bangalore University – 3 kms
 					Maple Bear Canadian Pre school – 2 kms
 
+					Others -
 					Global Village Tech Park – 2.5 kms
 					Metro Station – 3 kms
 				</div>
-			</div> -->
+			</div>
 
 		</div>
 	</section><!-- END : Location Section -->
@@ -452,7 +453,7 @@
 					<div class="size">villas upto 3992 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.3 Cr</div>
-					<button class="button button-copper block" style="background-color: #83837D;">Download Now $</button>
+					<button class="button button-copper block" style="background-color: #83837D;">Download Now &#x2b07;</button>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
@@ -461,7 +462,7 @@
 					<div class="size">villas upto 4349 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.1 Cr</div>
-					<button class="button button-copper block" style="background-color: #AAA386;">Download Now $</button>
+					<button class="button button-copper block" style="background-color: #AAA386;">Download Now &#x2b07;</button>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
@@ -470,7 +471,7 @@
 					<div class="size">villas upto 5695 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
 					<div class="price text-copper">Starting at ₹4.5 Cr</div>
-					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now $</button>
+					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now &#x2b07;</button>
 				</div>
 			</div>
 		</div>
@@ -735,7 +736,7 @@
 				<a tab-index="-1" href="#basement-experience" class="link inline label text-off-neutral">Lower-Level Features</a><br>
 				<a tab-index="-1" href="#location" class="link inline h3">Location</a><br>
 				<a tab-index="-1" href="#aerial-panorama" class="link inline label text-off-neutral">Aerial View</a><br>
-				<a tab-index="-1" href="#floorplans" class="link inline h3">Download Floorplan</a><br>
+				<a tab-index="-1" href="#floorplans" class="link inline h3">Download Floorplan &#x2b07;</a><br>
 				<a tab-index="-1" href="#clubhouse" class="link inline h3">Clubhouse</a><br>
 				<a tab-index="-1" href="#architect" class="link inline label text-off-neutral">The Architect</a><br>
 				<a tab-index="-1" href="#infrastructure" class="link inline h3">Infrastructure</a><br>
@@ -833,11 +834,20 @@
 
 <!-- Slick Carousel JS -->
 <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
+<script type="text/javascript" src="plugins/bodymovin/bodymovin.js"></script>
 
 <script type="text/javascript">
 
 // JAVASCRIPT GOES HERE
 $(document).ready(function(){
+
+		var animation = bodymovin.loadAnimation({
+		  container: document.getElementById('basement'),
+		  renderer: 'svg',
+		  loop: true,
+		  autoplay: true,
+		  path: 'basement.json'
+		})
 
 });
 

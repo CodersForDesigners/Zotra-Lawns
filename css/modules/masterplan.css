@@ -78,12 +78,13 @@
 }
 @media( min-width: 1040px ) {
 	.masterplan {
-		width: 1440px;
+		width: 100%;
 	}
 }
 @media( min-width: 1380px ) {
 	.masterplan {
-		width: 1860px;
+		width: 100%;
+		max-width: 1680px;
 	}
 }
 

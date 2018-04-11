@@ -5,6 +5,7 @@
 .villa-section {
 	position: relative;
 	overflow: hidden;
+	z-index: 2;
 }
 
 .villa-section .container {
@@ -36,6 +37,9 @@
 	margin-top: 20px;
 }
 
+.villa-section .villa-image {
+	background-image: url('/media/isometric/top-bg.jpg');
+}
 
 .villa-section .bg-fix {
 	position: absolute;
@@ -45,7 +49,7 @@
 	display: block;
 	height: 1000px;
 	z-index: 1;
-	/*background: peachpuff;*/
+	background-image: url('/media/isometric/top-bg.jpg');
 	transform: translateX(-50%) translateY(-93px) rotate(-16.6deg);
 }
 
