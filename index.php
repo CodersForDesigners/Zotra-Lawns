@@ -219,7 +219,7 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container js_masterplan_container">
+				<div class="masterplan-container panorama-instruction js_masterplan_container">
 					<div class="masterplan">
 						<div class="layer backdrop"><img class="block" src="media/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
@@ -338,7 +338,7 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container js_masterplan_container">
+				<div class="masterplan-container panorama-instruction js_masterplan_container">
 					<div class="masterplan">
 						<div class="layer grid"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
@@ -566,8 +566,8 @@
 
 
 	<!-- Aerial Panorama Section -->
-	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section">
-		<div><img class="block" src="media/placeholder-panorama.png<?php echo $ver ?>"></div>
+	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section js_aerial_panorama_section">
+		<div class="panorama-wrappper panorama-instruction js_panorama_wrapper"></div>
 	</section><!-- END : Aerial Panorama Section -->
 
 
@@ -1010,6 +1010,9 @@
 <!-- Slick Carousel JS -->
 <script type="text/javascript" src="plugins/slick/slick.min.js"></script>
 <script type="text/javascript" src="plugins/bodymovin/bodymovin.js"></script>
+<script type="text/javascript" src="plugins/three/three-v0.91.0.min.js"></script>
+<script type="text/javascript" src="plugins/photo-sphere-viewer/photo-sphere-viewer-v3.3.2.min.js"></script>
+
 
 <script type="text/javascript">
 
@@ -1039,6 +1042,29 @@ $(document).ready(function(){
 		  autoplay: true,
 		  path: 'water.json'
 		})
+
+
+	/*
+	 * Set up the panorama
+	 */
+	new PhotoSphereViewer( {
+		panorama: {
+			left: "media/panorama/face0.jpg",
+			front: "media/panorama/face1.jpg",
+			right: "media/panorama/face2.jpg",
+			back: "media/panorama/face3.jpg",
+			top: "media/panorama/face4.jpg",
+			bottom: "media/panorama/face5.jpg"
+		},
+		container: $( ".js_aerial_panorama_section .js_panorama_wrapper" )[ 0 ],
+		time_anim: 3000,
+		allow_scroll_to_zoom: false,
+		navbar: false,
+		navbar_style: {
+			backgroundColor: 'rgba(58, 67, 77, 0.7)'
+		},
+		mousewheel: false
+	} );
 
 });
 

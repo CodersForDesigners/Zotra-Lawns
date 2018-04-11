@@ -182,12 +182,14 @@
 
 	<!-- Stylesheet -->
 	<?php require __DIR__ . '/../style.php'; ?>
-	
+
 	<!-- jQuery 3 -->
 	<script type="text/javascript" src="plugins/jquery/jquery-3.0.0.min.js<?php echo $ver ?>"></script>
 	<!-- Slick Carousel -->
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css<?php echo $ver ?>"/>
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css<?php echo $ver ?>"/>
+	<!-- Photo Sphere Viewer -->
+	<link rel="stylesheet" type="text/css" href="plugins/photo-sphere-viewer/photo-sphere-viewer-v3.3.2.min.css">
 	<!-- Icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
