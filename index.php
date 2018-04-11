@@ -413,68 +413,98 @@
 
 			<!-- <div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div> -->
 			<div class="row">
-				<div class="location-list columns small-12 large-offset-6 large-6">
-					<div class="container-headings js_container_headings">
+				<div class="location-list columns small-12 large-offset-6 large-6 xlarge-5">
+					<div class="location-list-headings js_location_list_headings">
 						<div class="heading-underline js_heading_underline"></div>
-						<div class="headings js_headings">
-							<div class="h selected js_h" data-index="1">
+						<div class="headings strong js_headings">
+							<div class="heading h4 selected js_heading" data-index="1">
 								<span>Malls</span>
 							</div>
-							<div class="h js_h" data-index="2">
+							<div class="heading h4 js_heading" data-index="2">
 								<span>Hospitals</span>
 							</div>
-							<div class="h js_h" data-index="3">
+							<div class="heading h4 js_heading" data-index="3">
 								<span>Schools</span>
 							</div>
-							<div class="h js_h" data-index="4">
+							<div class="heading h4 js_heading" data-index="4">
 								<span>Other</span>
 							</div>
 						</div>
 					</div>
 					<div class="tabs js_tabs">
 						<div class="tab selected js_tab">
-							<div class="h js_h" data-index="1">
+							<div class="heading h4 js_heading" data-index="1">
 								<span>Malls</span>
 							</div>
-							<div class="container-content">
-								<div class="content">
-									<div>Upcoming Salapuria Mall – 3 kms</div>
-									<div>Gopalan Arcade Mall – 2.7 kms</div>
+							<div class="tab-content-wrapper block">
+								<div class="tab-content">
+									<div class="point p clearfix">
+										<span>Upcoming Salapuria Mall</span>
+										<span class="float-right label strong text-uppercase">3 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>Gopalan Arcade Mall</span>
+										<span class="float-right label strong text-uppercase">2.7 kms</span>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="tab js_tab">
-							<div class="h js_h" data-index="2">
+							<div class="heading h4 js_heading" data-index="2">
 								<span>Hospitals</span>
 							</div>
-							<div class="container-content">
-								<div class="content">
-									<div>BGS Global Hospital – 2.5 kms</div>
-									<div>SSNMC Super Speciality Hospital – 3 kms</div>
+							<div class="tab-content-wrapper block">
+								<div class="tab-content">
+									<div class="point p clearfix">
+										<span>BGS Global Hospital</span>
+										<span class="float-right label strong text-uppercase">2.5 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>SSNMC Super Speciality Hospital</span>
+										<span class="float-right label strong text-uppercase">3 kms</span>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="tab js_tab">
-							<div class="h js_h" data-index="3">
+							<div class="heading h4 js_heading" data-index="3">
 								<span>Schools</span>
 							</div>
-							<div class="container-content">
-								<div class="content">
-									<div>National Public School – 2 kms</div>
-									<div>Gnanakshi Vidyaniketan School – 0.5 kms</div>
-									<div>Bangalore University – 3 kms</div>
-									<div>Maple Bear Canadian Pre school – 2 kms</div>
+							<div class="tab-content-wrapper block">
+								<div class="tab-content">
+									<div class="point p clearfix">
+										<span>National Public School</span>
+										<span class="float-right label strong text-uppercase">2 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>Gnanakshi Vidyaniketan School</span>
+										<span class="float-right label strong text-uppercase">0.5 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>Bangalore University</span>
+										<span class="float-right label strong text-uppercase">3 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>Maple Bear Canadian Pre school</span>
+										<span class="float-right label strong text-uppercase">2 kms</span>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="tab js_tab">
-							<div class="h js_h" data-index="4">
+							<div class="heading h4 js_heading" data-index="4">
 								<span>Others</span>
 							</div>
-							<div class="container-content">
-								<div class="content">
-									<div>Global Village Tech Park – 2.5 kms</div>
-									<div>Metro Station – 3 kms</div>
+							<div class="tab-content-wrapper block">
+								<div class="tab-content">
+									<div class="point p clearfix">
+										<span>Global Village Tech Park</span>
+										<span class="float-right label strong text-uppercase">2.5 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>Metro Station</span>
+										<span class="float-right label strong text-uppercase">3 kms</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -780,6 +810,7 @@
 <!-- Menu Section -->
 <section class="menu js_menu_opener js_modal_closer" tabindex="-1">
 	<div class="menu-container container">
+		<div class="menu-toggle-close"></div>
 		<div class="menu-toggle inline">
 			<span class="menu-label h4 text-uppercase">&nbsp;</span>
 			<span class="menu-icon">

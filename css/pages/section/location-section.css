@@ -198,6 +198,7 @@
 
 	.location-section .location-list .tabs {
 		position: relative;
+		min-height: 210px;
 	}
 	.location-section .location-list .tab {
 		margin: 0;
@@ -213,44 +214,47 @@
  *   - Tab headings (for SMALL viewports)
  * /
  */
-.location-section .location-list .tab .h {
+.location-section .location-list .tab .heading {
 	display: block;
 	border-bottom: 1px solid #af8770;
 	overflow: hidden;
 }
-.location-section .location-list .tab .h span {
+.location-section .location-list .tab .heading span {
 	position: relative;
 	display: block;
 	margin: 0 auto;
 	border-bottom: 3px solid transparent;
 	padding: 0.5rem 0 0.5rem 0.3rem;
-	font-size: 1.4rem;
 	color: #af8770;
 	opacity: 0.5;
 	cursor: pointer;
+	-webkit-transition: 0.5s opacity ease-in-out;
 	transition: 0.5s opacity ease-in-out;
 }
-.location-section .location-list .tab .h span:after {
+.location-section .location-list .tab .heading span:after {
 	content: "";
 	position: absolute;
 	bottom: -3px;
 	left: -100%;
 	width: 100%;
 	border-bottom: 3px solid #af8770;
+	-webkit-transition: 0.5s left ease-in-out;
 	transition: 0.5s left ease-in-out;
 }
-.location-section .location-list .tab.selected .h span {
+.location-section .location-list .tab.selected .heading span {
 	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in-out 0.65s;
 	transition: 0.5s opacity ease-in-out 0.65s;
 }
-.location-section .location-list .tab.selected .h span:after {
+.location-section .location-list .tab.selected .heading span:after {
 	left: 0;
+	-webkit-transition: 0.5s left ease-in-out 0.65s;
 	transition: 0.5s left ease-in-out 0.65s;
 }
 
 @media ( min-width: 640px ) {
 
-	.location-section .location-list .tab .h {
+	.location-section .location-list .tab .heading {
 		display: none;
 	}
 
@@ -264,11 +268,11 @@
  *   - Tab headings (for LARGE viewports)
  * /
  */
-.location-section .location-list .container-headings {
+.location-section .location-list .location-list-headings {
 	position: relative;
 }
 .location-section .location-list .headings {
-	margin: 0 0 1rem;
+	margin: 0 0 2rem;
 	width: 100%;
 	border-bottom: 1px solid #af8770;
 }
@@ -277,7 +281,7 @@
 	/* This :after element ensures that the tab headers are justified */
 	/* The negative margin is to undo the offset created by the :after element */
 .location-section .location-list .headings {
-	height: 3.5rem;
+	height: 4rem;
 	text-align: justify;
 }
 .location-section .location-list .headings:after {
@@ -285,7 +289,7 @@
 	display: inline-block;
 	width: 100%;
 }
-.location-section .location-list .headings .h {
+.location-section .location-list .headings .heading {
 	display: inline-block;
 	margin: 0 0 -10px;
 	border-bottom: 3px solid transparent;
@@ -294,31 +298,29 @@
 /*.location-section .location-list .headings {
 	display: table;
 }
-.location-section .location-list .headings .h {
+.location-section .location-list .headings .heading {
 	display: table-cell;
 	width: 25%;
 	text-align: center;
 }
-.location-section .location-list .headings .h:first-child {
+.location-section .location-list .headings .heading:first-child {
 	text-align: left;
 }
-.location-section .location-list .headings .h:last-child {
+.location-section .location-list .headings .heading:last-child {
 	text-align: right;
 }*/
 
 
 
-.location-section .location-list .headings .h span {
+.location-section .location-list .headings .heading span {
 	display: inline-block;
 	border-bottom: 3px solid transparent;
 	padding: 0.5rem 0.5rem 0.3rem;
-	font-size: 1.4rem;
 	color: #af8770;
 	opacity: 0.5;
 	cursor: pointer;
 }
-.location-section .location-list .headings .h.selected span {
-	/*border-bottom: 3px solid #af8770;*/
+.location-section .location-list .headings .heading.selected span {
 	opacity: 1;
 }
 
@@ -327,10 +329,12 @@
 	display: block;
 	bottom: 1px;
 	left: 0;
-	width: 0;
+	width: 64px;
 	height: 0;
 	background-color: #af8770;
-	transition: 0.4s left ease-in-out, 0.2s width ease-in-out 0.2s;
+	/*transition: 0.4s left ease-in-out, 0.2s width ease-in-out 0.2s;*/
+	-webkit-transition: 0.4s .2s left ease-out, 0.2s .4s width ease-out;
+	transition: 0.4s .2s left ease-out, 0.2s .4s width ease-out;
 }
 
 @media ( max-width: 640px ) {
@@ -340,11 +344,9 @@
 }
 
 @media ( min-width: 640px ) {
-
 	.location-section .location-list .heading-underline {
 		height: 3px;
 	}
-
 }
 
 
@@ -354,7 +356,7 @@
  *   - Tab headings
  * /
  */
-.location-section .location-list .h {
+.location-section .location-list .heading {
 	outline: none;
 	-webkit-user-drag: none;
 	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
@@ -369,37 +371,50 @@
  *   - Tab content
  * /
  */
-.location-section .location-list .container-content {
+.location-section .location-list .tab-content-wrapper {
 	max-height: 0;
 	overflow: hidden;
+	-webkit-transition: 0.65s max-height ease-in-out;
 	transition: 0.65s max-height ease-in-out;
 }
-.location-section .location-list .tab.selected .container-content {
+.location-section .location-list .tab.selected .tab-content-wrapper {
 	max-height: 500px;
+	-webkit-transition: 1s max-height ease-in 0.65s;
 	transition: 1s max-height ease-in 0.65s;
 }
-.location-section .location-list .tab .content {
+.location-section .location-list .tab .tab-content {
 	padding: 1rem 0 0 0.3rem;
 	color: #af8770;
 	line-height: 1.7;
 }
+.location-section .location-list .tab .tab-content .point {
+	margin: 0 0 0.5rem;
+}
+.location-section .location-list .tab .tab-content .distance {
+	margin: 0.3rem 0 0;
+}
 
 @media ( min-width: 640px ) {
 
-	.location-section .location-list .container-content {
+	.location-section .location-list .tab-content-wrapper {
 		position: absolute;
 		top: 0;
 		left: 0;
 		max-height: none;
 		opacity: 0;
 		visibility: hidden;
+		-webkit-transition: 0.4s visibility ease-in, 0.4s opacity ease-in;
 		transition: 0.4s visibility ease-in, 0.4s opacity ease-in;
 	}
-	.location-section .location-list .tab.selected .container-content {
+	.location-section .location-list .tab.selected .tab-content-wrapper {
 		max-height: none;
 		visibility: visible;
 		opacity: 1;
+		-webkit-transition: 0.6s visibility ease-in 0.4s, 0.6s opacity ease-in 0.4s;
 		transition: 0.6s visibility ease-in 0.4s, 0.6s opacity ease-in 0.4s;
+	}
+	.location-section .location-list .tab .tab-content .distance {
+		margin: 0.5rem 0 0;
 	}
 
 }

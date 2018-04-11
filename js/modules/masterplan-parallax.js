@@ -6,6 +6,9 @@ $( function () {
 	var roofShadowMaxXOffset = 10
 	var roofShadowMaxYOffset = 10
 
+	document.documentElement.style.setProperty( "--roof-shadow-offset-x", "5px" )
+	document.documentElement.style.setProperty( "--roof-shadow-offset-y", "5px" )
+
 	$( ".js_podium_masterplan" ).on( "mousemove", ".js_masterplan_container", function ( event ) {
 
 		var $el = $( event.target );
@@ -21,10 +24,10 @@ $( function () {
 		var userY = event.offsetY;
 
 		// Mapping the screen coordinates to the offset coordinates
-		var forestXOffset = -1 * ( userX - midX ) * ( forestMaxXOffset / midX )
-		var forestYOffset = -1 * ( userY - midY ) * ( forestMaxYOffset / midY )
-		var roofShadowXOffset = ( userX - midX ) * ( roofShadowMaxXOffset / midX )
-		var roofShadowYOffset = ( userY - midY ) * ( roofShadowMaxYOffset / midY )
+		var forestXOffset = ( userX - midX ) * ( forestMaxXOffset / midX )
+		var forestYOffset = ( userY - midY ) * ( forestMaxYOffset / midY )
+		var roofShadowXOffset = -1 * ( userX - midX ) * ( roofShadowMaxXOffset / midX )
+		var roofShadowYOffset = -1 * ( userY - midY ) * ( roofShadowMaxYOffset / midY )
 
 		var rootElement = document.documentElement
 		rootElement.style.setProperty( "--forest-offset-x", forestXOffset + "px" )

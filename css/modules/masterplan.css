@@ -98,9 +98,11 @@
 	transform: /*scale( 1.09 )*/ translateZ( -5rem ) translate( var(--forest-offset-x), var(--forest-offset-y) );
 }
 .masterplan .roof-shadows {
+	top: -2px;
+	left: -2px;
 	transition: transform .4s ease-in;
 	filter: blur( 0.5px );
-	transform: translateZ( -5rem ) translate( var(--roof-shadow-offset-x), var(--roof-shadow-offset-y) );
+	transform: scale( 1.01 ) translateZ( -5rem ) translate( var(--roof-shadow-offset-x), var(--roof-shadow-offset-y) );
 }
 
 .masterplan .grid {
