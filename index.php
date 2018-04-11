@@ -71,21 +71,10 @@
 				<div class="logo-partner columns small-9 small-offset-1 medium-4">
 					<div class="title label strong text-off-copper">Joint Venture By :</div>
 					<img class="logo block" src="media/logo-zotra-partner.svg<?php echo $ver ?>">
-					<div class="rera label">RERA Nº : PRM/KA/RERA/1251/446/PR/170824/000058</div>
+					<div class="rera label">RERA Nº : PR/KN/180223/002803</div>
 				</div>
-				<div class="zotra-content p text-neutral columns small-10 small-offset-1 large-5">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. 
-<br>
-<br>
-					Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
-
-	<br>
-	<br>				Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div class="zotra-content h4 text-neutral columns small-10 small-offset-1 large-5">
+					Zotra Lawns exemplifies the luxury of both, an Architect designed independent bunglow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
 				</div>
 			</div>
 		</div>
@@ -94,13 +83,48 @@
 	<!-- Villa Section -->
 	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
 		<div class="container">
-			<div class="row villa-content block-space-top">
+			<div class="row villa-content block-space-top fill-light">
 				<div class="title label strong text-black columns small-10 small-offset-1">The Villa</div>
-				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">Dual Level Approach</div>
-				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
+				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">The Best of Both Worlds</div>
+				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach. The entire 5 acre property is pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family. Each floor is designed for a specific purpose.</div>
 			</div>
 			<div div class="villa-image block-space-bottom">
-				<img class="block" src="media/cross-section-3d.png<?php echo $ver ?>">
+				<!-- Villa Blips -->
+				<div class="blip-system">
+					<div class="blip-image">
+						<img class="block" style="width: 100%;" src="media/cross-section-3d.png<?php echo $ver ?>">
+						<div class="blip-canvas">
+							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 59.5%;left: 49.5%;">1</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 80%;left: 20%;">2</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 50%;left: 64.7%;">3</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 75%;left: 80%;">4</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
+								<div class="slick-blip fill-light js_slick_blip">
+									<div class="point">
+										<div class="heading h4 text-copper">The Master Suite</div>
+										<div class="p description">A large master bedroom with a study area, large dressing and bathroom. Access to a private terrace from your bedroom. </div>
+									</div>
+									<div class="point">
+										<div class="heading h4 text-copper">The Nuclear Family</div>
+										<div class="p description">One large bedroom. One large children's bedroom. Both accessed from a corridor that overlooks the Ground floor. </div>
+									</div>
+									<div class="point">
+										<div class="heading h4 text-copper">Home with the Grandparents</div>
+										<div class="p description">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the villa, along with separate utility and a pooja room. </div>
+									</div>
+									<div class="point">
+										<div class="heading h4 text-copper">Ample Parking and Storage</div>
+										<div class="p description">One large service room, which can be used for various services such as store room etc. Three carparks for each villa. </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- END: Villa Blips -->
 			</div>
 			<!-- <div>
 				[ Blips ] :
@@ -110,6 +134,9 @@
 				- Basement
 				- Large expanse of living and dining area
 			</div> -->
+			
+
+
 		</div>
 		<div class="bg-fix"></div>
 	</section><!-- END : Villa Section -->
@@ -123,8 +150,9 @@
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="h2 strong">Top Floor</div>
-						<div class="p">THE MASTER SUITE- < Highlights >  - large master bedroom with a study area, large dressing and bathroom. A private terrace straight out of the room.</div>
+						<div class="title h2 strong">2<sup>nd</sup> Floor</div>
+						<div class="h4 strong text-copper">The Master Suite</div>
+						<div class="p">A large master bedroom with a study area, large dressing and bathroom. Access to a private terrace from your bedroom. </div>
 					</div>
 				</div>
 			</div>
@@ -134,19 +162,21 @@
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="h2 strong">First Floor</div>
-						<div class="p">< Highlights >  2 large bedrooms</div>
+						<div class="title h2 strong">1<sup>st</sup> Floor</div>
+						<div class="h4 strong text-copper">The Nuclear Family</div>
+						<div class="p">One large bedroom. One large children's bedroom. Both accessed from a corridor that overlooks the Ground floor. </div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="floor">
+		<div class="floor text-off-light">
 			<div class="isometric"></div>
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="h2 strong">Ground Floor</div>
-						<div class="p">< Highlights > - large and spacious living and dining rooms, one bedroom, large kitchen which does justice to the villa (targeting the ladies) along with separate utility, a pooja</div>
+						<div class="title h2 strong">Ground Floor</div>
+						<div class="h4 strong text-off-moss">Home with the Grandparents</div>
+						<div class="p">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the villa, along with separate utility and a pooja room. </div>
 					</div>
 				</div>
 			</div>
@@ -156,8 +186,9 @@
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="h2 strong">Basement Floor</div>
-						<div class="p">< Highlights > one service room, which can be used for various services such as store room etc. 3 car parks by default for each villa – not separately charged for.</div>
+						<div class="title h2 strong">Basement Floor</div>
+						<div class="h4 strong text-off-moss">Ample Parking and Storage</div>
+						<div class="p">One large service room, which can be used for various services such as store room etc. Three carparks for each villa. </div>
 					</div>
 				</div>
 			</div>
@@ -211,14 +242,14 @@
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3 xlarge-4 xlarge-offset-4">
 						<div class="slick-blip fill-light js_slick_blip">
 							<div class="point row">
-								<div class="title h4 text-copper">Park Experience</div>
-								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/Promenade.svg<?php echo $ver ?>"></div>
+								<div class="title h4 text-copper">Central Promenade</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/PodiumPromenade.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-8">Pedestrian walkways that emulate the experience of a park, not a road network.</div>
 							</div>
 							<div class="point row">
-								<div class="title h4 text-copper">Nature</div>
-								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/PodiumPromenade.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">A Landscaped Promenade.</div>
+								<div class="title h4 text-copper">Outdoor Recreation</div>
+								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/Promenade.svg<?php echo $ver ?>"></div>
+								<div class="p description columns small-7 small-offset-1 large-8">A central landscaped recreational area, with outdoor amenities.</div>
 							</div>
 							<div class="point row">
 								<div class="title h4 text-copper">Privacy</div>
@@ -420,7 +451,7 @@
 
 			<div class="row">
 				<div class="maps columns small-12 large-4 large-offset-1">
-					<a class="button button-copper" href="https://maps.google.com/" target="_blank">Open in Google Maps</a>
+					<a class="button button-copper" href="https://goo.gl/maps/5Xc1F2vXznS2" target="_blank">Open in Google Maps</a>
 				</div>
 				<div class="appreciation columns small-12 large-6 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Appreciation</div>

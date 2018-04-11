@@ -93,7 +93,7 @@
 	0% {
 		box-shadow: 0 0 12px 4px rgba(176, 135, 111, .5), 0 0 20px 5px rgba(176, 135, 111, .5);
 	} 50% {
-		box-shadow: 0 0 50px 50px rgba(176, 135, 111, .5), 0 0 20px 20px rgba(176, 135, 111, .5);
+		box-shadow: 0 0 0 150px rgba(176, 135, 111, .5), 0 0 0 120px rgba(176, 135, 111, .5);
 	} 100% {
 		box-shadow: 0 0 12px 4px rgba(176, 135, 111, .5), 0 0 20px 5px rgba(176, 135, 111, .5);
 	}

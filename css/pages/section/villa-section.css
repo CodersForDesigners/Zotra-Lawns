@@ -8,25 +8,20 @@
 	z-index: 2;
 }
 
-.villa-section .container {
+.villa-section > .container {
 	position: relative;
 	z-index: 2;
-	overflow: hidden; 
-	border-top-left-radius: 26px; 
-	border-top-right-radius: 26px;
+	overflow: hidden;
 }
 
 .villa-section .villa-content {
-	position: absolute;
-	z-index: 3;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
+	position: relative;
+	z-index: 2;
 
 	border-top-left-radius: 26px;
 	border-top-right-radius: 26px;
+
+	background-image: url('/media/cross-section-3d-bg.png');
 }
 
 .villa-section .villa-content .heading {
@@ -38,7 +33,21 @@
 }
 
 .villa-section .villa-image {
-	background-image: url('/media/isometric/top-bg.jpg');
+	margin-top: -2px;
+	position: relative;
+	z-index: 1;
+}
+
+.villa-section .villa-image .blip-system .blip-image {
+	position: relative;
+	z-index: 1;
+}
+
+.villa-section .villa-image .blip-system .container {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	top: 100%;
 }
 
 .villa-section .bg-fix {

@@ -11,7 +11,8 @@
 }
 
 .zotra-section .zotra-content {
-	margin-top: 10px;
+	margin-top: 40px;
+	line-height: 1.5;
 }
 
 .zotra-section .rera {
@@ -19,9 +20,6 @@
 }
 
 @media( min-width: 640px )  {
-	.zotra-section .zotra-content {
-		margin-top: 20px;
-	}
 }
 
 @media( min-width: 800px )  {
@@ -39,4 +37,7 @@
 }
 
 @media( min-width: 1380px ) {
+	.zotra-section .zotra-content {
+		line-height: 1.75;
+	}
 }
