@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180405134';
+	$ver = '?v=20180405234';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -56,16 +56,40 @@
 		<div class="welcome-content block-space-top-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="logo columns small-5 small-offset-1 medium-3 large-2 xlarge-2">
+					<div class="logo columns small-5 small-offset-1 medium-3 large-3 xlarge-2">
 						<img class="block" src="media/logo-lawns.svg<?php echo $ver ?>">
 					</div>
-					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 xlarge-5">Lawns is the <span class="strong em text-light">first 4 bedroom villa development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it.</div>
+					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Lawns is the <span class="strong em text-light">first 4 bedroom villa development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it.</div>
 				</div>
 			</div>
 		</div>
 	</section><!-- END : Welcome Section -->
 
+	<section id="zotra" class="zotra-section fill-black js_zotra">
+		<div class="container">
+			<div class="row">
+				<div class="logo-partner columns small-9 small-offset-1 medium-4">
+					<div class="title label strong text-off-copper">Joint Venture By :</div>
+					<img class="logo block" src="media/logo-zotra-partner.svg<?php echo $ver ?>">
+					<div class="rera label">RERA Nº : PRM/KA/RERA/1251/446/PR/170824/000058</div>
+				</div>
+				<div class="zotra-content p text-neutral columns small-10 small-offset-1 large-5">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. 
+<br>
+<br>
+					Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. 
 
+	<br>
+	<br>				Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- Villa Section -->
 	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
@@ -76,8 +100,7 @@
 				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach.</div>
 			</div>
 			<div div class="villa-image block-space-bottom">
-				<img class="block hide-for-mobile" src="media/cross-section-3d.png<?php echo $ver ?>">
-				<img class="block show-for-mobile" src="media/cross-section-3d-mobile.png<?php echo $ver ?>">
+				<img class="block" src="media/cross-section-3d.png<?php echo $ver ?>">
 			</div>
 			<!-- <div>
 				[ Blips ] :
@@ -99,7 +122,7 @@
 			<div class="isometric"></div>
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
-					<div class="columns small-10 medium-8 large-4 large-offset-8">
+					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="h2 strong">Top Floor</div>
 						<div class="p">THE MASTER SUITE- < Highlights >  - large master bedroom with a study area, large dressing and bathroom. A private terrace straight out of the room.</div>
 					</div>
@@ -110,7 +133,7 @@
 			<div class="isometric"></div>
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
-					<div class="columns small-10 medium-8 large-4 large-offset-8">
+					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="h2 strong">First Floor</div>
 						<div class="p">< Highlights >  2 large bedrooms</div>
 					</div>
@@ -121,7 +144,7 @@
 			<div class="isometric"></div>
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
-					<div class="columns small-10 medium-8 large-4 large-offset-8">
+					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="h2 strong">Ground Floor</div>
 						<div class="p">< Highlights > - large and spacious living and dining rooms, one bedroom, large kitchen which does justice to the villa (targeting the ladies) along with separate utility, a pooja</div>
 					</div>
@@ -132,7 +155,7 @@
 			<div class="isometric"></div>
 			<div class="floor-content row block-space-bottom">
 				<div class="container">
-					<div class="columns small-10 medium-8 large-4 large-offset-8">
+					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="h2 strong">Basement Floor</div>
 						<div class="p">< Highlights > one service room, which can be used for various services such as store room etc. 3 car parks by default for each villa – not separately charged for.</div>
 					</div>
@@ -157,7 +180,7 @@
 				<div class="row">
 					<div class="title label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
 					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</div>
-					<div class="description p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
+					<div class="description p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children and elderly. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
 				</div>
 			</div>
 		</div>
@@ -195,7 +218,7 @@
 							<div class="point row">
 								<div class="title h4 text-copper">Nature</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/PodiumPromenade.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">A Landscaped Central Promenade.</div>
+								<div class="p description columns small-7 small-offset-1 large-8">A Landscaped Promenade.</div>
 							</div>
 							<div class="point row">
 								<div class="title h4 text-copper">Privacy</div>
@@ -293,9 +316,8 @@
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 36%;left: 82.5%;">1</div>
 							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 38%;left: 19.5%;">2</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 30%;left: 37.2%;">3</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 67%;left: 21%;">4</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 38%;left: 59%;">5</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 67%;left: 21%;">4</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 38%;left: 59%;">5</div>
 						</div>
 					</div>
 				</div>
@@ -312,22 +334,17 @@
 							<div class="point row">
 								<div class="title h4 text-copper">No Exposed Pipes</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/WaterHidden.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">There are absolutely no exposed pipes hanging from the ceiling. All plumbing has been laid in serviceable, underground conduits.</div>
-							</div>
-							<div class="point row">
-								<div class="title h4 text-copper">Basement Lighting</div>
-								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/LightHidden.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">Lighting and wiring in the basement is hidden along the driveways and embedded within the false ceiling or built into the existing ceiling.</div>
+								<div class="p description columns small-7 small-offset-1 large-8">All plumbing has been laid in serviceable, underground conduits. There are no exposed pipes hanging from the ceiling, except the emergency water sprinklers in case of fire.</div>
 							</div>
 							<div class="point row">
 								<div class="title h4 text-copper">Landscape</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/SmallLandscape.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">Small landscaped area in the basement.</div>
+								<div class="p description columns small-7 small-offset-1 large-8">Small artificially landscaped area in the basement.</div>
 							</div>
 							<div class="point row">
-								<div class="title h4 text-copper">Natural Light &amp; Ventilation</div>
+								<div class="title h4 text-copper">Natural Light</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/basement-masterplan-icons/CutoutLight.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">Cut outs spread across the basement ceiling brings in natural light and ventilation from the upper level.</div>
+								<div class="p description columns small-7 small-offset-1 large-8">Cut outs spread across the basement ceiling brings in natural light from the upper level.</div>
 							</div>
 						</div>
 					</div>
@@ -418,56 +435,22 @@
 						<div class="heading-underline js_heading_underline"></div>
 						<div class="headings strong js_headings">
 							<div class="heading h4 selected js_heading" data-index="1">
-								<span>Malls</span>
-							</div>
-							<div class="heading h4 js_heading" data-index="2">
-								<span>Hospitals</span>
-							</div>
-							<div class="heading h4 js_heading" data-index="3">
 								<span>Schools</span>
 							</div>
+							<div class="heading h4 js_heading" data-index="2">
+								<span>Malls</span>
+							</div>
+							<div class="heading h4 js_heading" data-index="3">
+								<span>Hospitals</span>
+							</div>
 							<div class="heading h4 js_heading" data-index="4">
-								<span>Other</span>
+								<span>More</span>
 							</div>
 						</div>
 					</div>
 					<div class="tabs js_tabs">
 						<div class="tab selected js_tab">
 							<div class="heading h4 js_heading" data-index="1">
-								<span>Malls</span>
-							</div>
-							<div class="tab-content-wrapper block">
-								<div class="tab-content">
-									<div class="point p clearfix">
-										<span>Upcoming Salapuria Mall</span>
-										<span class="float-right label strong text-uppercase">3 kms</span>
-									</div>
-									<div class="point p clearfix">
-										<span>Gopalan Arcade Mall</span>
-										<span class="float-right label strong text-uppercase">2.7 kms</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab js_tab">
-							<div class="heading h4 js_heading" data-index="2">
-								<span>Hospitals</span>
-							</div>
-							<div class="tab-content-wrapper block">
-								<div class="tab-content">
-									<div class="point p clearfix">
-										<span>BGS Global Hospital</span>
-										<span class="float-right label strong text-uppercase">2.5 kms</span>
-									</div>
-									<div class="point p clearfix">
-										<span>SSNMC Super Speciality Hospital</span>
-										<span class="float-right label strong text-uppercase">3 kms</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab js_tab">
-							<div class="heading h4 js_heading" data-index="3">
 								<span>Schools</span>
 							</div>
 							<div class="tab-content-wrapper block">
@@ -492,8 +475,42 @@
 							</div>
 						</div>
 						<div class="tab js_tab">
+							<div class="heading h4 js_heading" data-index="2">
+								<span>Malls</span>
+							</div>
+							<div class="tab-content-wrapper block">
+								<div class="tab-content">
+									<div class="point p clearfix">
+										<span>Upcoming Salapuria Mall</span>
+										<span class="float-right label strong text-uppercase">3 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>Gopalan Arcade Mall</span>
+										<span class="float-right label strong text-uppercase">2.7 kms</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab js_tab">
+							<div class="heading h4 js_heading" data-index="3">
+								<span>Hospitals</span>
+							</div>
+							<div class="tab-content-wrapper block">
+								<div class="tab-content">
+									<div class="point p clearfix">
+										<span>BGS Global Hospital</span>
+										<span class="float-right label strong text-uppercase">2.5 kms</span>
+									</div>
+									<div class="point p clearfix">
+										<span>SSNMC Super Speciality Hospital</span>
+										<span class="float-right label strong text-uppercase">3 kms</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab js_tab">
 							<div class="heading h4 js_heading" data-index="4">
-								<span>Others</span>
+								<span>More</span>
 							</div>
 							<div class="tab-content-wrapper block">
 								<div class="tab-content">
@@ -648,12 +665,13 @@
 
 		<div class="masterplan-container">
 			<div class="masterplan">
-				<div class="layer"><img class="block" src="media/water-masterplan/StaticRaster.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/water-masterplan/StaticVector.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/water-masterplan/AnimatedWaterLevels.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/water-masterplan/AnimatedLines.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/water-masterplan/StaticText.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/water-masterplan/DynamicText.svg<?php echo $ver ?>"></div>
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/StaticRaster.png<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/StaticVector.svg<?php echo $ver ?>"></div> -->
+				<div class="layer"><div id="water"> </div></div>
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/AnimatedWaterLevels.svg<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/AnimatedLines.svg<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/StaticText.svg<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/water-masterplan/DynamicText.svg<?php echo $ver ?>"></div> -->
 			</div>
 		</div>
 
@@ -788,7 +806,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="columns small-10 small-offset-1">
-					<img src="media/logo-zotra-partner.svg<?php echo $ver ?>">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</div>
 			</div>
 		</div>
@@ -957,6 +980,14 @@ $(document).ready(function(){
 		  loop: true,
 		  autoplay: true,
 		  path: 'pedestrian.json'
+		})
+
+		var animation = bodymovin.loadAnimation({
+		  container: document.getElementById('water'),
+		  renderer: 'svg',
+		  loop: true,
+		  autoplay: true,
+		  path: 'water.json'
 		})
 
 });

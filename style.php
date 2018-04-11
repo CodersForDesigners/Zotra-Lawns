@@ -22,6 +22,7 @@
 
 
 <link rel="stylesheet" type="text/css" href="css/pages/section/welcome-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/zotra-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/villa-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/villa-isometric-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/aerial-3d-section.css<?php echo $ver ?>">

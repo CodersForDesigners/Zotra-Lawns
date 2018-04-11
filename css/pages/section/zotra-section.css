@@ -1,0 +1,42 @@
+/*
+ *	Zotra Section
+ */
+
+.zotra-section {
+	position: relative;
+}
+
+.zotra-section .logo-partner .logo {
+	margin-top: 10px;
+}
+
+.zotra-section .zotra-content {
+	margin-top: 10px;
+}
+
+.zotra-section .rera {
+	margin-top: 10px;
+}
+
+@media( min-width: 640px )  {
+	.zotra-section .zotra-content {
+		margin-top: 20px;
+	}
+}
+
+@media( min-width: 800px )  {
+}
+
+@media( min-width: 1040px ) {
+	.zotra-section .rera {
+		margin-top: 15px;
+		opacity: 0.8;
+	}
+
+	.zotra-section .zotra-content {
+		margin-top: 0;
+	}
+}
+
+@media( min-width: 1380px ) {
+}

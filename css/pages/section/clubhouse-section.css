@@ -42,5 +42,21 @@
 	.clubhouse-section .uds .title {
 		transform: translateY(-32px);
 	}
+
+	.clubhouse-section .container {
+		z-index: 3;
+	}
+	
+	.clubhouse-section .masterplan-container {
+		z-index: 2;
+		margin-top: -200px;
+	}
+}
+
+@media( min-width: 1380px ) {
+	.clubhouse-section .masterplan-container {
+		z-index: 2;
+		margin-top: -280px;
+	}
 }
 

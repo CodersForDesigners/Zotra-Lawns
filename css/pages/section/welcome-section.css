@@ -38,12 +38,10 @@
 		margin-top: 0;
 	}
 
-	.welcome-section .welcome-content .logo {
-		margin-top: 10px;
-	}
+	.welcome-section .welcome-content .logo {}
 
 	.welcome-section .welcome-content .description {
-		margin-top: 20px;
+		margin-top: 15px;
 	}
 }
 
@@ -56,7 +54,7 @@
 
 @media( min-width: 1040px ) {
 	.welcome-section .welcome-content .logo {
-		margin-top: 0px;
+		padding-right: 4.5%;
 	}
 
 	.welcome-section .welcome-content .description {
@@ -65,6 +63,10 @@
 }
 
 @media( min-width: 1380px ) {
+	.welcome-section .welcome-content .logo {
+		padding-right: 0;
+	}
+
 	.welcome-section .welcome-content .description {
 		line-height: 2;
 	}
