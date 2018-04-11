@@ -90,6 +90,17 @@
 	padding: 10px 20px;
 	border-radius: 28px;
 	border: 2px solid rgba(256,256,256,0.5);
+	-webkit-transition: transform 0.4s ease-out;
+	transition: transform 0.4s ease-out 0.01s, opacity 0s;
+}
+@media( max-width: 640px )  {
+	.menu-toggle.hide {
+		-webkit-transform: scale(.80) translateY(50px);
+		-moz-transform: scale(.80) translateY(50px);
+		transform: scale(.80) translateY(50px);
+		opacity: 0;
+		transition: transform 0.15s ease-out, opacity 0s 0.15s;
+	}
 }
 
 .menu-toggle * {

@@ -1,6 +1,56 @@
 
 /*
  *
+ * When scrolling through the page on mobile,
+ * 1. Show the menu button on scrolling up.
+ * 2. Hide the menu button on scrolling down.
+ *
+ */
+
+ var currentScrollPosition = window.scrollY || document.body.scrollTop;
+ var menuWidgetIsHidden = false;
+ var controlDisplayOfMenuButtonOnScroll = function () {
+
+ 	var $menuWidget = $( ".js_menu_toggle" );
+
+ 	return function controlDisplayOfMenuButtonOnScroll () {
+
+ 		var scrollTop = window.scrollY || document.body.scrollTop;
+
+ 		/*
+ 		 * Show / hide the menu toggle depending on the scroll direction
+ 		 */
+ 		// Scrolling down
+ 		if ( scrollTop > currentScrollPosition ) {
+ 			// console.log( "The menu button should be hidden." )
+ 			if ( ! menuWidgetIsHidden ) {
+ 				menuWidgetIsHidden = true;
+ 				$menuWidget.addClass( "hide" );
+ 			}
+ 		}
+
+ 		// Scrolling up
+ 		if ( scrollTop < currentScrollPosition ) {
+ 			// console.log( "The menu button should be shown." )
+ 			if ( menuWidgetIsHidden ) {
+ 				menuWidgetIsHidden = false;
+ 				$menuWidget.removeClass( "hide" );
+ 			}
+ 		}
+
+ 		currentScrollPosition = scrollTop;
+
+ 	};
+
+ }();
+
+ // onViewportScrollThrottle( controlDisplayOfMenuButtonOnScroll );
+ window.addEventListener( "scroll", controlDisplayOfMenuButtonOnScroll, true );
+
+
+
+/*
+ *
  * When scrolling through the page,
  * 1. Change the URL fragment to match the section that is currently being viewed.
  * 2. Reflect the current section in the navigation menu ( if applicable ).

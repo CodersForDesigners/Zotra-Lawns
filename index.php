@@ -834,7 +834,7 @@
 <section class="menu js_menu_opener js_modal_closer" tabindex="-1">
 	<div class="menu-container container">
 		<div class="menu-toggle-close"></div>
-		<div class="menu-toggle inline">
+		<div class="menu-toggle inline js_menu_toggle">
 			<span class="menu-label h4 text-uppercase">&nbsp;</span>
 			<span class="menu-icon">
 				<span></span>
@@ -945,6 +945,25 @@
 
 
 <!-- JS Modules -->
+<script type="text/javascript">
+
+	/*
+	 *
+	 * Auto-scroll to the section specified in the url
+	 *
+	 */
+	( function () {
+
+		if ( location.pathname == "/" ) return;
+
+		var section = location.pathname.slice( 1, -1 )
+		setTimeout( function () {
+			window.scrollTo( { top: document.getElementById( section ).offsetTop, behavior: "smooth" } );
+		}, 250 );
+
+	} )()
+
+</script>
 <script type="text/javascript" src="/js/modules/pageless.js"></script>
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
