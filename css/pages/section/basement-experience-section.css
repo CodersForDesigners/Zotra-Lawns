@@ -8,15 +8,19 @@
 }
 
 .basement-experience-section .basement-experience-content {
-	position: absolute;
+	position: relative;
 	z-index: 3;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: auto;
 }
 
 
 @media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
+@media( min-width: 1040px ) {
+	.basement-experience-section .basement-experience-content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+	}
+}
 @media( min-width: 1380px ) {}

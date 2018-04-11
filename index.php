@@ -666,15 +666,23 @@
 	<section id="architect" class="architect-section block-space-top-bottom fill-off-light texture js_section">
 		<div class="container">
 			<div class="row">
-				<div class="photograph columns small-12 medium-5">
+				<div class="photograph columns small-12 large-5">
+					<img src="media/architect-photograph.png<?php echo $ver ?>">
 				</div>
-				<div class="architect-content columns small-10 small-offset-1 medium-6 medium-offset-0 large-5 large-offset-1">
+				<div class="architect-content columns small-10 small-offset-1 large-5">
 					<div class="title label strong text-off-copper">Principal Designer</div>
-					<div class="heading h1 strong text-neutral">Hadi Tehrani</div>
-					<div class="description p">Hadi Tehrani is an award-winning Iranian-German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
+					<div class="heading h1 strong text-neutral">Hadi Teherani</div>
+					<div class="description p">Hadi Teherani is an award-winning German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
 					This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.<br><br>
-					<a class="p strong em text-off-copper" href="www.haditeherani.com" target="_blank">Architect Website &#10230;</a>
-				</div>
+					<a class="p strong em text-off-copper" href="http://www.haditeherani.com" target="_blank">Architect's Website &#10230;</a>
+					</div>
+					<hr>
+					<div class="team-title label strong text-off-copper">Landscape Designers</div>
+					<div class="team-heading h3 strong text-neutral">Zoras</div>
+					<div class="team-title label strong text-off-copper">Mechanical Electrical &amp; Plumbing</div>
+					<a class="team-heading h3 strong text-neutral" href="http://www.zoras.co.uk/" target="_blank">Tirumala Associates</a><br>
+					<div class="team-title label strong text-off-copper">Structural Consultants</div>
+					<div class="team-heading h3 strong text-neutral">Visda</div>
 				</div>
 			</div>
 		</div>
@@ -709,6 +717,10 @@
 				<div class="point columns small-10 small-offset-1 medium-4 medium-offset-2 large-2 large-offset-1">
 					<img src="media/safety-icons/cctv.svg<?php echo $ver ?>">
 					<span class="p em text-copper">CCTV camera coverage all round as well as across the common areas of the community.</span>
+				</div>
+				<div class="point columns small-10 small-offset-1 medium-4 large-2 large-offset-6">
+					<img src="media/safety-icons/my-gate.svg<?php echo $ver ?>">
+					<span class="p em text-copper">App based visitor management system. Controlled access to the lift from basement.</span>
 				</div>
 			</div>
 		</div>
