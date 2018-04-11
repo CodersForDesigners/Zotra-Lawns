@@ -152,11 +152,13 @@
 
 	<!-- Podium Masterplan Section -->
 	<section id="podium-masterplan" class="podium-masterplan-section block-space-top-bottom fill-off-light gradient-light-off-moss texture js_section js_podium_masterplan">
-		<div class="container">
-			<div class="row">
-				<div class="label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
-				<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</div>
-				<div class="p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
+		<div class="podium-masterplan-content">
+			<div class="container">
+				<div class="row">
+					<div class="title label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
+					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</div>
+					<div class="description p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
+				</div>
 			</div>
 		</div>
 
@@ -171,6 +173,7 @@
 						<div class="layer"><img class="block" src="media/podium-masterplan/4_PodiumTrees.png<?php echo $ver ?>"></div>
 						<div class="layer roof-shadows"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
+						<div class="layer"><div id="podium"> </div></div>
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57.5%;left: 58.2%;">1</div>
 							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 57.5%;left: 16.5%;">2</div>
@@ -216,11 +219,11 @@
 
 	<!-- Podium Experience Section -->
 	<section id="podium-experience" class="podium-experience-section fill-moss gradient-off-moss-moss texture js_section">
-		<div class="podium-experience-content no-pointer block-space-top-bottom">
+		<div class="podium-experience-content no-pointer block-space-top">
 			<div class="container">
 				<div class="row">
-					<div class="label strong text-off-copper columns small-10 small-offset-1">Upper-Level</div>
-					<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br> Experience</div>
+					<div class="title label strong text-off-copper columns small-10 small-offset-1">Upper-Level</div>
+					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br> Experience</div>
 				</div>
 			</div>
 		</div>
@@ -267,12 +270,14 @@
 
 
 	<!-- Basement Masterplan Section -->
-	<section id="basement-masterplan" class="podium-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture js_section js_basement_masterplan">
-		<div class="container">
-			<div class="row">
-				<div class="label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
-				<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</div>
-				<div class="p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
+	<section id="basement-masterplan" class="basement-masterplan-section block-space-top-bottom fill-moss gradient-moss-off-dark texture js_section js_basement_masterplan">
+		<div class="basement-masterplan-content">
+			<div class="container">
+				<div class="row">
+					<div class="title label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
+					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</div>
+					<div class="description p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
+				</div>
 			</div>
 		</div>
 
@@ -336,11 +341,11 @@
 
 	<!-- Basement Experience Section -->
 	<section id="basement-experience" class="basement-experience-section fill-off-dark texture js_section">
-		<div class="basement-experience-content no-pointer block-space-top-bottom">
+		<div class="basement-experience-content no-pointer block-space-top">
 			<div class="container">
 				<div class="row">
-					<div class="label strong text-off-copper columns small-10 small-offset-1">Lower-Level</div>
-					<div class="h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br>  Experience</div>
+					<div class="title label strong text-off-copper columns small-10 small-offset-1">Lower-Level</div>
+					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br>  Experience</div>
 				</div>
 			</div>
 		</div>
@@ -779,8 +784,13 @@
 
 
 	<!-- Footer Section -->
-	<section class="footer-section">
+	<section class="footer-section fill-off-dark block-space-top-bottom">
 		<div class="container">
+			<div class="row">
+				<div class="columns small-10 small-offset-1">
+					<img src="media/logo-zotra-partner.svg<?php echo $ver ?>">
+				</div>
+			</div>
 		</div>
 	</section><!-- END : Footer Section -->
 
@@ -958,6 +968,14 @@ $(document).ready(function(){
 		  loop: true,
 		  autoplay: true,
 		  path: 'basement.json'
+		})
+
+		var animation = bodymovin.loadAnimation({
+		  container: document.getElementById('podium'),
+		  renderer: 'svg',
+		  loop: true,
+		  autoplay: true,
+		  path: 'pedestrian.json'
 		})
 
 });
