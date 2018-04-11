@@ -385,7 +385,7 @@
 
 
 	<!-- Location Section -->
-	<section id="location" class="location-section block-space-top-bottom fill-light js_section">
+	<section id="location" class="location-section block-space-top-bottom fill-light js_section js_location_section">
 		<div class="container">
 			<div class="row">
 				<div class="beacon-container hide-for-mobile columns small-12 medium-5"><div class="beacon"></div></div>
@@ -408,24 +408,72 @@
 
 			<!-- <div>[ We need to highlight proximity to Banshankari as well, as there are premium customers in that area and would not mind moving here. ]<div> -->
 			<div class="row">
-				<div class="location-list columns small-10 small-offset-1">
-					Malls -
-					Upcoming Salapuria Mall – 3 kms
-					Gopalan Arcade Mall – 2.7 kms
-
-					Hospitals -
-					BGS Global Hospital – 2.5 kms
-					SSNMC Super Speciality Hospital – 3 kms
-
-					Schools -
-					National Public School – 2 kms
-					Gnanakshi Vidyaniketan School – 0.5 kms
-					Bangalore University – 3 kms
-					Maple Bear Canadian Pre school – 2 kms
-
-					Others -
-					Global Village Tech Park – 2.5 kms
-					Metro Station – 3 kms
+				<div class="location-list columns small-12 large-offset-6 large-6">
+					<div class="container-headings js_container_headings">
+						<div class="heading-underline js_heading_underline"></div>
+						<div class="headings js_headings">
+							<div class="h selected js_h" data-index="1">
+								<span>Malls</span>
+							</div>
+							<div class="h js_h" data-index="2">
+								<span>Hospitals</span>
+							</div>
+							<div class="h js_h" data-index="3">
+								<span>Schools</span>
+							</div>
+							<div class="h js_h" data-index="4">
+								<span>Other</span>
+							</div>
+						</div>
+					</div>
+					<div class="tabs js_tabs">
+						<div class="tab selected js_tab">
+							<div class="h js_h" data-index="1">
+								<span>Malls</span>
+							</div>
+							<div class="container-content">
+								<div class="content">
+									<div>Upcoming Salapuria Mall – 3 kms</div>
+									<div>Gopalan Arcade Mall – 2.7 kms</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab js_tab">
+							<div class="h js_h" data-index="2">
+								<span>Hospitals</span>
+							</div>
+							<div class="container-content">
+								<div class="content">
+									<div>BGS Global Hospital – 2.5 kms</div>
+									<div>SSNMC Super Speciality Hospital – 3 kms</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab js_tab">
+							<div class="h js_h" data-index="3">
+								<span>Schools</span>
+							</div>
+							<div class="container-content">
+								<div class="content">
+									<div>National Public School – 2 kms</div>
+									<div>Gnanakshi Vidyaniketan School – 0.5 kms</div>
+									<div>Bangalore University – 3 kms</div>
+									<div>Maple Bear Canadian Pre school – 2 kms</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab js_tab">
+							<div class="h js_h" data-index="4">
+								<span>Others</span>
+							</div>
+							<div class="container-content">
+								<div class="content">
+									<div>Global Village Tech Park – 2.5 kms</div>
+									<div>Metro Station – 3 kms</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -829,6 +877,7 @@
 <script type="text/javascript" src="/js/modules/video_embed.js"></script>
 <script type="text/javascript" src="/js/modules/modal_box.js"></script>
 <script type="text/javascript" src="/js/modules/smoothscroll.js"></script>
+<script type="text/javascript" src="/js/modules/tabs.js"></script>
 <script type="text/javascript" src="/js/modules/form.js"></script>
 <!-- <script type="text/javascript" src="/js/modules/disclaimer.js"></script> -->
 

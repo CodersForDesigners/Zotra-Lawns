@@ -13,7 +13,7 @@
 
 .location-section .maps {
 	margin-top: 40px;
-	padding: 150px 0 50px 0; 
+	padding: 150px 0 50px 0;
 	text-align: center;
 	border-radius: 10px;
 	background: url('/media/maps-bg.png');
@@ -40,7 +40,7 @@
 	display: inline-block;
 	background-color: var(--light);
 	padding: 0 10px;
-	
+
 	transform: translateY(-22px);
 }
 
@@ -86,7 +86,7 @@
 
 		transform: translateX(-50%) translateY(-50%);
 	}
-		
+
 	.location-section .beacon-container {
 		position: relative;
 		z-index: 1;
@@ -180,4 +180,226 @@
 	.location-section .location-content:after {
 		left: -113px;
 	}
+}
+
+
+
+
+/*
+ * -/-/-/-/-
+ * Tab system
+ * -/-/-/-/-
+ */
+.location-section .location-list .tab {
+	margin: 1rem 0 0.5rem;
+}
+
+@media ( min-width: 640px ) {
+
+	.location-section .location-list .tabs {
+		position: relative;
+	}
+	.location-section .location-list .tab {
+		margin: 0;
+	}
+
+}
+
+
+
+
+/*
+ * \
+ *   - Tab headings (for SMALL viewports)
+ * /
+ */
+.location-section .location-list .tab .h {
+	display: block;
+	border-bottom: 1px solid #af8770;
+	overflow: hidden;
+}
+.location-section .location-list .tab .h span {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	border-bottom: 3px solid transparent;
+	padding: 0.5rem 0 0.5rem 0.3rem;
+	font-size: 1.4rem;
+	color: #af8770;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: 0.5s opacity ease-in-out;
+}
+.location-section .location-list .tab .h span:after {
+	content: "";
+	position: absolute;
+	bottom: -3px;
+	left: -100%;
+	width: 100%;
+	border-bottom: 3px solid #af8770;
+	transition: 0.5s left ease-in-out;
+}
+.location-section .location-list .tab.selected .h span {
+	opacity: 1;
+	transition: 0.5s opacity ease-in-out 0.65s;
+}
+.location-section .location-list .tab.selected .h span:after {
+	left: 0;
+	transition: 0.5s left ease-in-out 0.65s;
+}
+
+@media ( min-width: 640px ) {
+
+	.location-section .location-list .tab .h {
+		display: none;
+	}
+
+}
+
+
+
+
+/*
+ * \
+ *   - Tab headings (for LARGE viewports)
+ * /
+ */
+.location-section .location-list .container-headings {
+	position: relative;
+}
+.location-section .location-list .headings {
+	margin: 0 0 1rem;
+	width: 100%;
+	border-bottom: 1px solid #af8770;
+}
+/* Justify-ing the tab headings */
+/* -- Approach #1 – text-align: justify; -- */
+	/* This :after element ensures that the tab headers are justified */
+	/* The negative margin is to undo the offset created by the :after element */
+.location-section .location-list .headings {
+	height: 3.5rem;
+	text-align: justify;
+}
+.location-section .location-list .headings:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+.location-section .location-list .headings .h {
+	display: inline-block;
+	margin: 0 0 -10px;
+	border-bottom: 3px solid transparent;
+}
+/* -- Approach #2 – display: table-cell; -- */
+/*.location-section .location-list .headings {
+	display: table;
+}
+.location-section .location-list .headings .h {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
+.location-section .location-list .headings .h:first-child {
+	text-align: left;
+}
+.location-section .location-list .headings .h:last-child {
+	text-align: right;
+}*/
+
+
+
+.location-section .location-list .headings .h span {
+	display: inline-block;
+	border-bottom: 3px solid transparent;
+	padding: 0.5rem 0.5rem 0.3rem;
+	font-size: 1.4rem;
+	color: #af8770;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.location-section .location-list .headings .h.selected span {
+	/*border-bottom: 3px solid #af8770;*/
+	opacity: 1;
+}
+
+.location-section .location-list .heading-underline {
+	position: absolute;
+	display: block;
+	bottom: 1px;
+	left: 0;
+	width: 0;
+	height: 0;
+	background-color: #af8770;
+	transition: 0.4s left ease-in-out, 0.2s width ease-in-out 0.2s;
+}
+
+@media ( max-width: 640px ) {
+	.location-section .location-list .headings {
+		display: none;
+	}
+}
+
+@media ( min-width: 640px ) {
+
+	.location-section .location-list .heading-underline {
+		height: 3px;
+	}
+
+}
+
+
+
+/*
+ * \
+ *   - Tab headings
+ * /
+ */
+.location-section .location-list .h {
+	outline: none;
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+	touch-action: none;
+	user-select: none;
+}
+
+
+
+/*
+ * \
+ *   - Tab content
+ * /
+ */
+.location-section .location-list .container-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.65s max-height ease-in-out;
+}
+.location-section .location-list .tab.selected .container-content {
+	max-height: 500px;
+	transition: 1s max-height ease-in 0.65s;
+}
+.location-section .location-list .tab .content {
+	padding: 1rem 0 0 0.3rem;
+	color: #af8770;
+	line-height: 1.7;
+}
+
+@media ( min-width: 640px ) {
+
+	.location-section .location-list .container-content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-height: none;
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.4s visibility ease-in, 0.4s opacity ease-in;
+	}
+	.location-section .location-list .tab.selected .container-content {
+		max-height: none;
+		visibility: visible;
+		opacity: 1;
+		transition: 0.6s visibility ease-in 0.4s, 0.6s opacity ease-in 0.4s;
+	}
+
 }
