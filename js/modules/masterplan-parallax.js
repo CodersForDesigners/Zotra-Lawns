@@ -9,6 +9,10 @@ $( function () {
 	document.documentElement.style.setProperty( "--roof-shadow-offset-x", "5px" )
 	document.documentElement.style.setProperty( "--roof-shadow-offset-y", "5px" )
 
+	// Hide the instructions overlay on any sort of interaction with the masterplan
+	$( ".js_podium_masterplan" ).one( "click", ".js_masterplan_container", function ( event ) {
+		$( event.target ).closest( ".js_masterplan_container" ).addClass( "hide" );
+	} );
 	$( ".js_podium_masterplan" ).on( "mousemove", ".js_masterplan_container", function ( event ) {
 
 		var $el = $( event.target );
@@ -44,7 +48,11 @@ $( function () {
 	var lightsMaxXOffset = 5
 	var lightsMaxYOffset = 5
 
-	$( ".js_basement_masterplan" ).on( "mousemove", function ( event ) {
+	// Hide the instructions overlay on any sort of interaction with the masterplan
+	$( ".js_basement_masterplan" ).one( "click", ".js_masterplan_container", function ( event ) {
+		$( event.target ).closest( ".js_masterplan_container" ).addClass( "hide" );
+	} );
+	$( ".js_basement_masterplan" ).on( "mousemove", ".js_masterplan_container", function ( event ) {
 
 		var $el = $( event.target );
 		if ( $el.is( ".js_blip_toggle" ) ) return;

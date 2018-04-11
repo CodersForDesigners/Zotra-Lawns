@@ -188,7 +188,7 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container js_masterplan_container">
+				<div class="masterplan-container panorama-instruction js_masterplan_container">
 					<div class="masterplan">
 						<div class="layer backdrop"><img class="block" src="media/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
@@ -307,7 +307,7 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container js_masterplan_container">
+				<div class="masterplan-container panorama-instruction js_masterplan_container">
 					<div class="masterplan">
 						<div class="layer grid"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>

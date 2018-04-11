@@ -5,7 +5,7 @@
 
 /* ## Basic Breakpoints
  * ====================
- 
+
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {}
 @media( min-width: 1380px ) {}
@@ -72,7 +72,7 @@ body, .body {
 	background-color: var(--light);
 }
 
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6,
 p, small, label {
 	margin: 0;
 	display: inline;
@@ -212,28 +212,28 @@ input[type="button"]:focus,
 	margin-left: 3px;
 }
 
-.button.button-copper, 
-button.button-copper, 
-input[type="submit"].button-copper, 
-input[type="reset"].button-copper, 
+.button.button-copper,
+button.button-copper,
+input[type="submit"].button-copper,
+input[type="reset"].button-copper,
 input[type="button"].button-copper {
     color: var(--light);
     background-color: var(--copper);
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.35), inset 0 0 0 0 rgba(256, 256, 256, 1), inset 0 0 0 0 rgba(256, 256, 256, 1);
 }
 
-.button.button-copper:hover, 
-button.button-copper:hover, 
-input[type="submit"].button-copper:hover, 
-input[type="reset"].button-copper:hover, 
+.button.button-copper:hover,
+button.button-copper:hover,
+input[type="submit"].button-copper:hover,
+input[type="reset"].button-copper:hover,
 input[type="button"].button-copper:hover {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.35), inset 0 0 0 4px rgba(256, 256, 256, 1), inset 0 0 0 0 rgba(256, 256, 256, 1);
 }
 
-.button.button-copper:focus, 
-button.button-copper:focus, 
-input[type="submit"].button-copper:focus, 
-input[type="reset"].button-copper:focus, 
+.button.button-copper:focus,
+button.button-copper:focus,
+input[type="submit"].button-copper:focus,
+input[type="reset"].button-copper:focus,
 input[type="button"].button-copper:focus {
     outline: 0;
     color: var(--copper);
@@ -476,3 +476,38 @@ select:focus {
 
 
 
+
+/*
+ *
+ *	Panorama Instructions
+ *
+ */
+
+.panorama-instruction {
+	position: relative;
+}
+.panorama-instruction:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url( "/media/icon-360.svg" );
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	z-index: 1;
+	pointer-events: none;
+	transition: 0.1s opacity ease-in 0.2s, 0.5s background-color ease-in 0.2s;
+}
+@media ( min-width: 1040px ) {
+	.panorama-instruction:before {
+		visibility: hidden;
+	}
+}
+
+.panorama-instruction.hide:before {
+	opacity: 0;
+	/*transition: 0.1s 6s opacity ease-in, 1s 5s background-color ease-in;*/
+}
