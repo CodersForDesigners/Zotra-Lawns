@@ -801,7 +801,7 @@
 <section class="menu js_menu_opener js_modal_closer" tabindex="-1">
 	<div class="menu-container container">
 		<div class="menu-toggle-close"></div>
-		<div class="menu-toggle inline">
+		<div class="menu-toggle inline js_menu_toggle">
 			<span class="menu-label h4 text-uppercase">&nbsp;</span>
 			<span class="menu-icon">
 				<span></span>
