@@ -2,16 +2,36 @@
  *	Basement Masterplan Section
  */
 
+.basement-masterplan-section .basement-masterplan-content {
+	margin-top: 40px;
+}
 
+.basement-masterplan-section .basement-masterplan-content .title {}
+.basement-masterplan-section .basement-masterplan-content .heading {
+	margin-top: 10px;
+}
 
-@media( min-width: 640px )  {}
+.basement-masterplan-section .basement-masterplan-content .description {
+	margin-top: 20px;
+}
+
+.basement-masterplan-section .blip-system  .slick-blip.slick-slider {
+	margin-top: -100px;
+}
+
+@media( min-width: 640px )  {
+	.basement-masterplan-section .blip-system  .slick-blip.slick-slider {
+		margin-top: -160px;
+	}
+}
+
 @media( min-width: 1040px ) {
 	.basement-masterplan-section .blip-system  .slick-blip.slick-slider {
-		margin-top: -240px;
+		margin-top: -210px;
 	}
 }
 @media( min-width: 1380px ) {
 	.basement-masterplan-section .blip-system .slick-blip.slick-slider {
-		margin-top: -300px;
+		margin-top: -280px;
 	}
 }

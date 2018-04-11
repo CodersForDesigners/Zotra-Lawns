@@ -2,16 +2,36 @@
  *	Podium Masterplan Section
  */
 
+.podium-masterplan-section .podium-masterplan-content {
+	margin-top: 40px;
+}
 
+.podium-masterplan-section .podium-masterplan-content .title {}
+.podium-masterplan-section .podium-masterplan-content .heading {
+	margin-top: 10px;
+}
 
-@media( min-width: 640px )  {}
+.podium-masterplan-section .podium-masterplan-content .description {
+	margin-top: 20px;
+}
+
+.podium-masterplan-section .blip-system  .slick-blip.slick-slider {
+	margin-top: -100px;
+}
+
+@media( min-width: 640px )  {
+	.podium-masterplan-section .blip-system  .slick-blip.slick-slider {
+		margin-top: -160px;
+	}
+}
+
 @media( min-width: 1040px ) {
-	.podium-masterplan-section .blip-system .slick-blip.slick-slider {
-		margin-top: -240px;
+	.podium-masterplan-section .blip-system  .slick-blip.slick-slider {
+		margin-top: -210px;
 	}
 }
 @media( min-width: 1380px ) {
 	.podium-masterplan-section .blip-system .slick-blip.slick-slider {
-		margin-top: -300px;
+		margin-top: -280px;
 	}
 }

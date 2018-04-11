@@ -10,6 +10,16 @@
 .basement-experience-section .basement-experience-content {
 	position: relative;
 	z-index: 3;
+	padding-bottom: 20px;
+}
+
+
+.basement-experience-section .basement-experience-content .title {
+	margin-top: 40px;
+}
+
+.basement-experience-section .basement-experience-content .heading {
+	margin-top: 10px;
 }
 
 
@@ -21,6 +31,10 @@
 		left: 0;
 		width: 100%;
 		height: auto;
+	}
+
+	.basement-experience-section .basement-experience-content .title {
+		margin-top: 0px;
 	}
 }
 @media( min-width: 1380px ) {}
