@@ -36,6 +36,7 @@
 	margin-top: -2px;
 	position: relative;
 	z-index: 1;
+	margin-bottom: 200px;
 }
 
 .villa-section .villa-image .blip-system .blip-image {
@@ -58,23 +59,28 @@
 	display: block;
 	height: 1000px;
 	z-index: 1;
+	/*background-color: peachpuff;*/
 	background-image: url('/media/isometric/top-bg.jpg');
-	transform: translateX(-50%) translateY(-93px) rotate(-16.6deg);
+	transform: translateX(-50%) translateY(-255px) rotate(-17.55deg);
 }
 
 @media( min-width: 640px )  {
 	.villa-section .bg-fix {
-		transform: translateX(-50%) translateY(-207px) rotate(-16.6deg);
+		transform: translateX(-50%) translateY(-334px) rotate(-17.55deg);
 	}
 
 	.villa-section .villa-content .description {
 		margin-top: 0;
 	}
+
+	.villa-section .villa-image .blip-system .slick-blip.slick-slider {
+		margin-top: -50px;
+	}
 }
 
 @media( min-width: 1040px ) {
 	.villa-section .bg-fix {
-		transform: translateX(-50%) translateY(-406px) rotate(-16.6deg);
+		transform: translateX(-50%) translateY(-440px) rotate(-17.55deg);
 	}
 
 	.villa-section .villa-content .description {
@@ -84,7 +90,7 @@
 	
 @media( min-width: 1380px ) {
 	.villa-section .bg-fix {
-		transform: translateX(-50%) translateY(-550px) rotate(-16.6deg);
+		transform: translateX(-50%) translateY(-530px) rotate(-17.55deg);
 	}
 
 	.villa-section .villa-content .description {

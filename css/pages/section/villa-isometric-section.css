@@ -11,6 +11,8 @@
 .villa-isometric-section .floor{
 	position: relative;
 	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .villa-isometric-section .floor:nth-child(1) { background-image: url('/media/isometric/top-bg.jpg'); }
@@ -19,34 +21,61 @@
 .villa-isometric-section .floor:nth-child(4) { background-image: url('/media/isometric/basement-bg.jpg'); }
 
 .villa-isometric-section .floor .isometric {
-	padding-top: 70%;
 	background-position: center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
-.villa-isometric-section .floor:nth-child(1) .isometric { background-image: url('/media/isometric/top-640.jpg'); }
-.villa-isometric-section .floor:nth-child(2) .isometric { background-image: url('/media/isometric/first-640.jpg'); }
-.villa-isometric-section .floor:nth-child(3) .isometric { background-image: url('/media/isometric/ground-640.jpg'); }
-.villa-isometric-section .floor:nth-child(4) .isometric { background-image: url('/media/isometric/basement-640.jpg'); }
+.villa-isometric-section .floor:nth-child(1) .isometric { 
+	padding-top: 45%;
+	background-image: url('/media/isometric/top-640.jpg'); 
+}
+.villa-isometric-section .floor:nth-child(2) .isometric { 
+	padding-top: 52%;
+	background-image: url('/media/isometric/first-640.jpg'); 
+}
+.villa-isometric-section .floor:nth-child(3) .isometric { 
+	padding-top: 70%;
+	background-image: url('/media/isometric/ground-640.jpg'); 
+}
+.villa-isometric-section .floor:nth-child(4) .isometric { 
+	padding-top: 65%;
+	background-image: url('/media/isometric/basement-640.jpg'); 
+}
 
+.villa-isometric-section .floor .floor-content {}
+.villa-isometric-section .floor .floor-content .title { margin-top: 20px; }
+.villa-isometric-section .floor .floor-content .heading { margin-top: 10px; }
+.villa-isometric-section .floor .floor-content .description { margin-top: 10px; }
 
 
 @media( min-width: 640px )  {
+	.villa-isometric-section .floor{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
 	.villa-isometric-section .floor:nth-child(1) .isometric { background-image: url('/media/isometric/top-1040.jpg'); }
 	.villa-isometric-section .floor:nth-child(2) .isometric { background-image: url('/media/isometric/first-1040.jpg'); }
 	.villa-isometric-section .floor:nth-child(3) .isometric { background-image: url('/media/isometric/ground-1040.jpg'); }
 	.villa-isometric-section .floor:nth-child(4) .isometric { background-image: url('/media/isometric/basement-1040.jpg'); }
+
+	.villa-isometric-section .floor .floor-content {}
+	.villa-isometric-section .floor .floor-content .title { margin-top: 40px; }
 }
 
 @media( min-width: 1040px ) {
+	.villa-isometric-section .floor{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
 	.villa-isometric-section .floor .isometric {
 		position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
-		padding-top: 0;
 		/*background-color: peachpuff;*/
 		/*background-attachment: fixed; */
 		background-size: 100%;
@@ -71,6 +100,8 @@
 		align-items: center;
 	}
 
+	.villa-isometric-section .floor .floor-content .title { margin-top: 0; }
+
 	.villa-isometric-section .floor:nth-child(1) {
 		z-index: 4;
 	}
@@ -85,10 +116,22 @@
 	}
 
 
-	.villa-isometric-section .floor:nth-child(1) .isometric { background-image: url('/media/isometric/top-1380.jpg'); }
-	.villa-isometric-section .floor:nth-child(2) .isometric { background-image: url('/media/isometric/first-1380.jpg'); }
-	.villa-isometric-section .floor:nth-child(3) .isometric { background-image: url('/media/isometric/ground-1380.jpg'); }
-	.villa-isometric-section .floor:nth-child(4) .isometric { background-image: url('/media/isometric/basement-1380.jpg'); }
+	.villa-isometric-section .floor:nth-child(1) .isometric { 
+		padding-top: 0;
+		background-image: url('/media/isometric/top-1380.jpg'); 
+	}
+	.villa-isometric-section .floor:nth-child(2) .isometric { 
+		padding-top: 0;
+		background-image: url('/media/isometric/first-1380.jpg'); 
+	}
+	.villa-isometric-section .floor:nth-child(3) .isometric { 
+		padding-top: 0;
+		background-image: url('/media/isometric/ground-1380.jpg'); 
+	}
+	.villa-isometric-section .floor:nth-child(4) .isometric { 
+		padding-top: 0;
+		background-image: url('/media/isometric/basement-1380.jpg'); 
+	}
 
 
 }

@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180405234';
+	$ver = '?v=20180412321';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -88,37 +88,42 @@
 				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">The Best of Both Worlds</div>
 				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach. The entire 5 acre property is pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family. Each floor is designed for a specific purpose.</div>
 			</div>
-			<div div class="villa-image block-space-bottom">
+			<div div class="villa-image">
 				<!-- Villa Blips -->
 				<div class="blip-system">
 					<div class="blip-image">
 						<img class="block" style="width: 100%;" src="media/cross-section-3d.png<?php echo $ver ?>">
 						<div class="blip-canvas">
-							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 59.5%;left: 49.5%;">1</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 80%;left: 20%;">2</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 50%;left: 64.7%;">3</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 75%;left: 80%;">4</div>
+							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 51.7%;left: 63.2%;">1</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 70%;left: 20%;">2</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 45%;left: 36%;">3</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 84%;left: 60%;">4</div>
+							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 65%;left: 47.5%;">5</div>
 						</div>
 					</div>
 					<div class="container">
 						<div class="row">
 							<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
-								<div class="slick-blip fill-light js_slick_blip">
+								<div class="slick-blip fill-dark js_slick_blip">
 									<div class="point">
-										<div class="heading h4 text-copper">The Master Suite</div>
-										<div class="p description">A large master bedroom with a study area, large dressing and bathroom. Access to a private terrace from your bedroom. </div>
+										<div class="heading h4 text-copper">Lift</div>
+										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
 									</div>
 									<div class="point">
-										<div class="heading h4 text-copper">The Nuclear Family</div>
-										<div class="p description">One large bedroom. One large children's bedroom. Both accessed from a corridor that overlooks the Ground floor. </div>
+										<div class="heading h4 text-copper">Private garden</div>
+										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
 									</div>
 									<div class="point">
-										<div class="heading h4 text-copper">Home with the Grandparents</div>
-										<div class="p description">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the villa, along with separate utility and a pooja room. </div>
+										<div class="heading h4 text-copper">Double height cut-out</div>
+										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
 									</div>
 									<div class="point">
-										<div class="heading h4 text-copper">Ample Parking and Storage</div>
-										<div class="p description">One large service room, which can be used for various services such as store room etc. Three carparks for each villa. </div>
+										<div class="heading h4 text-copper">Basement</div>
+										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+									</div>
+									<div class="point">
+										<div class="heading h4 text-copper">Expansive living and dining area</div>
+										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
 									</div>
 								</div>
 							</div>
@@ -126,16 +131,6 @@
 					</div>
 				</div><!-- END: Villa Blips -->
 			</div>
-			<!-- <div>
-				[ Blips ] :
-				- Lift
-				- Private garden
-				- Double height cut out
-				- Basement
-				- Large expanse of living and dining area
-			</div> -->
-
-
 
 		</div>
 		<div class="bg-fix"></div>
@@ -147,48 +142,48 @@
 	<section id="villa-key-features" class="villa-isometric-section fill-light js_section js_section_villa_features">
 		<div class="floor">
 			<div class="isometric"></div>
-			<div class="floor-content row block-space-bottom">
+			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="title h2 strong">2<sup>nd</sup> Floor</div>
-						<div class="h4 strong text-copper">The Master Suite</div>
-						<div class="p">A large master bedroom with a study area, large dressing and bathroom. Access to a private terrace from your bedroom. </div>
+						<div class="heading h4">The Master Suite</div>
+						<div class="description p">A large master bedroom with a study area, large dressing and bathroom. Access to a private terrace from your bedroom. </div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="floor">
 			<div class="isometric"></div>
-			<div class="floor-content row block-space-bottom">
+			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="title h2 strong">1<sup>st</sup> Floor</div>
-						<div class="h4 strong text-copper">The Nuclear Family</div>
-						<div class="p">One large bedroom. One large children's bedroom. Both accessed from a corridor that overlooks the Ground floor. </div>
+						<div class="heading h4">The Nuclear Family</div>
+						<div class="description p">One large bedroom. One large children's bedroom. Both accessed from a corridor that overlooks the Ground floor. </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="floor">
+			<div class="isometric"></div>
+			<div class="floor-content row">
+				<div class="container">
+					<div class="columns small-10 medium-8 large-4 large-offset-7">
+						<div class="title h2 strong">Ground Floor</div>
+						<div class="heading h4">Home with the Grandparents</div>
+						<div class="description p">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the villa, along with separate utility and a pooja room. </div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="floor text-off-light">
 			<div class="isometric"></div>
-			<div class="floor-content row block-space-bottom">
+			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="title h2 strong">Ground Floor</div>
-						<div class="h4 strong text-off-moss">Home with the Grandparents</div>
-						<div class="p">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the villa, along with separate utility and a pooja room. </div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="floor text-off-neutral">
-			<div class="isometric"></div>
-			<div class="floor-content row block-space-bottom">
-				<div class="container">
-					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="title h2 strong">Basement Floor</div>
-						<div class="h4 strong text-off-moss">Ample Parking and Storage</div>
-						<div class="p">One large service room, which can be used for various services such as store room etc. Three carparks for each villa. </div>
+						<div class="title h2 strong">Basement</div>
+						<div class="heading h4">Ample Parking and Storage</div>
+						<div class="description p">One large service room, which can be used for various services such as store room etc. Three carparks for each villa. </div>
 					</div>
 				</div>
 			</div>

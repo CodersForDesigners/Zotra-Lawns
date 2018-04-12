@@ -93,6 +93,7 @@ a, a:hover, a:focus {
 	text-decoration: none;
 	color: inherit; }
 
+sup { top: -0.375em; }
 
 
 /*
