@@ -36,7 +36,7 @@
 	margin-top: -2px;
 	position: relative;
 	z-index: 1;
-	margin-bottom: 200px;
+	margin-bottom: 240px;
 }
 
 .villa-section .villa-image .blip-system .blip-image {
@@ -61,12 +61,16 @@
 	z-index: 1;
 	/*background-color: peachpuff;*/
 	background-image: url('/media/isometric/top-bg.jpg');
-	transform: translateX(-50%) translateY(-255px) rotate(-17.55deg);
+	-webkit-transform: translateX(-50%) translateY(-295px) rotate(-17.55deg);
+	-moz-transform: translateX(-50%) translateY(-295px) rotate(-17.55deg);
+	transform: translateX(-50%) translateY(-295px) rotate(-17.55deg);
 }
 
 @media( min-width: 640px )  {
 	.villa-section .bg-fix {
-		transform: translateX(-50%) translateY(-334px) rotate(-17.55deg);
+		-webkit-transform: translateX(-50%) translateY(-374px) rotate(-17.55deg);
+		-moz-transform: translateX(-50%) translateY(-374px) rotate(-17.55deg);
+		transform: translateX(-50%) translateY(-374px) rotate(-17.55deg);
 	}
 
 	.villa-section .villa-content .description {
@@ -80,7 +84,9 @@
 
 @media( min-width: 1040px ) {
 	.villa-section .bg-fix {
-		transform: translateX(-50%) translateY(-440px) rotate(-17.55deg);
+		-webkit-transform: translateX(-50%) translateY(-480px) rotate(-17.55deg);
+		-moz-transform: translateX(-50%) translateY(-480px) rotate(-17.55deg);
+		transform: translateX(-50%) translateY(-480px) rotate(-17.55deg);
 	}
 
 	.villa-section .villa-content .description {
@@ -90,7 +96,9 @@
 	
 @media( min-width: 1380px ) {
 	.villa-section .bg-fix {
-		transform: translateX(-50%) translateY(-530px) rotate(-17.55deg);
+		-webkit-transform: translateX(-50%) translateY(-570px) rotate(-17.55deg);
+		-moz-transform: translateX(-50%) translateY(-570px) rotate(-17.55deg);
+		transform: translateX(-50%) translateY(-570px) rotate(-17.55deg);
 	}
 
 	.villa-section .villa-content .description {

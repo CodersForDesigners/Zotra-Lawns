@@ -106,24 +106,24 @@
 							<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 								<div class="slick-blip fill-dark js_slick_blip">
 									<div class="point">
-										<div class="heading h4 text-copper">Lift</div>
-										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+										<div class="heading h4 text-copper">Dedicated Private Lift</div>
+										<div class="p description">Your home comes with a dedicated private lift. The Lift is access controlled and configured to allow secure access to all floors. The main staircase runs in a spiral around the lift well. </div>
 									</div>
 									<div class="point">
-										<div class="heading h4 text-copper">Private garden</div>
-										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+										<div class="heading h4 text-copper">Private Lawn</div>
+										<div class="p description">Your home opens up into a dedicated landscaped lawn. Connecting your commonly used family spaces with the outdoors. </div>
 									</div>
 									<div class="point">
-										<div class="heading h4 text-copper">Double height cut-out</div>
-										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+										<div class="heading h4 text-copper">Double Height Cut-Out</div>
+										<div class="p description">Your Living Room is a double height space that deliberately invokes the feeling of a high-end custom designed home. </div>
 									</div>
 									<div class="point">
 										<div class="heading h4 text-copper">Basement</div>
-										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+										<div class="p description">You have 3 dedicated car-parks. Enter the basement on a direct ramp and drive to your parking. Take the access controlled lift to any floor in your home. The staircase leads to your front-door at the pedestrian level. </div>
 									</div>
 									<div class="point">
 										<div class="heading h4 text-copper">Expansive living and dining area</div>
-										<div class="p description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+										<div class="p description">All the rooms on the ground floor revolve around an aptly placed Living Room and Dining Area, which open up into landscaped lawns. </div>
 									</div>
 								</div>
 							</div>
