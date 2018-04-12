@@ -497,7 +497,6 @@ select:focus {
 	background-image: url( "/media/icon-360.svg" );
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: rgba( 0, 0, 0, 0.2 );
 	z-index: 1;
 	pointer-events: none;
 	transition: 0.1s opacity ease-in 0.2s, 0.5s background-color ease-in 0.2s;
