@@ -59,7 +59,7 @@
 					<div class="logo columns small-5 small-offset-1 medium-3 large-3 xlarge-2">
 						<img class="block" src="media/logo-lawns.svg<?php echo $ver ?>">
 					</div>
-					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Lawns is the <span class="strong em text-light">first 4 bedroom villa development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it.</div>
+					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Lawns is the <span class="strong em text-light">first 4 bedroom development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it.</div>
 				</div>
 			</div>
 		</div>
@@ -74,7 +74,7 @@
 					<div class="rera label">RERA Nº : PR/KN/180223/002803</div>
 				</div>
 				<div class="zotra-content h4 text-neutral columns small-10 small-offset-1 large-5">
-					Zotra Lawns exemplifies the luxury of both, an Architect designed independent bunglow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
+					Zotra Lawns exemplifies the luxury of both, an Architect designed bunglow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
 				</div>
 			</div>
 		</div>
@@ -84,9 +84,9 @@
 	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
 		<div class="container">
 			<div class="row villa-content block-space-top fill-light">
-				<div class="title label strong text-black columns small-10 small-offset-1">The Villa</div>
+				<div class="title label strong text-black columns small-10 small-offset-1">Dual Level Homes</div>
 				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">The Best of Both Worlds</div>
-				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach. The entire 5 acre property is pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family. Each floor is designed for a specific purpose.</div>
+				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach. The entire 2.8 acre property is pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family. Each floor is designed for a specific purpose.</div>
 			</div>
 			<div div class="villa-image">
 				<!-- Villa Blips -->
@@ -145,7 +145,7 @@
 			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
-						<div class="title h2 strong">2<sup>nd</sup> Floor</div>
+						<div class="title h2 strong">Top Floor</div>
 						<div class="heading h4">The Master Suite</div>
 						<div class="description p">A large master bedroom with a study area, large dressing and bathroom. Access to a private terrace from your bedroom. </div>
 					</div>
@@ -170,8 +170,8 @@
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="title h2 strong">Ground Floor</div>
-						<div class="heading h4">Home with the Grandparents</div>
-						<div class="description p">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the villa, along with separate utility and a pooja room. </div>
+						<div class="heading h4">Family Central</div>
+						<div class="description p">Large and spacious living and dining rooms. One bedroom. A large kitchen which does justice to the home, along with separate utility and a pooja room. </div>
 					</div>
 				</div>
 			</div>
@@ -183,7 +183,7 @@
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
 						<div class="title h2 strong">Basement</div>
 						<div class="heading h4">Ample Parking and Storage</div>
-						<div class="description p">One large service room, which can be used for various services such as store room etc. Three carparks for each villa. </div>
+						<div class="description p">One large service room, which can be used for various services such as store room etc. Three carparks for each home. </div>
 					</div>
 				</div>
 			</div>
@@ -244,7 +244,7 @@
 							<div class="point row">
 								<div class="title h4 text-copper">Outdoor Recreation</div>
 								<div class="icon columns small-4 large-3"><img class="block" src="media/podium-masterplan-icons/Promenade.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-8">A central landscaped recreational area, with outdoor amenities.</div>
+								<div class="p description columns small-7 small-offset-1 large-8">A landscaped recreational area, with outdoor amenities.</div>
 							</div>
 							<div class="point row">
 								<div class="title h4 text-copper">Privacy</div>
@@ -272,7 +272,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="title label strong text-off-copper columns small-10 small-offset-1">Upper-Level</div>
-					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br> Experience</div>
+					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Promenade<br> Experience</div>
 				</div>
 			</div>
 		</div>
@@ -294,15 +294,15 @@
 						<div class="slick-blip fill-light js_slick_blip">
 							<div class="point">
 								<div class="title h4 text-copper">Contemporary Architecture</div>
-								<div class="p description">The villas possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.</div>
+								<div class="p description">The homes possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.</div>
 							</div>
 							<div class="point">
 								<div class="title h4 text-copper">Zero Redundant Barriers</div>
-								<div class="p description">The front yards of all the villas blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.</div>
+								<div class="p description">The front yards of all the homes blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.</div>
 							</div>
 							<div class="point">
 								<div class="title h4 text-copper">Privacy</div>
-								<div class="p description">To aid in privacy, Villas that face each other have been staggered.</div>
+								<div class="p description">To aid in privacy, homes that face each other have been staggered.</div>
 							</div>
 							<div class="point">
 								<div class="title h4 text-copper">Efficient Planning</div>
@@ -325,7 +325,7 @@
 				<div class="row">
 					<div class="title label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
 					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</div>
-					<div class="description p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective villas and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
+					<div class="description p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective homes and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
 				</div>
 			</div>
 		</div>
@@ -388,7 +388,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="title label strong text-off-copper columns small-10 small-offset-1">Lower-Level</div>
-					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Villa<br>  Experience</div>
+					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement<br>  Experience</div>
 				</div>
 			</div>
 		</div>
@@ -410,17 +410,17 @@
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Private Access</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/PrivateAccess.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-6">Every villa has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
+								<div class="p description columns small-7 small-offset-1 large-6">Every home has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
 							</div>
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Future proof</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/CarElec.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-6">Electric-car charging points controlled from within the villa are provided.</div>
+								<div class="p description columns small-7 small-offset-1 large-6">Electric-car charging points controlled from within the home.</div>
 							</div>
 							<div class="point row">
 								<div class="title h3 text-copper columns small-12">Water outlets</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/CarWash.svg<?php echo $ver ?>"></div>
-								<div class="p description columns small-7 small-offset-1 large-6">Each villa has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
+								<div class="p description columns small-7 small-offset-1 large-6">Each home has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>
 							</div>
 						</div>
 					</div>
@@ -439,8 +439,8 @@
 				<div class="beacon-container hide-for-mobile columns small-12 medium-5"><div class="beacon"></div></div>
 				<div class="location-content columns small-10 small-offset-1 medium-6 medium-offset-0 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Location</div>
-					<div class="heading h1 strong text-copper">Villas in Rajarajeshwari Nagar</div>
-					<div class="description p">Finding a villa community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 12000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
+					<div class="heading h1 strong text-copper">High-end homes in Rajarajeshwari Nagar</div>
+					<div class="description p">Finding a community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 8000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
 				</div>
 			</div>
 
@@ -450,7 +450,7 @@
 				</div>
 				<div class="appreciation columns small-12 large-6 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Appreciation</div>
-					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a villa community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
+					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
 				</div>
 			</div>
 
@@ -576,7 +576,7 @@
 					<div class="logo"><img class="inline" src="media/floorplan-card/sovereign-logo.svg<?php echo $ver ?>"></div>
 					<div class="image"><img class="block" src="media/floorplan-card/sovereign-img.png<?php echo $ver ?>"></div>
 					<div class="pattern"><img class="block" src="media/floorplan-card/sovereign-pattern.svg<?php echo $ver ?>"></div>
-					<div class="size">villas upto 3992 sft</div>
+					<div class="size">Homes upto 3992 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.3 Cr</div>
 					<button class="button button-copper block" style="background-color: #83837D;">Download Now &#x2b07;</button>
@@ -585,7 +585,7 @@
 					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
 					<div class="image"><img class="block" src="media/floorplan-card/supreme-img.png<?php echo $ver ?>"></div>
 					<div class="pattern"><img class="block" src="media/floorplan-card/supreme-pattern.svg<?php echo $ver ?>"></div>
-					<div class="size">villas upto 4349 sft</div>
+					<div class="size">Homes upto 4349 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.1 Cr</div>
 					<button class="button button-copper block" style="background-color: #AAA386;">Download Now &#x2b07;</button>
@@ -594,7 +594,7 @@
 					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
 					<div class="image"><img class="block" src="media/floorplan-card/premier-img.png<?php echo $ver ?>"></div>
 					<div class="pattern"><img class="block" src="media/floorplan-card/premier-pattern.svg<?php echo $ver ?>"></div>
-					<div class="size">villas upto 5695 sft</div>
+					<div class="size">Homes upto 5695 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
 					<div class="price text-copper">Starting at ₹4.5 Cr</div>
 					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now &#x2b07;</button>
@@ -636,7 +636,7 @@
 
 				<div class="uds columns small-10 small-offset-1 large-6">
 					<div class="title label strong text-neutral">Optimised UDS</div>
-					<div class="description p">The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average villa. This translates to a greater component of usable carpet area in your villa when compared to most other projects.</div>
+					<div class="description p">The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average home. This translates to a greater component of usable carpet area in your home when compared to most other projects.</div>
 				</div>
 			</div>
 		</div>
@@ -679,7 +679,7 @@
 				<div class="columns small-10 small-offset-1 medium-5 medium-offset-0 large-3">
 					<div class="label em text-neutral text-nocase">
 						<div class="point">
-							Each villa has 3 water tanks on the roof.<br>
+							Each home has 3 water tanks on the roof.<br>
 							<img class="inline-middle" src="media/glyphs/glyph-a.svg<?php echo $ver ?>"> : The first for Borewell water.<br>
 							<img class="inline-middle" src="media/glyphs/glyph-b.svg<?php echo $ver ?>"> : the second for Cauvery water.<br>
 							<img class="inline-middle" src="media/glyphs/glyph-c.svg<?php echo $ver ?>"> :  the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.</div>
@@ -702,7 +702,7 @@
 		</div>
 
 		<!-- <div>
-			1 - Each villa has 3 water tanks on the roof. The first for bore-well water, the second for Cauvery water and the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.
+			1 - Each home has 3 water tanks on the roof. The first for bore-well water, the second for Cauvery water and the third for a mix of treated black-water (recycled by the STP) and harvested rainwater.
 			2 - The tanks come with a tank reserve of 1 days worth of gravity-flow water supply in case the hydro-pneumatic pumps fail.
 			3 - The property has excellent groundwater tapped by 5 borewells fitted with Hydro-Pneumatic systems that pump water to the bore-well tanks.
 			4 - 3 inlets have been provided at the entrance gate for water tankers to interface with.
@@ -879,7 +879,7 @@
 			<div class="inline nav-list fill-copper text-left">
 				<div class="title h1 strong text-off-copper">Menu</div>
 				<a tab-index="-1" href="#welcome" class="link inline label text-off-neutral">Welcome</a><br>
-				<a tab-index="-1" href="#the-villa" class="link inline h3">The Villa</a><br>
+				<a tab-index="-1" href="#the-villa" class="link inline h3">The Home</a><br>
 				<a tab-index="-1" href="#villa-key-features" class="link inline label text-off-neutral">Key features</a><br>
 				<a tab-index="-1" href="#podium-masterplan" class="link inline h3">Project Masterplan</a><br>
 				<a tab-index="-1" href="#podium-experience" class="link inline label text-off-neutral">Upper-Level Features</a><br>
