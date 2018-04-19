@@ -74,7 +74,7 @@
 	}
 
 	.villa-section .villa-content .description {
-		margin-top: 0;
+		margin-top: 12px;
 	}
 
 	.villa-section .villa-image .blip-system .slick-blip.slick-slider {
@@ -90,7 +90,7 @@
 	}
 
 	.villa-section .villa-content .description {
-		margin-top: 27px;
+		margin-top: 16px;
 	}
 }
 	
@@ -101,8 +101,12 @@
 		transform: translateX(-50%) translateY(-570px) rotate(-17.55deg);
 	}
 
+	.villa-section .villa-content .heading {
+		margin-top: 15px;
+	}
+
 	.villa-section .villa-content .description {
-		margin-top: 40px;
+		margin-top: 18px;
 		line-height: 2;
 	}
 }

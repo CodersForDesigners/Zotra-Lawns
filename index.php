@@ -59,7 +59,7 @@
 					<div class="logo columns small-5 small-offset-1 medium-3 large-3 xlarge-2">
 						<img class="block" src="media/logo-lawns.svg<?php echo $ver ?>">
 					</div>
-					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Lawns is the <span class="strong em text-light">first 4 bedroom development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle to a region of the city that has long deserved it.</div>
+					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Zotra Lawns is the <span class="strong em text-light">first 4 Bedroom low rise residential development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle – to a region of the city that has long deserved it.</div>
 				</div>
 			</div>
 		</div>
@@ -69,12 +69,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="logo-partner columns small-9 small-offset-1 medium-4">
-					<div class="title label strong text-off-copper">Joint Venture By :</div>
+					<div class="title label strong text-off-copper">Project By :</div>
 					<img class="logo block" src="media/logo-zotra-partner.svg<?php echo $ver ?>">
 					<div class="rera label">RERA Nº : PR/KN/180223/002803</div>
 				</div>
 				<div class="zotra-content h4 text-neutral columns small-10 small-offset-1 large-5">
-					Zotra Lawns exemplifies the luxury of both, an Architect designed bunglow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
+					Zotra Lawns exemplifies the luxury of both, an Architect designed bungalow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
 				</div>
 			</div>
 		</div>
@@ -84,9 +84,9 @@
 	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
 		<div class="container">
 			<div class="row villa-content block-space-top fill-light">
-				<div class="title label strong text-black columns small-10 small-offset-1">Dual Level Homes</div>
+				<div class="title label strong text-black columns small-10 small-offset-1">Dual-Level Homes</div>
 				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">The Best of Both Worlds</div>
-				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual level approach. The entire 2.8 acre property is pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family. Each floor is designed for a specific purpose.</div>
+				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual-level approach. As such, the entire 2.8 acre property is exclusively pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family – each floor is designed for a specific purpose.</div>
 			</div>
 			<div div class="villa-image">
 				<!-- Villa Blips -->
@@ -111,7 +111,7 @@
 									</div>
 									<div class="point">
 										<div class="heading h4 text-copper">Private Lawn</div>
-										<div class="p description">Your home opens up into a dedicated landscaped lawn. Connecting your commonly used family spaces with the outdoors. </div>
+										<div class="p description">Your home opens up onto a dedicated landscaped lawn. Connecting your commonly used family spaces with the outdoors. </div>
 									</div>
 									<div class="point">
 										<div class="heading h4 text-copper">Double Height Cut-Out</div>
@@ -123,7 +123,7 @@
 									</div>
 									<div class="point">
 										<div class="heading h4 text-copper">Expansive living and dining area</div>
-										<div class="p description">All the rooms on the ground floor revolve around an aptly placed Living Room and Dining Area, which open up into landscaped lawns. </div>
+										<div class="p description">All the rooms on the ground floor revolve around an aptly placed Living Room and Dining Area, which open up onto landscaped lawns. </div>
 									</div>
 								</div>
 							</div>
@@ -302,11 +302,11 @@
 							</div>
 							<div class="point">
 								<div class="title h4 text-copper">Privacy</div>
-								<div class="p description">To aid in privacy, homes that face each other have been staggered.</div>
+								<div class="p description">To aid in privacy, homes that face each other have been staggered. Effectively staggering the windows.</div>
 							</div>
 							<div class="point">
 								<div class="title h4 text-copper">Efficient Planning</div>
-								<div class="p description">Common areas have been optimized to reduce the loading on the Super Built-up Area. In fact, the clubhouse only occupies 5% of your Super Built-up Area.</div>
+								<div class="p description">The walkways on the promenade level periodically open up into landscaped resting areas. This would not have been possible without taking the design decision to make all vehicular traffic enter the basement directly.</div>
 							</div>
 						</div>
 					</div>
@@ -439,7 +439,7 @@
 				<div class="beacon-container hide-for-mobile columns small-12 medium-5"><div class="beacon"></div></div>
 				<div class="location-content columns small-10 small-offset-1 medium-6 medium-offset-0 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Location</div>
-					<div class="heading h1 strong text-copper">High-end homes in Rajarajeshwari Nagar</div>
+					<div class="heading h1 strong text-copper">Rajarajeshwari Nagar</div>
 					<div class="description p">Finding a community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 8000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
 				</div>
 			</div>
@@ -450,7 +450,7 @@
 				</div>
 				<div class="appreciation columns small-12 large-6 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Appreciation</div>
-					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a community on a 3 acre plot that would normally have been relegated to an apartment development. It’s long been overdue.</div>
+					<div class="description p">Growth in this region over the next 3 years will be exponentially faster. This is why we were determined to develop a community on a 3 acre plot – that would normally have been relegated to an apartment development. It’s long been overdue.</div>
 				</div>
 			</div>
 
@@ -666,7 +666,7 @@
 				<div class="columns small-10 small-offset-1 large-6">
 					<div class="title label strong text-copper">Infrastructure</div>
 					<div class="heading h1 strong">Water System</div>
-					<div div class="description p">Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water with efficient fail-safes put in place to account for a minimal disruption in service.</div>
+					<div div class="description p">Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water, with efficient fail-safes put in place to account for a minimal disruption in service.</div>
 				</div>
 			</div>
 			<div class="water-details row">
@@ -721,15 +721,15 @@
 				<div class="architect-content columns small-10 small-offset-1 large-5">
 					<div class="title label strong text-off-copper">Principal Designer</div>
 					<div class="heading h1 strong text-neutral">Hadi Teherani</div>
-					<div class="description p">Hadi Teherani is an award-winning German architect and designer based in Hamburg, Germany. His style is marked with simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
-					This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has created a product unlike any in the region. He has designed many landmark projects across Europe and Asia.<br><br>
+					<div class="description p">Hadi Teherani is an award-winning German architect and designer based in Hamburg, Germany. His style is recognisable by its unique blend of simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
+					This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has resulted in a product unlike any in the region. He has designed many landmark projects across Europe and Asia.<br><br>
 					<a class="p strong em text-off-copper" href="http://www.haditeherani.com" target="_blank">Architect's Website &#10230;</a>
 					</div>
 					<hr>
 					<div class="team-title label strong text-off-copper">Landscape Designers</div>
-					<div class="team-heading h3 strong text-neutral">Zoras</div>
+					<a class="team-heading h3 strong text-neutral" href="http://www.zoras.co.uk/" target="_blank">Zoras</a><br>
 					<div class="team-title label strong text-off-copper">Mechanical Electrical &amp; Plumbing</div>
-					<a class="team-heading h3 strong text-neutral" href="http://www.zoras.co.uk/" target="_blank">Tirumala Associates</a><br>
+					<div class="team-heading h3 strong text-neutral">Tirumala Associates</div>
 					<div class="team-title label strong text-off-copper">Structural Consultants</div>
 					<div class="team-heading h3 strong text-neutral">Visda</div>
 				</div>
