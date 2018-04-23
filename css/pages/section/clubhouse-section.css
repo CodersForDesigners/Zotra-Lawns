@@ -31,7 +31,10 @@
 }
 
 
-
+.clubhouse-section .masterplan-container {
+	z-index: 2;
+	margin-top: 40px;
+}
 
 
 @media( min-width: 1040px ) {
@@ -48,15 +51,12 @@
 	}
 	
 	.clubhouse-section .masterplan-container {
-		z-index: 2;
-		margin-top: -200px;
+		margin-top: 80px;
 	}
 }
 
 @media( min-width: 1380px ) {
 	.clubhouse-section .masterplan-container {
-		z-index: 2;
-		margin-top: -280px;
 	}
 }
 
