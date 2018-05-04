@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180412321';
+	$ver = '?v=20180504';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -784,13 +784,14 @@
 				<div class="columns small-10 small-offset-1 large-4">
 					<div class="title label strong text-off-copper">Specifications</div>
 					<div class="heading h1 strong">Fixture &amp; Materials</div>
-					<div class="description p">We are constantly finding ways to improve Concerto at the DASTA Design Cell, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</div>
+					<div class="description p">We are constantly finding ways to improve Zotra Lawns, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</div>
 				</div>
 			</div>
 		</div>
 		<div class="specifications-points row js_specifications_points">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-6 large-offset-6">
+					<!-- 
 					<div class="heading h4 text-uppercase">Structure</div>
 					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
 					<div class="point p">
@@ -799,27 +800,56 @@
 						<span class="block">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</span>
 					</div>
 					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					-->
+					<div class="heading h4 text-uppercase">Structure</div>
+					<div class="point p">RCC Frame Structure</div>
+					<div class="point p">Concrete Solid Block Masonry</div>
+
 					<div class="heading h4 text-uppercase">Walls</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">
-						<span class="block text-neutral">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area.</span>
-						<small class="upgrade small block text-uppercase">Upgraded</small>
-						<span class="block">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</span>
-					</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">
-						<span class="block text-neutral">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area.</span>
-						<small class="upgrade small block text-uppercase">Upgraded</small>
-						<span class="block">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</span>
-					</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="heading h4 text-uppercase">Bathrooms </div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
-					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
+					<div class="point p">Internal Walls - Plastered and Painted Internal Emulsion ( Asian / Berger or equivalent make).</div>
+					<div class="point p">Exterior Walls - Painted with ( Asian / Berger or equivalent make ).</div>
+					<div class="point p">Bath Room - Ceramic Tiles up to a height of 7 feet.</div>
+					
+					<div class="heading h4 text-uppercase">Floors</div>
+					<div class="point p">Living &amp; Dining Room – Imported designer marble</div>
+					<div class="point p">Master Bedrooms - Imported designer marble</div>
+					<div class="point p">Bedrooms - Imported designer marble</div>
+					<div class="point p">Kitchen – Natural or Engineered Granite</div>
+					<div class="point p">Bath Room ( Master Bedroom ) - Ceramic Tiles (Kajaraia/Nitco or equivalent) </div>
+					<div class="point p">Bath Room ( Others ) - Ceramic Tiles ( 1’ x 1’ ) (Kajaraia/Nitco or equivalent)  Balconies - Matte Ceramic Tiles ( 1’ x 1’ ) (Kajaraia/Nitco or equivalent)  </div>
+
+					<div class="heading h4 text-uppercase">Windows</div>
+					<div class="point p">Windows - 3 Track powder coated aluminium framed windows with  clear toughened glass and mosquito mesh.</div>
+
+
+
+					<div class="heading h4 text-uppercase">Doors</div>
+					<div class="point p">Main / Entrance Door - Teak wood frame with flush shutter with veneer on both sides.</div>
+					<div class="point p">Other doors – Hard wood frame with veneer finished flush doors.</div>
+					<div class="point p">Hardware - All the doors have brass / stainless steel finish. The Main door will be provided with a night latch ( Godrej / Europa or equivalent make ).</div>
+
+					<div class="heading h4 text-uppercase">Bathrooms</div>
+					<div class="point p">Sanitary Fittings – Kohler/Toto/American Standard or equivalent make, all in white color.</div>
+					<div class="point p">Closet - Western style floor mounted closet of Kohler/Toto/American Standard or equivalent make with PVC cistern.</div>
+					<div class="point p">Faucets - Kohler/Toto/American Standard or equivalent make </div>
+					<div class="point p">Hot Water - A hot water connection will be provided to the shower </div>
+
+					<div class="heading h4 text-uppercase">Kitchen</div>
+					<div class="point p">Counter Top - 19 MM Granite Counter Top provided.</div>
+					<div class="point p">Stainless Steel Sink for Kitchen - Single Bowl sink (18” x 16”) with drain board provided in the Kitchen area. Franke Brand or equivalent</div>
+					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) with drain board provided in the utility area. Franke Brand or equivalent.</div>
+
+					<div class="heading h4 text-uppercase">Electrical</div>
+					<div class="point p">Wiring - Finolex/Anchor/havels or equivalent make concealed in 19mm diameter, 2 mm thick PVC Conduit pipes. The wiring for 5 amps point shall be of 3/22 rating copper wire. FRLS Provided. </div>
+					<div class="point p">Switches – Schneider/Legrand make or equivalent</div>
+					<div class="point p">Switch Points - Switch points, sockets, phone points and television points come as standard points included in the basic cost.</div>
+					<div class="point p">Other points in room - Cable TV, with a centralised single dish antenna on the terrace.</div>
+
+					<div class="heading h4 text-uppercase">Elevator</div>
+					<div class="point p">1 Hydraulic/MRL Elevator of 2-3 passenger capacity per unit</div>
+
+
+
 				</div>
 			</div>
 		</div>
