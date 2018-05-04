@@ -71,7 +71,7 @@
 				<div class="logo-partner columns small-9 small-offset-1 medium-4">
 					<div class="title label strong text-off-copper">Project By :</div>
 					<img class="logo block" src="media/logo-zotra-partner.svg<?php echo $ver ?>">
-					<div class="rera label">RERA Nº : PR/KN/180223/002803</div>
+					<div class="rera label">RERA Nº : PRM/KA/RERA/1251/310/PR/180420/001509</div>
 				</div>
 				<div class="zotra-content h4 text-neutral columns small-10 small-offset-1 large-5">
 					Zotra Lawns exemplifies the luxury of both, an Architect designed bungalow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
@@ -222,7 +222,7 @@
 						<div class="layer"><img class="block" src="media/podium-masterplan/4_PodiumTrees.png<?php echo $ver ?>"></div>
 						<div class="layer roof-shadows"><img class="block" src="media/podium-masterplan/5_PodiumShadows.svg<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/6_PodiumRoof.svg<?php echo $ver ?>"></div>
-						<div class="layer"><div id="podium"> </div></div>
+						<div class="layer"><div id="bm-podium"> </div></div>
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57.5%;left: 58.2%;">1</div>
 							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 57.5%;left: 16.5%;">2</div>
@@ -337,7 +337,7 @@
 					<div class="masterplan">
 						<div class="layer grid"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
-						<div class="layer"><div id="basement"> </div><!-- <img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"> --></div>
+						<div class="layer"><div id="bm-basement"> </div><!-- <img class="block" src="media/basement-masterplan/3_BasementLines.svg<?php echo $ver ?>"> --></div>
 						<div class="layer lights"><img class="block" src="media/basement-masterplan/4_BasementLights.png<?php echo $ver ?>"></div>
 						<div class="blip-canvas">
 							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 36%;left: 82.5%;">1</div>
@@ -644,9 +644,10 @@
 		<div class="masterplan-container">
 			<div class="masterplan">
 				<div class="layer fill-dark texture"><img style="mix-blend-mode: multiply;" class="block" src="media/clubhouse-masterplan/1_ClubhouseTrees.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/clubhouse-masterplan/2_ClubhouseFills.png<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/clubhouse-masterplan/3_ClubhouseLines.svg<?php echo $ver ?>"></div>
-				<div class="layer"><img class="block" src="media/clubhouse-masterplan/4_ClubhouseIcons.svg<?php echo $ver ?>"></div>
+				<!-- <div class="layer"><img class="block" src="media/clubhouse-masterplan/2_ClubhouseFills.png<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/clubhouse-masterplan/3_ClubhouseLines.svg<?php echo $ver ?>"></div> -->
+				<!-- <div class="layer"><img class="block" src="media/clubhouse-masterplan/4_ClubhouseIcons.svg<?php echo $ver ?>"></div> -->
+				<div class="layer"><div id="bm-clubhouse"></div></div>
 			</div>
 		</div>
 		<!-- <div>
@@ -693,7 +694,7 @@
 			<div class="masterplan">
 				<!-- <div class="layer"><img class="block" src="media/water-masterplan/StaticRaster.png<?php echo $ver ?>"></div> -->
 				<!-- <div class="layer"><img class="block" src="media/water-masterplan/StaticVector.svg<?php echo $ver ?>"></div> -->
-				<div class="layer"><div id="water"> </div></div>
+				<div class="layer"><div id="bm-water"> </div></div>
 				<!-- <div class="layer"><img class="block" src="media/water-masterplan/AnimatedWaterLevels.svg<?php echo $ver ?>"></div> -->
 				<!-- <div class="layer"><img class="block" src="media/water-masterplan/AnimatedLines.svg<?php echo $ver ?>"></div> -->
 				<!-- <div class="layer"><img class="block" src="media/water-masterplan/StaticText.svg<?php echo $ver ?>"></div> -->
@@ -1048,7 +1049,7 @@
 $(document).ready(function(){
 
 		var animation = bodymovin.loadAnimation({
-		  container: document.getElementById('basement'),
+		  container: document.getElementById('bm-basement'),
 		  renderer: 'svg',
 		  loop: true,
 		  autoplay: true,
@@ -1056,7 +1057,7 @@ $(document).ready(function(){
 		})
 
 		var animation = bodymovin.loadAnimation({
-		  container: document.getElementById('podium'),
+		  container: document.getElementById('bm-podium'),
 		  renderer: 'svg',
 		  loop: true,
 		  autoplay: true,
@@ -1064,13 +1065,20 @@ $(document).ready(function(){
 		})
 
 		var animation = bodymovin.loadAnimation({
-		  container: document.getElementById('water'),
+		  container: document.getElementById('bm-water'),
 		  renderer: 'svg',
 		  loop: true,
 		  autoplay: true,
 		  path: 'water.json'
 		})
 
+		var animation = bodymovin.loadAnimation({
+		  container: document.getElementById('bm-clubhouse'),
+		  renderer: 'svg',
+		  loop: true,
+		  autoplay: true,
+		  path: 'clubhouse.json'
+		})
 
 	/*
 	 * Set up the panorama
