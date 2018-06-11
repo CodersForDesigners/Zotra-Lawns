@@ -602,9 +602,9 @@
 
 
 	<!-- Aerial Panorama Section -->
-	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section js_aerial_panorama_section">
+	<!-- <section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section js_aerial_panorama_section">
 		<div class="panorama-wrappper panorama-instruction js_panorama_wrapper"></div>
-	</section><!-- END : Aerial Panorama Section -->
+	</section> --><!-- END : Aerial Panorama Section -->
 
 
 
