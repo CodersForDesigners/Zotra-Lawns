@@ -578,7 +578,7 @@
 					<div class="pattern"><img class="block" src="media/floorplan-card/sovereign-pattern.svg<?php echo $ver ?>"></div>
 					<div class="size">Homes upto 4175 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
-					<div class="price text-copper">Starting at ₹4.3 Cr</div>
+					<!-- <div class="price text-copper">Starting at ₹4.3 Cr</div> -->
 					<button class="button button-copper block" style="background-color: #83837D;">Download Now &#x2b07;</button>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
@@ -587,7 +587,7 @@
 					<div class="pattern"><img class="block" src="media/floorplan-card/supreme-pattern.svg<?php echo $ver ?>"></div>
 					<div class="size">Homes upto 4515 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
-					<div class="price text-copper">Starting at ₹4.1 Cr</div>
+					<!-- <div class="price text-copper">Starting at ₹4.1 Cr</div> -->
 					<button class="button button-copper block" style="background-color: #AAA386;">Download Now &#x2b07;</button>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
@@ -596,7 +596,7 @@
 					<div class="pattern"><img class="block" src="media/floorplan-card/premier-pattern.svg<?php echo $ver ?>"></div>
 					<div class="size">Homes upto 7220 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
-					<div class="price text-copper">Starting at ₹4.5 Cr</div>
+					<!-- <div class="price text-copper">Starting at ₹4.5 Cr</div> -->
 					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now &#x2b07;</button>
 				</div>
 			</div>
@@ -792,7 +792,7 @@
 		<div class="specifications-points row js_specifications_points">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-6 large-offset-6">
-					<!-- 
+					<!--
 					<div class="heading h4 text-uppercase">Structure</div>
 					<div class="point p">Stainless Steel Sink for Utility - Single Bowl sink (18” x 16”) without drain board provided in the utility area. Franke Brand or equivalent.</div>
 					<div class="point p">
@@ -810,7 +810,7 @@
 					<div class="point p">Internal Walls - Plastered and Painted Internal Emulsion ( Asian / Berger or equivalent make).</div>
 					<div class="point p">Exterior Walls - Painted with ( Asian / Berger or equivalent make ).</div>
 					<div class="point p">Bath Room - Ceramic Tiles up to a height of 7 feet.</div>
-					
+
 					<div class="heading h4 text-uppercase">Floors</div>
 					<div class="point p">Living &amp; Dining Room – Imported designer marble</div>
 					<div class="point p">Master Bedrooms - Imported designer marble</div>
