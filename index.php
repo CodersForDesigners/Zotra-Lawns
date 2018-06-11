@@ -93,35 +93,55 @@
 				<div class="blip-system">
 					<div class="blip-image">
 						<img class="block" style="width: 100%;" src="media/cross-section-3d.png<?php echo $ver ?>">
-						<div class="blip-canvas">
-							<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 51.7%;left: 63.2%;">1</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 70%;left: 20%;">2</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 45%;left: 36%;">3</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 84%;left: 60%;">4</div>
-							<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 65%;left: 47.5%;">5</div>
+						<div class="blip-canvas js_blip_canvas">
+							<div class="container-blip-toggle-and-card" style="top: 51.7%; left: 63.2%;">
+								<div class="blip-toggle js_blip_toggle" data-index="1" tabindex="0">1</div>
+								<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
+							</div>
+							<div class="container-blip-toggle-and-card" style="top: 70%; left: 20%;">
+								<div class="blip-toggle js_blip_toggle" data-index="2" tabindex="0">2</div>
+								<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
+							</div>
+							<div class="container-blip-toggle-and-card" style="top: 45%; left: 36%;">
+								<div class="blip-toggle active js_blip_toggle" data-index="3" tabindex="0">3</div>
+								<div class="point fill-dark active js_point"><!-- The corresponding point will be plonked in here --></div>
+							</div>
+							<div class="container-blip-toggle-and-card" style="top: 84%; left: 60%;">
+								<div class="blip-toggle js_blip_toggle" data-index="4" tabindex="0">4</div>
+								<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
+							</div>
+							<div class="container-blip-toggle-and-card" style="top: 65%; left: 47.5%;">
+								<div class="blip-toggle js_blip_toggle" data-index="5" tabindex="0">5</div>
+								<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
+							</div>
+							<!-- <div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 51.7%;left: 63.2%;">1</div> -->
+							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 70%;left: 20%;">2</div> -->
+							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 45%;left: 36%;">3</div> -->
+							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 84%;left: 60%;">4</div> -->
+							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 65%;left: 47.5%;">5</div> -->
 						</div>
 					</div>
 					<div class="container">
 						<div class="row">
 							<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 								<div class="slick-blip fill-dark js_slick_blip">
-									<div class="point">
+									<div class="point js_point">
 										<div class="heading h4 text-copper">Dedicated Private Lift</div>
 										<div class="p description">Your home comes with a dedicated private lift. The Lift is access controlled and configured to allow secure access to all floors. The main staircase runs in a spiral around the lift well. </div>
 									</div>
-									<div class="point">
+									<div class="point js_point">
 										<div class="heading h4 text-copper">Private Lawn</div>
 										<div class="p description">Your home opens up onto a dedicated landscaped lawn. Connecting your commonly used family spaces with the outdoors. </div>
 									</div>
-									<div class="point">
+									<div class="point js_point">
 										<div class="heading h4 text-copper">Double Height Cut-Out</div>
 										<div class="p description">Your Living Room is a double height space that deliberately invokes the feeling of a high-end custom designed home. </div>
 									</div>
-									<div class="point">
+									<div class="point js_point">
 										<div class="heading h4 text-copper">Basement</div>
 										<div class="p description">You have 3 dedicated car-parks. Enter the basement on a direct ramp and drive to your parking. Take the access controlled lift to any floor in your home. The staircase leads to your front-door at the pedestrian level. </div>
 									</div>
-									<div class="point">
+									<div class="point js_point">
 										<div class="heading h4 text-copper">Expansive living and dining area</div>
 										<div class="p description">All the rooms on the ground floor revolve around an aptly placed Living Room and Dining Area, which open up onto landscaped lawns. </div>
 									</div>
@@ -281,30 +301,42 @@
 		<div class="blip-system">
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d.jpg<?php echo $ver ?>">
-				<div class="blip-canvas">
-					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 59.5%;left: 49.5%;">1</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 80%;left: 20%;">2</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 50%;left: 64.7%;">3</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 75%;left: 80%;">4</div>
+				<div class="blip-canvas js_blip_canvas">
+					<div class="container-blip-toggle-and-card" style="top: 59.5%;left: 49.5%;">
+						<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1">1</div>
+						<div class="point fill-light active js_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
+					<div class="container-blip-toggle-and-card" style="top: 80%;left: 20%;">
+						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2">2</div>
+						<div class="point fill-light js_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
+					<div class="container-blip-toggle-and-card" style="top: 50%;left: 64.7%;">
+						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3">3</div>
+						<div class="point fill-light js_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
+					<div class="container-blip-toggle-and-card" style="top: 75%;left: 80%;">
+						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4">4</div>
+						<div class="point fill-light js_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 						<div class="slick-blip fill-light js_slick_blip">
-							<div class="point">
+							<div class="point js_point">
 								<div class="title h4 text-copper">Contemporary Architecture</div>
 								<div class="p description">The homes possess an aesthetic that mirrors a modern architectural vocabulary prevalent in Germany and Switzerland. The design, however, is not overly minimalist, incorporating an earthy warm mix of locally sourced stone cladding, glass and wood.</div>
 							</div>
-							<div class="point">
+							<div class="point js_point">
 								<div class="title h4 text-copper">Zero Redundant Barriers</div>
 								<div class="p description">The front yards of all the homes blend into the main walkways with the use of greenery to create separation and not permanent structures like walls, fences or gates. This creates a very inclusionary, community-driven vibe.</div>
 							</div>
-							<div class="point">
+							<div class="point js_point">
 								<div class="title h4 text-copper">Privacy</div>
 								<div class="p description">To aid in privacy, homes that face each other have been staggered. Effectively staggering the windows.</div>
 							</div>
-							<div class="point">
+							<div class="point js_point">
 								<div class="title h4 text-copper">Efficient Planning</div>
 								<div class="p description">The walkways on the promenade level periodically open up into landscaped resting areas. This would not have been possible without taking the design decision to make all vehicular traffic enter the basement directly.</div>
 							</div>
@@ -397,27 +429,36 @@
 		<div class="blip-system">
 			<div class="blip-image">
 				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
-				<div class="blip-canvas">
-					<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 57%;left: 45.75%;">1</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 68%;left: 30%;">2</div>
-					<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 57%;left: 82%;">3</div>
+				<div class="blip-canvas js_blip_canvas">
+					<div class="container-blip-toggle-and-card" style="top: 57%;left: 45.75%;">
+						<div class="blip-togglejs_blip_toggle" tabindex="0" data-index="1">1</div>
+						<div class="point fill-darkjs_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
+					<div class="container-blip-toggle-and-card" style="top: 68%;left: 30%;">
+						<div class="blip-toggle active jjs_blip_toggle" tabindex="0" data-index="2">2</div>
+						<div class="point fill-dark active js_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
+					<div class="container-blip-toggle-and-card" style="top: 57%;left: 82%;">
+						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3">3</div>
+						<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
+					</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-3">
 						<div class="slick-blip fill-dark js_slick_blip">
-							<div class="point row">
+							<div class="point row js_point">
 								<div class="title h3 text-copper columns small-12">Private Access</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/PrivateAccess.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-6">Every home has a private, access controlled entrance from the basement. Drive your car in and take a private lift up into your living room.</div>
 							</div>
-							<div class="point row">
+							<div class="point row js_point">
 								<div class="title h3 text-copper columns small-12">Future proof</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/CarElec.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-6">Electric-car charging points controlled from within the home.</div>
 							</div>
-							<div class="point row">
+							<div class="point row js_point">
 								<div class="title h3 text-copper columns small-12">Water outlets</div>
 								<div class="icon columns small-4 large-5"><img class="block" src="media/basement-experience-icons/CarWash.svg<?php echo $ver ?>"></div>
 								<div class="p description columns small-7 small-offset-1 large-6">Each home has a dedicated water outlet at the basement level for washing cars. There is also a sufficiently allocated space to be utilized for the washing of clothes.</div>

@@ -14,14 +14,17 @@
 .blip-system .blip-image .blip-canvas {
 	position: absolute;
 	z-index: 20;
-	
+
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;	
+	bottom: 0;
 	/*background: linear-gradient(to left, rgba(0,0,255,0.4) 0%, rgba(255,0,0,0.4) 100%);*/
 }
 
+.blip-system .blip-image .blip-canvas .container-blip-toggle-and-card {
+	position: absolute;
+}
 .blip-system .blip-image .blip-canvas .blip-toggle {
 	position: absolute;
 	display: block;
@@ -97,6 +100,29 @@
 	} 100% {
 		box-shadow: 0 0 12px 4px rgba(176, 135, 111, .5), 0 0 20px 5px rgba(176, 135, 111, .5);
 	}
+}
+
+
+.blip-system .blip-image .blip-canvas .point {
+	box-sizing: content-box;
+	position: absolute;
+	top: 4rem;
+	left: 0;
+	transform: translate( -50% );
+	width: 410px;
+	padding: 26px;
+	border-radius: 10px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.1s ease-in, visibility 0s 0.1s;
+}
+.blip-system .blip-image .blip-canvas .point.active {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.15s ease-in 0.1s;
+}
+.blip-system .blip-image .blip-canvas .point .p {
+	margin: 1rem 0 0;
 }
 
 
@@ -191,9 +217,9 @@
 	left: 50%;
 	right: auto;
 	bottom: -50px;
-	-webkit-transform: translate(0, 0); 
+	-webkit-transform: translate(0, 0);
 	-moz-transform: translate(0, 0);
-	transform: translate(0, 0); 
+	transform: translate(0, 0);
 
 	width: 40px;
 	height: 50px;
@@ -201,7 +227,7 @@
 	padding: 0;
 	margin: 0;
 	margin-left: -20px;
-	
+
 	line-height: 50px;
 	box-shadow: none;
 	border: none;
@@ -215,7 +241,7 @@
 	text-align: left; /* -- correcting for strange :before element arrow alignment issue -- */
 	padding-left: 10px; /* -- correcting for strange :before element arrow alignment issue -- */
 }
-	
+
 .blip-system .slick-blip button.slick-arrow.slick-next {
 	transform: translateX(100px);
 	text-align: right; /* -- correcting for strange :before element arrow alignment issue -- */

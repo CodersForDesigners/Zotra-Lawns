@@ -21,6 +21,11 @@
 	margin-top: 10px;
 }
 
+.podium-experience-section .blip-canvas .point {
+	display: none;
+}
+
+
 
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {
@@ -32,9 +37,17 @@
 		width: 100%;
 		height: auto;
 	}
-	
+
 	.podium-experience-section .podium-experience-content .title {
 		margin-top: 0;
 	}
+
+	.podium-experience-section .blip-canvas .point {
+		display: block;
+	}
+	.podium-experience-section .slick-blip {
+		display: none;
+	}
+
 }
 @media( min-width: 1380px ) {}
