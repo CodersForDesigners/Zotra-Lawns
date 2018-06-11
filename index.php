@@ -576,7 +576,7 @@
 					<div class="logo"><img class="inline" src="media/floorplan-card/sovereign-logo.svg<?php echo $ver ?>"></div>
 					<div class="image"><img class="block" src="media/floorplan-card/sovereign-img.png<?php echo $ver ?>"></div>
 					<div class="pattern"><img class="block" src="media/floorplan-card/sovereign-pattern.svg<?php echo $ver ?>"></div>
-					<div class="size">Homes upto 3992 sft</div>
+					<div class="size">Homes upto 4175 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.3 Cr</div>
 					<button class="button button-copper block" style="background-color: #83837D;">Download Now &#x2b07;</button>
@@ -585,7 +585,7 @@
 					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
 					<div class="image"><img class="block" src="media/floorplan-card/supreme-img.png<?php echo $ver ?>"></div>
 					<div class="pattern"><img class="block" src="media/floorplan-card/supreme-pattern.svg<?php echo $ver ?>"></div>
-					<div class="size">Homes upto 4349 sft</div>
+					<div class="size">Homes upto 4515 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
 					<div class="price text-copper">Starting at ₹4.1 Cr</div>
 					<button class="button button-copper block" style="background-color: #AAA386;">Download Now &#x2b07;</button>
@@ -594,7 +594,7 @@
 					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
 					<div class="image"><img class="block" src="media/floorplan-card/premier-img.png<?php echo $ver ?>"></div>
 					<div class="pattern"><img class="block" src="media/floorplan-card/premier-pattern.svg<?php echo $ver ?>"></div>
-					<div class="size">Homes upto 5695 sft</div>
+					<div class="size">Homes upto 7220 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
 					<div class="price text-copper">Starting at ₹4.5 Cr</div>
 					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now &#x2b07;</button>
