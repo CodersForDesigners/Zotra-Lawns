@@ -66,6 +66,10 @@
 	transform: translateX(-50%) translateY(-295px) rotate(-17.55deg);
 }
 
+.villa-section .blip-canvas .point {
+	display: none;
+}
+
 @media( min-width: 640px )  {
 	.villa-section .bg-fix {
 		-webkit-transform: translateX(-50%) translateY(-374px) rotate(-17.55deg);
@@ -92,8 +96,15 @@
 	.villa-section .villa-content .description {
 		margin-top: 16px;
 	}
+
+	.villa-section .blip-canvas .point {
+		display: block;
+	}
+	.villa-section .slick-blip {
+		display: none;
+	}
 }
-	
+
 @media( min-width: 1380px ) {
 	.villa-section .bg-fix {
 		-webkit-transform: translateX(-50%) translateY(-570px) rotate(-17.55deg);
