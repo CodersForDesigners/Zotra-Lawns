@@ -194,46 +194,100 @@
 
 
 /*
- * -/-/-/-/-
+ * 
  * Tab system
- * -/-/-/-/-
+ * 
  */
 .location-section .location-list .tab {
+	position: relative;
 	margin: 1rem 0 0.5rem;
 }
 
 @media ( min-width: 640px ) {
-
 	.location-section .location-list .tabs {
 		position: relative;
-		min-height: 210px;
+		min-height: 120px;
 	}
+
 	.location-section .location-list .tab {
 		margin: 0;
 	}
+}
 
+@media ( min-width: 1040px ) {
+	.location-section .location-list .tabs {
+		min-height: 130px;
+	}
+}
+
+@media ( min-width: 1380px ) {
+	.location-section .location-list .tabs {
+		min-height: 140px;
+	}
 }
 
 
 
 
 /*
- * \
- *   - Tab headings (for SMALL viewports)
- * /
+ *
+ *	Tab headings (for SMALL viewports)
+ *
  */
 .location-section .location-list .tab .heading {
+	position: relative;
 	display: block;
-	border-bottom: 1px solid #af8770;
+	border-bottom: 1px solid var(--off-copper);
 	overflow: hidden;
 }
+
+.location-section .location-list .tab .heading:before,
+.location-section .location-list .tab .heading:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 18px;
+	background-color: var(--off-copper);
+	position: absolute;
+	top: 15px;
+	right: 0px;
+
+	-moz-transition: transform .25s ease-out;
+	-webkit-transition: transform .25s ease-out;
+	transition: transform .25s ease-out;
+}
+
+.location-section .location-list .tab .heading:before {
+	-moz-transform: translate(-50%, -50%) rotate(180deg);
+	-webkit-transform: translate(-50%, -50%) rotate(180deg);
+	transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.location-section .location-list .tab .heading:after {
+	-moz-transform: translate(-50%, -50%) rotate(90deg);
+	-webkit-transform: translate(-50%, -50%) rotate(90deg);
+	transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.location-section .location-list .tab.selected .heading:before {
+	-moz-transform: translate(-50%, -50%) rotate(360deg);
+	-webkit-transform: translate(-50%, -50%) rotate(360deg);
+	transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.location-section .location-list .tab.selected .heading:after {
+	-moz-transform: translate(-50%, -50%) rotate(180deg);
+	-webkit-transform: translate(-50%, -50%) rotate(180deg);
+	transform: translate(-50%, -50%) rotate(180deg);
+}
+
 .location-section .location-list .tab .heading span {
 	position: relative;
 	display: block;
 	margin: 0 auto;
 	border-bottom: 3px solid transparent;
 	padding: 0.5rem 0 0.5rem 0.3rem;
-	color: #af8770;
+	color: var(--off-copper);
 	opacity: 0.5;
 	cursor: pointer;
 	-webkit-transition: 0.5s opacity ease-in-out;
@@ -245,7 +299,7 @@
 	bottom: -3px;
 	left: -100%;
 	width: 100%;
-	border-bottom: 3px solid #af8770;
+	border-bottom: 3px solid var(--off-copper);
 	-webkit-transition: 0.5s left ease-in-out;
 	transition: 0.5s left ease-in-out;
 }
@@ -272,9 +326,9 @@
 
 
 /*
- * \
- *   - Tab headings (for LARGE viewports)
- * /
+ *
+ *	Tab headings (for LARGE viewports)
+ *
  */
 .location-section .location-list .location-list-headings {
 	position: relative;
@@ -282,7 +336,7 @@
 .location-section .location-list .headings {
 	margin: 0 0 2rem;
 	width: 100%;
-	border-bottom: 1px solid #af8770;
+	border-bottom: 1px solid var(--off-copper);
 }
 /* Justify-ing the tab headings */
 /* -- Approach #1 – text-align: justify; -- */
@@ -324,7 +378,7 @@
 	display: inline-block;
 	border-bottom: 3px solid transparent;
 	padding: 0.5rem 0.5rem 0.3rem;
-	color: #af8770;
+	color: var(--off-copper);
 	opacity: 0.5;
 	cursor: pointer;
 }
@@ -350,7 +404,7 @@
 		bottom: 1px;
 		left: 0;
 		width: 91px;
-		background-color: #af8770;
+		background-color: var(--off-copper);
 		/*transition: 0.4s left ease-in-out, 0.2s width ease-in-out 0.2s;*/
 		-webkit-transition: 0.4s .2s left ease-out, 0.2s .4s width ease-out;
 		transition: 0.4s .2s left ease-out, 0.2s .4s width ease-out;
@@ -366,9 +420,9 @@
 
 
 /*
- * \
- *   - Tab headings
- * /
+ *
+ *	Tab headings
+ *
  */
 .location-section .location-list .heading {
 	outline: none;
@@ -381,9 +435,9 @@
 
 
 /*
- * \
- *   - Tab content
- * /
+ *
+ *	Tab content
+ *
  */
 .location-section .location-list .tab-content-wrapper {
 	max-height: 0;
@@ -398,7 +452,7 @@
 }
 .location-section .location-list .tab .tab-content {
 	padding: 1rem 0 0 0.3rem;
-	color: #af8770;
+	color: var(--off-copper);
 	line-height: 1.7;
 }
 .location-section .location-list .tab .tab-content .point {
