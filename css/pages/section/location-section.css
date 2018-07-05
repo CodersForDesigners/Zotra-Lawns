@@ -20,7 +20,7 @@
 	padding: 150px 0 50px 0;
 	text-align: center;
 	border-radius: 10px;
-	background: url('/media/maps-bg.png');
+	background: url('/media/maps-bg-medium.jpg');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -137,6 +137,10 @@
 				0 0 15px 129px var(--light),
 				0 0 0 130px rgba( 150, 105, 76, 0 );
 		}
+	}
+
+	.location-section .maps {
+		background: url('/media/maps-bg-large.jpg');
 	}
 }
 

@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180504';
+	$ver = '?v=20180705';
 
 	// get info on the request
 	$view = require "server/pageless.php";
@@ -52,7 +52,12 @@
 
 	<!-- Welcome Section -->
 	<section id="welcome" class="welcome-section fill-black js_section">
-		<div class="welcome-bg"><img class="block" src="media/lawn-villa-facade-3d.jpg<?php echo $ver ?>"></div>
+		<div class="welcome-bg">
+			<picture>
+				<source srcset="media/lawn-villa-facade-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+				<img class="block" src="media/lawn-villa-facade-3d-small.jpg<?php echo $ver ?>">
+			</picture>
+		</div>
 		<div class="welcome-content block-space-top-bottom">
 			<div class="container">
 				<div class="row">
@@ -92,7 +97,10 @@
 				<!-- Villa Blips -->
 				<div class="blip-system">
 					<div class="blip-image">
-						<img class="block" style="width: 100%;" src="media/cross-section-3d.png<?php echo $ver ?>">
+						<picture>
+							<source srcset="media/cross-section-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img class="block" style="width: 100%;" src="media/cross-section-3d-small.jpg<?php echo $ver ?>">
+						</picture>
 						<div class="blip-canvas js_blip_canvas">
 							<div class="container-blip-toggle-and-card" style="top: 51.7%; left: 63.2%;">
 								<div class="blip-toggle js_blip_toggle" data-index="1" tabindex="0">1</div>
@@ -114,11 +122,6 @@
 								<div class="blip-toggle js_blip_toggle" data-index="5" tabindex="0">5</div>
 								<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
 							</div>
-							<!-- <div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1" style="top: 51.7%;left: 63.2%;">1</div> -->
-							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2" style="top: 70%;left: 20%;">2</div> -->
-							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3" style="top: 45%;left: 36%;">3</div> -->
-							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="4" style="top: 84%;left: 60%;">4</div> -->
-							<!-- <div class="blip-toggle js_blip_toggle" tabindex="0" data-index="5" style="top: 65%;left: 47.5%;">5</div> -->
 						</div>
 					</div>
 					<div class="container">
@@ -214,7 +217,10 @@
 
 	<!-- Aerial 3D Section -->
 	<section id="aerial-3d" class="aerial-3d-section fill-off-neutral js_section">
-		<img class="block" src="media/aerial-view-3d.jpg<?php echo $ver ?>">
+		<picture>
+			<source srcset="media/aerial-view-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+			<img class="block" src="media/aerial-view-3d-small.jpg<?php echo $ver ?>">
+		</picture>
 	</section><!-- END : Aerial 3D Section -->
 
 
@@ -300,7 +306,10 @@
 		<!-- Upper Level Villa Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d.jpg<?php echo $ver ?>">
+				<picture>
+					<source srcset="media/pedestrian-walkways-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+					<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d-small.jpg<?php echo $ver ?>">
+				</picture>
 				<div class="blip-canvas js_blip_canvas">
 					<div class="container-blip-toggle-and-card" style="top: 59.5%;left: 49.5%;">
 						<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1">1</div>
@@ -428,7 +437,10 @@
 		<!-- Lower Level Villa Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
+				<picture>
+					<source srcset="media/basement-level-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+					<img class="block" style="width: 100%;" src="media/basement-level-3d-small.jpg<?php echo $ver ?>">
+				</picture>
 				<div class="blip-canvas js_blip_canvas">
 					<div class="container-blip-toggle-and-card" style="top: 57%;left: 45.75%;">
 						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="1">1</div>
@@ -602,9 +614,9 @@
 
 
 	<!-- Aerial Panorama Section -->
-	<!-- <section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section js_aerial_panorama_section">
+	<section id="aerial-panorama" class="aerial-panorama-section fill-moss js_section js_aerial_panorama_section">
 		<div class="panorama-wrappper panorama-instruction js_panorama_wrapper"></div>
-	</section> --><!-- END : Aerial Panorama Section -->
+	</section><!-- END : Aerial Panorama Section -->
 
 
 
@@ -678,21 +690,12 @@
 
 
 
-	<!-- Residents Section -->
-	<!-- <section id="residents" class="residents-section block-space-top-bottom fill-light js_section">
-		<div class="container">
-			<div class="label strong">Resident Profile</div>
-			<div class="h1 strong">Manoj</div>
-			<div class="label">businessman in RR Nagar premium apartment - backend clothing manufacturer</div>
-			<div class="p">[ testimonial ]</div>
-		</div>
-	</section> --><!-- END : Residents Section -->
-
-
-
 	<!-- Clubhouse 3D Section -->
 	<section id="clubhouse-3d" class="clubhouse-3d-section fill-moss js_section">
-		<img class="block" src="media/clubhouse-area-3d.jpg<?php echo $ver ?>">
+		<picture>
+			<source srcset="media/clubhouse-area-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+			<img class="block" src="media/clubhouse-area-3d-small.jpg<?php echo $ver ?>">
+		</picture>
 	</section><!-- END : Clubhouse 3D Section -->
 
 
@@ -790,7 +793,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="photograph columns small-12 large-5">
-					<img src="media/architect-photograph.png<?php echo $ver ?>">
+					<picture>
+						<source srcset="media/architect-photograph-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/architect-photograph-small.png<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="architect-content columns small-10 small-offset-1 large-5">
 					<div class="title label strong text-off-copper">Principal Designer</div>
