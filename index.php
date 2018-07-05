@@ -19,6 +19,9 @@
 	require ('inc/head.php');
 	require ('inc/lazaro.php'); /* -- Lazaro disclaimer and footer -- */
 
+	// Is user logged in? ( i.e., filled out a form before )
+	$user = ! empty( $_COOKIE[ "zotra-user" ] );
+
 ?>
 
 <!DOCTYPE html>
@@ -621,7 +624,7 @@
 
 
 	<!-- Floorplans Section -->
-	<section id="floorplans" class="show-form floorplans-section block-space-top-bottom fill-dark js_section">
+	<section id="floorplans" class="floorplans-section block-space-top-bottom fill-dark js_section js_section_floorplans">
 		<div class="container">
 			<div class="heading h1 strong block text-center">Floor Plans</div>
 			<div class="row">
@@ -632,7 +635,7 @@
 					<div class="size">Homes upto 4175 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
 					<!-- <div class="price text-copper">Starting at ₹4.3 Cr</div> -->
-					<button class="button button-copper block" style="background-color: #83837D;">Download Now &#x2b07;</button>
+					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #83837D;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/sovereign.pdf">Download Now &#x2b07;</a>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
@@ -641,7 +644,7 @@
 					<div class="size">Homes upto 4515 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
 					<!-- <div class="price text-copper">Starting at ₹4.1 Cr</div> -->
-					<button class="button button-copper block" style="background-color: #AAA386;">Download Now &#x2b07;</button>
+					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #AAA386;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/supreme.pdf">Download Now &#x2b07;</a>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
@@ -650,7 +653,7 @@
 					<div class="size">Homes upto 7220 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
 					<!-- <div class="price text-copper">Starting at ₹4.5 Cr</div> -->
-					<button class="button button-copper block" style="background-color: #4E5A6B;">Download Now &#x2b07;</button>
+					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #4E5A6B;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/premier.pdf">Download Now &#x2b07;</a>
 				</div>
 			</div>
 		</div>
@@ -661,24 +664,29 @@
 				<div class="row">
 					<div class="action-card fill-off-light columns small-12 medium-10 medium-offset-1 large-8 large-offset-2 xlarge-6 xlarge-offset-3">
 						<div class="form-close js_form_close" tabindex="-1">Close</div>
-						<form action="" class="row">
+						<form class="row js_form_floorplan_brochure">
 							<div class="form-heading h2 strong columns small-12">Get Floorplan</div>
 							<label class="form-item columns small-12 large-6">
 								<span class="label">Name</span>
-								<input class="block" type="text" placeholder="">
+								<input class="block" type="text" name="name" placeholder="">
 							</label>
 							<label class="form-item columns small-12 large-6">
 								<span class="label">Email</span>
-								<input class="block" type="text" placeholder="">
+								<input class="block" type="email" name="email" placeholder="">
 							</label>
 							<label class="form-item columns small-12 large-6">
 								<span class="label">Mobile</span>
-								<input class="block" type="text" placeholder="">
+								<input class="block" type="text" name="phone-number" placeholder="">
 							</label>
 							<label class="form-item columns small-12 large-6">
 								<span class="label invisible">Download</span>
-								<input class="block button button-copper" type="Submit" value="Download">
+								<button class="block button button-copper js_form_submit_btn" type="Submit">Download</button>
+								<a class="block button button-copper js_floorplan_brochure_form_submit_link" target="_blank" style="display: none">Click here to download</a>
 							</label>
+							<!-- <a class="row js_floorplan_brochure_link" target="_blank" style="display: none">
+								<div class="form-heading h2 strong columns small-12">Get Floorplan</div>
+								<span class="block button button-copper">Click here to download</span>
+							</a> -->
 						</form>
 					</div>
 				</div>
@@ -1044,7 +1052,7 @@
 	} )()
 
 </script>
-<script type="text/javascript" src="/js/modules/pageless.js"></script>
+<script type="text/javascript" src="/js/modules/util.js"></script>
 <script type="text/javascript" src="/js/modules/navigation.js"></script>
 <script type="text/javascript" src="/js/modules/scroll-subtleties.js"></script>
 <script type="text/javascript" src="/js/modules/blips-and-cards.js"></script>
