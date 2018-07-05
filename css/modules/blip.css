@@ -113,8 +113,10 @@
 	padding: 26px;
 	border-radius: 10px;
 	visibility: hidden;
+	box-shadow: 0 2px 8px 0 rgba( 0, 0, 0, 0.25 );
 	opacity: 0;
 	transition: opacity 0.1s ease-in, visibility 0s 0.1s;
+	z-index: 1;
 }
 .blip-system .blip-image .blip-canvas .point.active {
 	visibility: visible;

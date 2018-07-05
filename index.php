@@ -431,11 +431,11 @@
 				<img class="block" style="width: 100%;" src="media/basement-level-3d.jpg<?php echo $ver ?>">
 				<div class="blip-canvas js_blip_canvas">
 					<div class="container-blip-toggle-and-card" style="top: 57%;left: 45.75%;">
-						<div class="blip-togglejs_blip_toggle" tabindex="0" data-index="1">1</div>
-						<div class="point fill-darkjs_point"><!-- The corresponding point will be plonked in here --></div>
+						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="1">1</div>
+						<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
 					</div>
 					<div class="container-blip-toggle-and-card" style="top: 68%;left: 30%;">
-						<div class="blip-toggle active jjs_blip_toggle" tabindex="0" data-index="2">2</div>
+						<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="2">2</div>
 						<div class="point fill-dark active js_point"><!-- The corresponding point will be plonked in here --></div>
 					</div>
 					<div class="container-blip-toggle-and-card" style="top: 57%;left: 82%;">
