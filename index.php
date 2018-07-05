@@ -773,7 +773,7 @@
 			<div class="row">
 				<div class="photograph columns small-12 large-5">
 					<picture>
-						<source srcset="media/architect-photograph-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<source srcset="media/architect-photograph-large.png<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/architect-photograph-small.png<?php echo $ver ?>">
 					</picture>
 				</div>
