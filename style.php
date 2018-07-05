@@ -33,6 +33,7 @@
 <link rel="stylesheet" type="text/css" href="css/pages/section/location-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/aerial-panorama-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/floorplans-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/action-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/residents-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/clubhouse-3d-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/clubhouse-section.css<?php echo $ver ?>">
