@@ -10,6 +10,10 @@
 	margin-top: 20px;
 }
 
+.clubhouse-section > .container {
+	z-index: 3;
+}
+
 .clubhouse-section .uds {
 	margin-top: 40px;
 	padding: 10px 8.33333% 20px 8.33333%;
@@ -26,7 +30,7 @@
 	display: inline-block;
 	background-color: var(--dark);
 	padding: 0 10px;
-	
+
 	transform: translateY(-22px);
 }
 
@@ -49,7 +53,7 @@
 	.clubhouse-section .container {
 		z-index: 3;
 	}
-	
+
 	.clubhouse-section .masterplan-container {
 		margin-top: 80px;
 	}
