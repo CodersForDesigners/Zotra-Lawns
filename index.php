@@ -55,7 +55,7 @@
 
 	<!-- Welcome Section -->
 	<section id="welcome" class="welcome-section fill-black js_section">
-		<div class="welcome-bg">
+		<div class="welcome-bg rera-tag center-right">
 			<picture>
 				<source srcset="media/lawn-villa-facade-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 				<img class="block" src="media/lawn-villa-facade-3d-small.jpg<?php echo $ver ?>">
@@ -99,7 +99,7 @@
 			<div class="villa-image">
 				<!-- Villa Blips -->
 				<div class="blip-system">
-					<div class="blip-image">
+					<div class="blip-image rera-tag center-right">
 						<picture>
 							<source srcset="media/cross-section-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 							<img class="block" style="width: 100%;" src="media/cross-section-3d-small.jpg<?php echo $ver ?>">
@@ -167,7 +167,7 @@
 	<!-- Villa Isometric Section -->
 	<section id="villa-key-features" class="villa-isometric-section fill-light js_section js_section_villa_features">
 		<div class="floor">
-			<div class="isometric"></div>
+			<div class="isometric rera-tag center-left"></div>
 			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
@@ -179,7 +179,7 @@
 			</div>
 		</div>
 		<div class="floor">
-			<div class="isometric"></div>
+			<div class="isometric rera-tag center-left"></div>
 			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
@@ -191,7 +191,7 @@
 			</div>
 		</div>
 		<div class="floor">
-			<div class="isometric"></div>
+			<div class="isometric rera-tag center-left"></div>
 			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
@@ -203,7 +203,7 @@
 			</div>
 		</div>
 		<div class="floor text-off-light">
-			<div class="isometric"></div>
+			<div class="isometric rera-tag center-left"></div>
 			<div class="floor-content row">
 				<div class="container">
 					<div class="columns small-10 medium-8 large-4 large-offset-7">
@@ -219,7 +219,7 @@
 
 
 	<!-- Aerial 3D Section -->
-	<section id="aerial-3d" class="aerial-3d-section fill-off-neutral js_section">
+	<section id="aerial-3d" class="aerial-3d-section fill-off-neutral text-off-neutral rera-tag center-left js_section">
 		<picture>
 			<source srcset="media/aerial-view-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 			<img class="block" src="media/aerial-view-3d-small.jpg<?php echo $ver ?>">
@@ -308,7 +308,7 @@
 
 		<!-- Upper Level Villa Blips -->
 		<div class="blip-system">
-			<div class="blip-image">
+			<div class="blip-image rera-tag center-right">
 				<picture>
 					<source srcset="media/pedestrian-walkways-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 					<img class="block" style="width: 100%;" src="media/pedestrian-walkways-3d-small.jpg<?php echo $ver ?>">
@@ -439,7 +439,7 @@
 
 		<!-- Lower Level Villa Blips -->
 		<div class="blip-system">
-			<div class="blip-image">
+			<div class="blip-image rera-tag center-right">
 				<picture>
 					<source srcset="media/basement-level-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 					<img class="block" style="width: 100%;" src="media/basement-level-3d-small.jpg<?php echo $ver ?>">
@@ -699,7 +699,7 @@
 
 
 	<!-- Clubhouse 3D Section -->
-	<section id="clubhouse-3d" class="clubhouse-3d-section fill-moss js_section">
+	<section id="clubhouse-3d" class="clubhouse-3d-section fill-moss rera-tag center-right js_section">
 		<picture>
 			<source srcset="media/clubhouse-area-3d-large.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 			<img class="block" src="media/clubhouse-area-3d-small.jpg<?php echo $ver ?>">
