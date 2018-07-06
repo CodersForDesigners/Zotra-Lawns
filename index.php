@@ -67,7 +67,7 @@
 					<div class="logo columns small-5 small-offset-1 medium-3 large-3 xlarge-2">
 						<img class="block" src="media/logo-lawns.svg<?php echo $ver ?>">
 					</div>
-					<div class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Zotra Lawns is the <span class="strong em text-light">first 4 Bedroom low rise residential development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle – to a region of the city that has long deserved it.</div>
+					<h1 class="description p columns text-off-neutral small-10 small-offset-1 large-6 large-offset-0 xlarge-5 xlarge-offset-1">Zotra Lawns is the <span class="strong em text-light">first 4 Bedroom low rise residential development in RR Nagar</span>. We at Zotra are glad to be the first to offer this caliber of lifestyle – to a region of the city that has long deserved it.</h1>
 				</div>
 			</div>
 		</div>
@@ -79,11 +79,11 @@
 				<div class="logo-partner columns small-9 small-offset-1 medium-4">
 					<div class="title label strong text-off-copper">Project By :</div>
 					<img class="logo block" src="media/logo-zotra-partner.svg<?php echo $ver ?>">
-					<div class="rera label">RERA Nº : PRM/KA/RERA/1251/310/PR/180420/001509</div>
+					<h3 class="rera label">RERA Nº : PRM/KA/RERA/1251/310/PR/180420/001509</h3>
 				</div>
-				<div class="zotra-content h4 text-neutral columns small-10 small-offset-1 large-5">
+				<h2 class="zotra-content h4 text-neutral columns small-10 small-offset-1 large-5">
 					Zotra Lawns exemplifies the luxury of both, an Architect designed bungalow and the benefits of living in a high-end gated community. We have painstakingly planned it to ensure your family is safe without compromising on the lifestyle they deserve.
-				</div>
+				</h2>
 			</div>
 		</div>
 	</section>
@@ -92,11 +92,11 @@
 	<section id="the-villa" class="villa-section block-space-top fill-black js_section">
 		<div class="container">
 			<div class="row villa-content block-space-top fill-light">
-				<div class="title label strong text-black columns small-10 small-offset-1">Dual-Level Homes</div>
-				<div class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">The Best of Both Worlds</div>
-				<div class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual-level approach. As such, the entire 2.8 acre property is exclusively pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family – each floor is designed for a specific purpose.</div>
+				<h2 class="title label strong text-black columns small-10 small-offset-1">Dual-Level Homes</h2>
+				<h3 class="heading h1 strong text-black columns small-10 small-offset-1 medium-5">The Best of Both Worlds</h3>
+				<h4 class="description p columns small-10 text-black small-offset-1 medium-5 medium-offset-0">Cars do not belong on a lawn, they are better off on a road or parked in a basement. This is the premise behind why we developed this project with a dual-level approach. As such, the entire 2.8 acre property is exclusively pedestrian only. Cars use a ramp at the entrance to access a basement. Your home is a mansion with room for the entire family – each floor is designed for a specific purpose.</h4>
 			</div>
-			<div div class="villa-image">
+			<div class="villa-image">
 				<!-- Villa Blips -->
 				<div class="blip-system">
 					<div class="blip-image">
@@ -233,9 +233,9 @@
 		<div class="podium-masterplan-content">
 			<div class="container">
 				<div class="row">
-					<div class="title label strong text-copper columns small-10 small-offset-1">Upper-Level</div>
-					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</div>
-					<div class="description p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children and elderly. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</div>
+					<h2 class="title label strong text-copper columns small-10 small-offset-1">Upper-Level</h2>
+					<h3 class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Pedestrian<br> Experience</h3>
+					<h4 class="description p columns small-10 small-offset-1 large-5">The upper-level is a pedestrian-only zone accessible through a dedicated gate. It is not possible for a motor vehicle to be on this level, making it extremely secure for children and elderly. The absence of vehicles has given us the freedom to create a community-centric space that is pivoted around human interaction and usability.</h4>
 				</div>
 			</div>
 		</div>
@@ -367,9 +367,9 @@
 		<div class="basement-masterplan-content">
 			<div class="container">
 				<div class="row">
-					<div class="title label strong text-neutral columns small-10 small-offset-1">Lower-Level</div>
-					<div class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</div>
-					<div class="description p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective homes and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</div>
+					<h2 class="title label strong text-neutral columns small-10 small-offset-1">Lower-Level</h2>
+					<h3 class="heading h1 strong columns small-10 small-offset-1 medium-6 large-5">Basement <br>Experience</h3>
+					<h4 class="description p columns small-10 small-offset-1 large-5">The lower-level is accessible via a separate gate that leads directly to the basement ramps, shepherding cars directly underground. Residents can drive their cars under their respective homes and take a private lift directly into their houses. Or take the stairs and enter house from podium level.</h4>
 				</div>
 			</div>
 		</div>
@@ -494,9 +494,9 @@
 			<div class="row">
 				<div class="beacon-container hide-for-mobile columns small-12 medium-5"><div class="beacon"></div></div>
 				<div class="location-content columns small-10 small-offset-1 medium-6 medium-offset-0 large-offset-1 xlarge-5">
-					<div class="title label strong text-off-copper">Location</div>
-					<div class="heading h1 strong text-copper">Rajarajeshwari Nagar</div>
-					<div class="description p">Finding a community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 8000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</div>
+					<h2 class="title label strong text-off-copper block">Location</h2>
+					<h3 class="heading h1 strong text-copper block">Rajarajeshwari Nagar</h3>
+					<h4 class="description p block">Finding a community like this in RR Nagar is highly uncommon and unheard of. This developed region of Bangalore needs little introduction. With an average escalation in land cost from Rs 4000 to Rs 8000 per sft in the last five years, it is very apparent that this neighbourhood is on an upswing.</h4>
 				</div>
 			</div>
 
@@ -713,9 +713,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="clubhouse-content columns small-10 small-offset-1 large-6">
-					<div class="title label strong text-neutral">Amenities</div>
-					<div class="heading h1 strong">Clubhouse</div>
-					<div class="description p text-off-neutral">Located at the far end of the premises, the clubhouse is spread across three floors. Comprising over 5500 sft of indoor facilities it looks onto a beautifully landscaped communal space filled with outdoor amenities.</div>
+					<h2 class="title label strong text-neutral block">Amenities</h2>
+					<h3 class="heading h1 strong block">Clubhouse</h3>
+					<h4 class="description p block text-off-neutral">Located at the far end of the premises, the clubhouse is spread across three floors. Comprising over 5500 sft of indoor facilities it looks onto a beautifully landscaped communal space filled with outdoor amenities.</h4>
 				</div>
 
 				<div class="uds columns small-10 small-offset-1 large-6">
@@ -740,9 +740,9 @@
 		<div class="container">
 			<div class="water-content row">
 				<div class="columns small-10 small-offset-1 large-6">
-					<div class="title label strong text-copper">Infrastructure</div>
-					<div class="heading h1 strong">Water System</div>
-					<div div class="description p">Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water, with efficient fail-safes put in place to account for a minimal disruption in service.</div>
+					<h2 class="title label strong text-copper block">Infrastructure</h2>
+					<h3 class="heading h1 strong block">Water System</h3>
+					<h4 class="description p block">Water is a very valuable resource in Bangalore, managing it is something we have put a lot of energy behind. The water management system at Lawns is designed to make the most of all available sources of water, with efficient fail-safes put in place to account for a minimal disruption in service.</h4>
 				</div>
 			</div>
 			<div class="water-details row">
@@ -786,12 +786,12 @@
 					</picture>
 				</div>
 				<div class="architect-content columns small-10 small-offset-1 large-5">
-					<div class="title label strong text-off-copper">Principal Designer</div>
-					<div class="heading h1 strong text-neutral">Hadi Teherani</div>
-					<div class="description p">Hadi Teherani is an award-winning German architect and designer based in Hamburg, Germany. His style is recognisable by its unique blend of simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
+					<h2 class="title label strong text-off-copper block">Principal Designer</h2>
+					<h3 class="heading h1 strong text-neutral block">Hadi Teherani</h3>
+					<h4 class="description p block">Hadi Teherani is an award-winning German architect and designer based in Hamburg, Germany. His style is recognisable by its unique blend of simplicity, openness and moderation. The Bangalore chapter of his firm has spearheaded the design of this community.<br><br>
 					This blend of world-renowned pedigree and an awareness of the local nuances expected in an Indian home has resulted in a product unlike any in the region. He has designed many landmark projects across Europe and Asia.<br><br>
 					<a class="p strong em text-off-copper" href="http://www.haditeherani.com" target="_blank">Architect's Website &#10230;</a>
-					</div>
+					</h4>
 					<hr>
 					<div class="team-title label strong text-off-copper">Landscape Designers</div>
 					<a class="team-heading h3 strong text-neutral" href="http://www.zoras.co.uk/" target="_blank">Zoras</a><br>
@@ -811,8 +811,8 @@
 		<div class="safety-content row js_safety_content">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
-					<div class="heading h1 strong text-copper">Safety &amp; Security</div>
-					<div class="description p">The main benefit of residing in a community of this kind is the peace that comes with knowing that safety is has been built-in to the project.</div>
+					<h3 class="heading h1 strong text-copper block">Safety &amp; Security</h3>
+					<h4 class="description p block">The main benefit of residing in a community of this kind is the peace that comes with knowing that safety is has been built-in to the project.</h4>
 				</div>
 			</div>
 		</div>
@@ -849,9 +849,9 @@
 		<div class="specifications-content row js_specifications_content">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
-					<div class="title label strong text-off-copper">Specifications</div>
-					<div class="heading h1 strong">Fixture &amp; Materials</div>
-					<div class="description p">We are constantly finding ways to improve Zotra Lawns, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</div>
+					<h2 class="title label strong text-off-copper block">Specifications</h2>
+					<h3 class="heading h1 strong block">Fixture &amp; Materials</h3>
+					<h4 class="description p block">We are constantly finding ways to improve Zotra Lawns, certain aspects of the specifications, features, finishes and the planning can possibly undergo a few changes. We assure you that these changes will be improvements.</h4>
 				</div>
 			</div>
 		</div>
