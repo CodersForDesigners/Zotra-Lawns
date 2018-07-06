@@ -366,8 +366,23 @@
 }
 
 
+/* -- Link Material Icons -- */
 
+.nav-list .link .material-icons {
+	font-size: 21px;
+	vertical-align: middle;
+}
 
+@media( min-width: 640px ) {
+	.nav-list .link .material-icons {
+		font-size: 26px;
+	}
+}
 
+@media( min-width: 1380px ) {
+	.nav-list .link .material-icons {
+		font-size: 34px;
+	}
+}
 
 

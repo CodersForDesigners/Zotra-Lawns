@@ -161,7 +161,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 .button {
-	padding: 0 15px;
+	padding: 0 20px;
 	height: 42px;
 	min-width: 150px;
 	font-size: 1rem;
@@ -241,6 +241,19 @@ input[type="button"].button-copper:focus {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.35), inset 0 0 0 0 rgba(256, 256, 256, 1), inset 0 0 100px 26px rgba(256, 256, 256, 1);
 }
 
+
+/* -- Button Material Icons -- */
+
+.button .material-icons {
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+@media( min-width: 640px ) {
+	.button .material-icons {
+		font-size: 20px;
+	}
+}
 
 
 

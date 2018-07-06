@@ -502,7 +502,7 @@
 
 			<div class="row">
 				<div class="maps columns small-12 large-4 large-offset-1">
-					<a class="button button-copper" href="https://goo.gl/maps/5Xc1F2vXznS2" target="_blank">Open in Google Maps</a>
+					<a class="button button-copper" href="https://goo.gl/maps/5Xc1F2vXznS2" target="_blank">Open in Google Maps <i class="material-icons">pin_drop</i></a>
 				</div>
 				<div class="appreciation columns small-12 large-6 large-offset-1 xlarge-5">
 					<div class="title label strong text-off-copper">Appreciation</div>
@@ -635,7 +635,7 @@
 					<div class="size">Homes upto 4175 sft</div>
 					<div class="feature em text-neutral">with a Backyard Lawn</div>
 					<!-- <div class="price text-copper">Starting at ₹4.3 Cr</div> -->
-					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #83837D;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/sovereign.pdf">Download Now &#x2b07;</a>
+					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #83837D;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/sovereign.pdf">Download Now <i class="material-icons">get_app</i></a>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/supreme-logo.svg<?php echo $ver ?>"></div>
@@ -644,7 +644,7 @@
 					<div class="size">Homes upto 4515 sft</div>
 					<div class="feature em text-neutral">with a Courtyard Lawn</div>
 					<!-- <div class="price text-copper">Starting at ₹4.1 Cr</div> -->
-					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #AAA386;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/supreme.pdf">Download Now &#x2b07;</a>
+					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #AAA386;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/supreme.pdf">Download Now <i class="material-icons">get_app</i></a>
 				</div>
 				<div class="floorplan-card fill-light columns small-10 small-offset-1 large-3 large-offset-0">
 					<div class="logo"><img class="inline" src="media/floorplan-card/premier-logo.svg<?php echo $ver ?>"></div>
@@ -653,7 +653,7 @@
 					<div class="size">Homes upto 7220 sft</div>
 					<div class="feature em text-neutral">with a Premium Lawn</div>
 					<!-- <div class="price text-copper">Starting at ₹4.5 Cr</div> -->
-					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #4E5A6B;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/premier.pdf">Download Now &#x2b07;</a>
+					<a class="button button-copper block js_floorplan_brochure <?php if ( ! $user ) { echo 'js_form_floorplan_brochure_trigger'; } ?>" target="_blank" style="background-color: #4E5A6B;" <?php if ( $user ) { echo 'href'; } else { echo 'data-url'; } ?>="download/floorplans/premier.pdf">Download Now <i class="material-icons">get_app</i></a>
 				</div>
 			</div>
 		</div>
@@ -719,7 +719,7 @@
 				</div>
 
 				<div class="uds columns small-10 small-offset-1 large-6">
-					<div class="title label strong text-neutral">Optimised UDS</div>
+					<div class="title label strong text-neutral texture">Optimised UDS</div>
 					<div class="description p">The clubhouse has been planned with a great deal of efficiency. It only occupies 5% of the total Super Built Area of an average home. This translates to a greater component of usable carpet area in your home when compared to most other projects.</div>
 				</div>
 			</div>
@@ -973,7 +973,7 @@
 				<a tab-index="-1" href="#basement-experience" class="link inline label text-off-neutral">Lower-Level Features</a><br>
 				<a tab-index="-1" href="#location" class="link inline h3">Location</a><br>
 				<a tab-index="-1" href="#aerial-panorama" class="link inline label text-off-neutral">Aerial View</a><br>
-				<a tab-index="-1" href="#floorplans" class="link inline h3">Download Floorplan &#x2b07;</a><br>
+				<a tab-index="-1" href="#floorplans" class="link inline h3">Download Floorplan <i class="material-icons">get_app</i></a><br>
 				<a tab-index="-1" href="#clubhouse" class="link inline h3">Clubhouse</a><br>
 				<a tab-index="-1" href="#architect" class="link inline label text-off-neutral">The Architect</a><br>
 				<a tab-index="-1" href="#infrastructure" class="link inline h3">Infrastructure</a><br>
