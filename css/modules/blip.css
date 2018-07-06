@@ -108,7 +108,7 @@
 	position: absolute;
 	top: 4rem;
 	left: 0;
-	transform: translate( -50% );
+	transform: translateX( -50% );
 	width: 410px;
 	padding: 26px;
 	border-radius: 10px;
@@ -123,8 +123,16 @@
 	opacity: 1;
 	transition: opacity 0.15s ease-in 0.1s;
 }
-.blip-system .blip-image .blip-canvas .point .p {
-	margin: 1rem 0 0;
+.blip-system .blip-image .blip-canvas .point .heading,
+.blip-system .blip-image .blip-canvas .point .title {
+	margin: 0 0 1.5rem;
+}
+.blip-system .blip-image .blip-canvas .point .icon {
+	float: left;
+	margin: 0 2rem 0 0;
+}
+.blip-system .blip-image .blip-canvas .point .description {
+	margin: 0;
 }
 
 
