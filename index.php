@@ -106,7 +106,7 @@
 						</picture>
 						<div class="blip-canvas js_blip_canvas">
 							<div class="container-blip-toggle-and-card" style="top: 51.7%; left: 63.2%;">
-								<div class="blip-toggle active js_blip_toggle" data-index="1" tabindex="0">1</div>
+								<div class="blip-toggle js_blip_toggle" data-index="1" tabindex="0">1</div>
 								<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
 							</div>
 							<div class="container-blip-toggle-and-card" style="top: 70%; left: 20%;">
@@ -114,7 +114,7 @@
 								<div class="point fill-dark js_point" style="transform: translate( -30% );"><!-- The corresponding point will be plonked in here --></div>
 							</div>
 							<div class="container-blip-toggle-and-card" style="top: 45%; left: 36%;">
-								<div class="blip-toggle js_blip_toggle" data-index="3" tabindex="0">3</div>
+								<div class="blip-toggle active js_blip_toggle" data-index="3" tabindex="0">3</div>
 								<div class="point fill-dark active js_point"><!-- The corresponding point will be plonked in here --></div>
 							</div>
 							<div class="container-blip-toggle-and-card" style="top: 84%; left: 60%;">
@@ -447,11 +447,11 @@
 				<div class="blip-canvas js_blip_canvas">
 					<div class="container-blip-toggle-and-card" style="top: 57%;left: 45.75%;">
 						<div class="blip-toggle active js_blip_toggle" tabindex="0" data-index="1">1</div>
-						<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
+						<div class="point fill-dark active js_point"><!-- The corresponding point will be plonked in here --></div>
 					</div>
 					<div class="container-blip-toggle-and-card" style="top: 68%;left: 30%;">
 						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="2">2</div>
-						<div class="point fill-dark active js_point"><!-- The corresponding point will be plonked in here --></div>
+						<div class="point fill-dark js_point"><!-- The corresponding point will be plonked in here --></div>
 					</div>
 					<div class="container-blip-toggle-and-card" style="top: 57%;left: 82%;">
 						<div class="blip-toggle js_blip_toggle" tabindex="0" data-index="3">3</div>
