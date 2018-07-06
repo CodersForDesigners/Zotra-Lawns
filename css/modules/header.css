@@ -217,16 +217,16 @@
 
 @media( min-width: 640px )  {
 	.menu {
-		top: 0;
+		top: -100px;
 		bottom: auto;
 	}
 	.menu .menu-container {
 		text-align: right;
 	}
 	.menu-toggle {
-		-webkit-transform: scale(.80) translateY(100px);
-		-moz-transform: scale(.80) translateY(100px);
-		transform: scale(.80) translateY(100px);
+		-webkit-transform: scale(.80) translateY(200px);
+		-moz-transform: scale(.80) translateY(200px);
+		transform: scale(.80) translateY(200px);
 	}
 }
 
@@ -234,17 +234,17 @@
 	.menu-toggle {
 		border: 1.5px solid rgba(256,256,256,0.5);
 
-		-webkit-transform: scale(1) translateY(80px);
-		-moz-transform: scale(1) translateY(80px);
-		transform: scale(1) translateY(80px);
+		-webkit-transform: scale(1) translateY(180px);
+		-moz-transform: scale(1) translateY(180px);
+		transform: scale(1) translateY(180px);
 	}
 }
 
 @media( min-width: 1380px ) {
 	.menu-toggle {
-		-webkit-transform: scale(1) translateY(120px);
-		-moz-transform: scale(1) translateY(120px);
-		transform: scale(1) translateY(120px);
+		-webkit-transform: scale(1) translateY(220px);
+		-moz-transform: scale(1) translateY(220px);
+		transform: scale(1) translateY(220px);
 	}
 }
 
