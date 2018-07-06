@@ -243,7 +243,7 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container panorama-instruction js_masterplan_container">
+				<div class="masterplan-container masterplan-instruction js_masterplan_container">
 					<div class="masterplan">
 						<div class="layer backdrop"><img class="block" src="media/podium-masterplan/1_PodiumForest.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/podium-masterplan/2_PodiumFills.png<?php echo $ver ?>"></div>
@@ -377,7 +377,7 @@
 		<!-- Lower Level Masterplan Blips -->
 		<div class="blip-system">
 			<div class="blip-image">
-				<div class="masterplan-container panorama-instruction js_masterplan_container">
+				<div class="masterplan-container masterplan-instruction js_masterplan_container">
 					<div class="masterplan">
 						<div class="layer grid"><img class="block" src="media/basement-masterplan/1_BasementGrid.png<?php echo $ver ?>"></div>
 						<div class="layer"><img class="block" src="media/basement-masterplan/2_BasementTexture.png<?php echo $ver ?>"></div>
@@ -1112,7 +1112,9 @@ $(document).ready(function(){
 		})
 
 	/*
-	 * Set up the panorama
+	 *
+	 * The 360 panorama
+	 *
 	 */
 	new PhotoSphereViewer( {
 		panorama: {
@@ -1131,6 +1133,10 @@ $(document).ready(function(){
 			backgroundColor: 'rgba(58, 67, 77, 0.7)'
 		},
 		mousewheel: false
+	} );
+	// Hide the tooltip once the panorama is interacted with
+	$( document ).one( "mousedown touchstart", ".js_aerial_panorama_section", function ( event ) {
+		$( ".js_panorama_wrapper" ).addClass( "hide" );
 	} );
 
 });

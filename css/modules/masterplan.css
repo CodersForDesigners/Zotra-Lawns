@@ -88,6 +88,47 @@
 	}
 }
 
+
+/*
+ *
+ * Instructions for interaction
+ *
+ */
+.masterplan-instruction {
+	position: relative;
+}
+.masterplan-instruction:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 10rem;
+	z-index: 1;
+	pointer-events: none;
+	transition: 0.1s opacity ease-in 0.2s, 0.5s background-color ease-in 0.2s;
+}
+.podium-masterplan-section .masterplan-instruction:before {
+	background-image: url( "/media/icon-scroll-dark.svg" );
+}
+.basement-masterplan-section .masterplan-instruction:before {
+	background-image: url( "/media/icon-scroll-light.svg" );
+}
+@media ( min-width: 1040px ) {
+	.masterplan-instruction:before {
+		visibility: hidden;
+	}
+}
+
+.masterplan-instruction.hide:before {
+	opacity: 0;
+}
+
+
+
 /*
  *
  * For the parallax
