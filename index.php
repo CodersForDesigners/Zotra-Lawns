@@ -10,11 +10,6 @@
 	 */
 	$ver = '?v=20180706';
 
-	// get info on the request
-	$view = require "server/pageless.php";
-	$viewName = $view[ 0 ];
-	$viewPath = $view[ 1 ];
-
 	// included external php files with functions.
 	require ('inc/head.php');
 	require ('inc/lazaro.php'); /* -- Lazaro disclaimer and footer -- */
@@ -36,7 +31,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Page Title | Page Name -->
-	<title>Page Title <?php echo ( $viewName != "404" ? " | " . $viewName : "" ) ?></title>
+	<title>Zotra | Lawns</title>
 
 	<?php echo gethead(); ?>
 
@@ -49,7 +44,7 @@
 
 
 
-<div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
+<div id="page-wrapper""><!-- Page Wrapper -->
 
 
 
