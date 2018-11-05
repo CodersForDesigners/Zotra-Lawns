@@ -1,7 +1,134 @@
 
-.footer-section .heading {
+/*
+ *	Footer Section
+ */
+
+/* -- Disclaimer -- */
+
+.footer-section .disclaimer .heading {
 	margin: 0 0 1rem;
 }
-.footer-section .point {
+.footer-section .disclaimer .point {
 	margin: 10px 0 0;
+}
+
+/* -- Contact -- */
+.footer-section .contact {
+	margin-bottom: 40px;
+}
+
+.footer-section .contact .heading {
+	margin-bottom: 20px;
+	margin-left: -1px;
+}
+
+.footer-section .contact .material-icons {
+	font-size: 18px;
+}
+
+.footer-section .contact a {
+	color: #ff964a;
+}
+
+.footer-section .contact a span {
+	text-decoration: underline;
+}
+
+@media( min-width: 640px )  {
+	.footer-section .contact .material-icons {
+		font-size: 20px;
+	}
+}
+@media( min-width: 1040px ) {
+	.footer-section .contact .material-icons {
+		font-size: 24px;
+	}
+}
+@media( min-width: 1380px ) {
+	.footer-section .contact {
+		margin-bottom: 80px;
+	}
+	.footer-section .contact .heading {
+		margin-left: -2px;
+	}
+	.footer-section .contact .material-icons {
+		font-size: 28px;
+	}
+}
+
+/* -- Banks -- */
+/*.footer-section .banks .heading {
+	margin-bottom: 20px;
+}*/
+
+.footer-section .banks {
+	margin-bottom: 40px;
+}
+
+.footer-section .banks .bank-icon {
+	height: 60px;
+	vertical-align: bottom;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.footer-section .banks .bank-icon.bank-hdfc {
+	height: 46px;
+	background-size: 100%;
+	background-image: url(../../../media/bank-icons/bank-hdfc.png);
+}
+.footer-section .banks .bank-icon.bank-hdfc:hover {
+	background-image: url(../../../media/bank-icons/bank-hdfc-on.png);
+}
+
+.footer-section .banks .bank-icon.bank-lic {
+	background-size: 75%;
+	background-image: url(../../../media/bank-icons/lic-housing.png);
+}
+.footer-section .banks .bank-icon.bank-lic:hover {
+	background-image: url(../../../media/bank-icons/lic-housing-on.png);
+}
+
+.footer-section .banks .bank-icon.bank-bob {
+	background-size: 82%;
+	background-image: url(../../../media/bank-icons/bank-of-baroda.png);
+}
+.footer-section .banks .bank-icon.bank-bob:hover {
+	background-image: url(../../../media/bank-icons/bank-of-baroda-on.png);
+}
+
+@media( min-width: 640px )  {
+	.footer-section .banks .bank-icon {
+		height: 50px;
+		background-position: center bottom;
+	}
+}
+
+@media( min-width: 1040px ) {
+	.footer-section .banks {
+		margin-bottom: 80px;
+	}
+
+	.footer-section .banks .bank-icon {
+		height: 80px;
+		background-position: center bottom;
+	}
+
+	.footer-section .banks .bank-icon:nth-child(3n),
+	.footer-section .banks .bank-icon:nth-child(4n) {
+		margin-left: 35px;
+	}
+}
+@media( min-width: 1380px ) {
+	.footer-section .banks {
+		margin-bottom: 120px;
+	}
+	.footer-section .banks .bank-icon {
+			height: 100px;
+	}
+	.footer-section .banks .bank-icon:nth-child(3n),
+	.footer-section .banks .bank-icon:nth-child(4n) {
+		margin-left: 48px;
+	}
 }

@@ -911,8 +911,38 @@
 
 	<!-- Footer Section -->
 	<section class="footer-section fill-off-dark block-space-top-bottom">
-		<div class="container">
-			<div class="row">
+		<div class="contact row">
+			<div class="container">
+				<div class="columns small-10 small-offset-1 large-4">
+					<h2 class="title label strong text-dark block">Get in Touch</h2>
+					<h3 class="heading h1 strong block">Contact</h3>
+				</div>
+				<div class="columns small-10 small-offset-1 medium-6 large-3 large-offset-1">
+					<h2 class="title label text-off-neutral block">Address :</h2>
+					<div class="address p block">64/2, 18th Cross, BHEL Layout Ext. Rajarajeshwari Nagar, Bangalore.</div>
+					<div class="small block">&nbsp;</div>
+					<a href="tel:+919916477377" class="call p block">
+						<i class="material-icons inline-middle">phone_in_talk</i> <span class="inline-middle">+91 99164 77377</span>
+					</a>
+					<div class="small block">&nbsp;</div>
+					<a href="mailto:info@zotra.in" target="_blank" class="mail p block">
+						<i class="material-icons inline-middle">email</i> <span class="inline-middle">info@zotra.in</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="banks row">
+			<div class="container">
+				<div class="columns small-10 small-offset-1">
+					<h3 class="heading h3 strong block">Approved Banks :</h3>
+				</div>
+				<div class="bank-icon bank-hdfc columns small-6 small-offset-1 medium-3 large-2"></div>
+				<div class="bank-icon bank-lic columns small-6 small-offset-1 medium-3 medium-offset-0 large-2"></div>
+				<div class="bank-icon bank-bob columns small-6 small-offset-1 medium-3 medium-offset-0 large-2"></div>
+			</div>
+		</div>
+		<div class="disclaimer row">
+			<div class="container">
 				<div class="columns small-10 small-offset-1">
 					<div class="heading h3">Disclaimer</div>
 					<div class="point small">By using or accessing the Website you agree with the Disclaimer without any qualification or limitation. Zotra reserves the right to terminate, revoke, modify, alter, add and delete any one or more of the terms and conditions of the website. Zotra shall be under no obligation to notify the visitor of the amendment to the terms and conditions and the visitor shall be bound by such amended terms and conditions.</div>
