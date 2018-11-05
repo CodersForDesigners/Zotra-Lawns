@@ -910,7 +910,7 @@
 
 
 	<!-- Footer Section -->
-	<section class="footer-section fill-off-dark block-space-top-bottom">
+	<section id="contact" class="footer-section fill-off-dark block-space-top-bottom js_section">
 		<div class="contact row">
 			<div class="container">
 				<div class="columns small-10 small-offset-1 large-4">
@@ -1005,6 +1005,7 @@
 				<a tab-index="-1" href="#infrastructure" class="link inline label text-off-neutral">Water System</a><br>
 				<a tab-index="-1" href="#safety" class="link inline label text-off-neutral">Safety &amp; Security</a><br>
 				<a tab-index="-1" href="#specifications" class="link inline h3">Specifications</a><br>
+				<a tab-index="-1" href="#contact" class="link inline h3">Contact Us</a><br>
 			</div>
 		</div>
 	</div>
