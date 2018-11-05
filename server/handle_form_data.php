@@ -31,8 +31,8 @@ EOT;
 
 
 Mailer\sendMessage( [
-	'name' => 'adi',
-	'email' => 'adityabhat@lazaro.in',
+	'name' => 'sanjay',
+	'email' => 'info@zotra.in',
 	'subject' => $subject,
 	'message' => $message
 ] );

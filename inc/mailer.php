@@ -77,7 +77,7 @@ function send ( $envelope ) {
 
 		// Set who the message is to be sent to
 		$mail->addAddress( $envelope[ 'to' ][ 'email' ], '' );
-		$mail->addCC( 'adityabhat@lazaro.in', '' );
+		// $mail->addCC( 'adityabhat@lazaro.in', '' );
 
 		$mail->isHTML( true );
 
@@ -118,11 +118,11 @@ function sendMessage ( $data ) {
 
 	// Prepare the envelope
 	$envelope = [
-		'username' => 'google@lazaro.in',
-		'password' => 't34m,l4z4r0',
+		'username' => 'zotra.mail.bot@gmail.com',
+		'password' => 't34m,l4z4r0@zotra',
 		'from' => [
-			'email' => 'google@lazaro.in',
-			'name' => 'Lazaro'
+			'email' => 'zotra.mail.bot@gmail.com',
+			'name' => 'Zotra'
 		],
 		'to' => [
 			'name' => $toName,
